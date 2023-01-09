@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'fr'],
+    locales: ['en', 'ar', 'fr', 'tr'],
     localeConfigs: {
       en: {
         htmlLang: 'en',
@@ -47,14 +47,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ProBotOrg/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ProBotOrg/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,10 +66,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: { // need to change
-        appId: 'X1Z85QJPUV',
-        apiKey: 'bf7211c161e8205da2f933a02534105a',
-        indexName: 'docusaurus-2',
+      algolia: {
+        appId: 'Z27HQGOQQQ',
+        apiKey: '2d6650a9a6362a5661c602fe41e1f013',
+        indexName: 'ProBot-Docs',
       },
       navbar: {
         title: 'ProBot Docs',
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/',
               },
             ],
           },

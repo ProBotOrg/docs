@@ -1,0 +1,49 @@
+---
+sidebar_postion: 2
+slug: /getting-started/dashboard
+---
+ 
+# Dashboard
+
+All commands and modules can be configured through the dashboard; therefore, you will frequently use the dashboard to configure things.
+ 
+## How To Access The Dashboard
+ 
+- Navigate to the [website](https://probot.io/) and click login to access your account and manage your server.
+After logging in, a dashboard button will appear on the same page; clicking it will take you to the dashboard.
+ 
+## Settings
+
+All modules have a switch button in the upper-right corner to deactivate all commands within that module. Additionally, each command has a switch button to deactivate only that command, as well as an edit button with a variety of options that can be used to improve workflow.
+
+> **Alias**: This is a command's customizable alias, which allows you to create a command shortcut. It could be a number, a letter, a word, or any other character.
+>> All aliases must be distinct from each other. You cannot have the same alias for multiple commands.
+
+> **Enabled Roles**: This option limits who can use the command to the roles you choose. Only people with those roles can run the command.
+ 
+> **Disabled Roles**: This option prevents roles from using the command and prevents users with the corresponding role from using it.
+ 
+> **Enabled Channels**: This option forces the bot to respond to the command in the specified channel.
+ 
+> **Disabled Channels**: This option stops the bot from responding in the chosen channel. If you type a command in a channel other than the ones that are disabled, the bot will respond.
+ 
+> **Auto-delete with message deletion**: This option deletes the bot's response if the sender deletes their command message.
+ 
+> **Auto-delete command invocation message**: This option deletes the command invocation message sent by the sender immediately after sending.
+
+> **Auto-delete bot's reply message after 5 seconds**: This option deletes the bot's reply 5 seconds after the initial send time.
+ 
+:::caution
+ 
+If you can't see the server, it indicates that you do not have the `Administrator` permission, which is required for full dashboard access.
+Having a role named `Admin` or `Administrator` does not give you dashboard access. The `Administrator` permission must be explicitly granted in your role setting.
+
+:::
+ 
+# Need Further Assistance?
+
+:::info
+
+Join the [Support Server](https://discord.gg/probot) and ask for assistance whenever you need it! Our team will gladly assist you!
+
+:::
