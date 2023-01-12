@@ -1,7 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -49,13 +48,6 @@ const config = {
           editUrl:
             'https://github.com/ProBotOrg/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ProBotOrg/docs',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -66,6 +58,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       algolia: {
         appId: 'Z27HQGOQQQ',
         apiKey: '2d6650a9a6362a5661c602fe41e1f013',
@@ -82,9 +79,10 @@ const config = {
             type: 'doc',
             docId: 'introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://probot.io/dashboard', label: 'Dashboard', position: 'left'},
+          {to: 'https://discord.com/invite/ProBot', label: 'Contact support', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -98,7 +96,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
@@ -133,7 +131,6 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ProBot, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
