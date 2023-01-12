@@ -48,13 +48,6 @@ const config = {
           editUrl:
             'https://github.com/ProBotOrg/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ProBotOrg/docs',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -86,9 +79,10 @@ const config = {
             type: 'doc',
             docId: 'introduction',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://probot.io/dashboard', label: 'Dashboard', position: 'left'},
+          {to: 'https://discord.com/invite/ProBot', label: 'Contact support', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -102,7 +96,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
