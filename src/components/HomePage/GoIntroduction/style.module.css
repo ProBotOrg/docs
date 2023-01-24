@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  gap: 24px;
+  margin-top: 10vh;
+}
+.wrapper {
+  flex: 1 1 393.33px;
+}
+.wrapper a {
+  text-align: end;
+  background: #171821;
+  border: 1.5px solid #282a37;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+}
+.wrapper a h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #9a9eb3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+.wrapper a div span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: right;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ebecf2;
+}
+.wrapper * {
+  margin: 0;
+}
+@media screen and (max-width: 770px) {
+  .container > div:first-child {
+    display: none;
+  }
+}
