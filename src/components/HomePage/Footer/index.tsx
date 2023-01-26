@@ -5,16 +5,9 @@ import Stepper from "./Stepper";
 import styles from "./style.module.css";
 
 export default function HomePageFooter() {
-  const firstComponentRef = useRef(null);
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    setHeight(firstComponentRef.current.clientHeight);
-  }, []);
-
   return (
     <footer className={styles["wrapper"]}>
-      <div className="container">
+      {/* <div className="container">
         <div
           ref={firstComponentRef}
           className={clsx(styles["first-component"], "container")}
@@ -59,11 +52,8 @@ export default function HomePageFooter() {
             <Stepper />
           </div>
         </div>
-      </div>
-      <div
-        className={styles["second-component"]}
-        style={{ paddingTop: `${height / 1.2}px` }}
-      >
+      </div> */}
+      <div className={styles["second-component"]}>
         <div
           className={clsx(styles["second-component__container"], "container")}
         >
@@ -83,30 +73,24 @@ export default function HomePageFooter() {
           </div>
           <div className={styles["links"]}>
             <div>
-              <h4>Website Pages</h4>
+              <h4>Docs</h4>
               <ul>
                 <li>
-                  <Link to="https://probot.io/commands">Commands</Link>
-                </li>
-                <li>
-                  <Link to="https://probot.io/dashboard">Dashboard</Link>
-                </li>
-                <li>
-                  <Link to="https://probot.io/premium">Premium</Link>
+                  <Link to="/docs/intro">Introduction</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4>Other Links</h4>
+              <h4>Community</h4>
               <ul>
-                <li>
-                  <Link to="https://probot.io/commands">Twitter</Link>
-                </li>
                 <li>
                   <Link to="https://discord.com/invite/probot">Discord</Link>
                 </li>
                 <li>
-                  <Link to="https://top.gg/bot/282859044593598464">Top.gg</Link>
+                  <Link to="https://twitter.com/intent/follow?screen_name=tryProBot">Twitter</Link>
+                </li>
+                <li>
+                  <Link to="https://reddit.com/r/probot">Reddit</Link>
                 </li>
               </ul>
             </div>

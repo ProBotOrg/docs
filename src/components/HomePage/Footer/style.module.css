@@ -1,5 +1,5 @@
 .wrapper {
-  margin-top: 300px;
+  margin-top: 140px;
   position: relative;
 }
 .first-component {
@@ -41,8 +41,8 @@
   color: #c2c1fb;
 }
 .second-component {
+  padding-top: 50px;
   background: #171821;
-  min-height: 747px;
 }
 .stepper-wrapper {
   min-height: 316px;
@@ -196,6 +196,7 @@
   line-height: 20px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #9a9eb3;
+  margin: 0;
 }
 
 @media screen and (max-width: 1200px) {
