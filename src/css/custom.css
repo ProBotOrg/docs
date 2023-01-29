@@ -41,6 +41,27 @@ a,
 button {
   outline-offset: 5px;
 }
+.navbar {
+  background-color: #12131a;
+  border-bottom: 1px solid #282a37;
+  backdrop-filter: blur(40px);
+}
+.footer {
+  padding-top: 1rem;
+  background-color: #171821;
+  margin-top: 40px;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .container .footer__links {
+  order: 1;
+  width: 50%;
+}
 .text-h2 {
   margin: 0;
   font-style: normal;

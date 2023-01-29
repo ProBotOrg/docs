@@ -91,6 +91,13 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'probot brand logo',
+          src: 'img/logo.png',
+          width: 130,
+          height: 130,
+        },
+
         links: [
           {
             title: 'Docs',
