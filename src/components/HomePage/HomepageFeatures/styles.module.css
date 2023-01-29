@@ -63,13 +63,13 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-feature-settings: "pnum" on, "lnum" on;
-  color: #5753ec;
+  color: #5753ec !important;
 }
 .green .feature__learn-more {
-  color: #29cc7a;
+  color: #29cc7a !important;
 }
 .sliver .feature__learn-more {
-  color: #babdcc;
+  color: #babdcc !important;
 }
 .feature-svg__wrapper {
   width: 48px;
