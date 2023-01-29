@@ -1,0 +1,215 @@
+.wrapper {
+  margin-top: 300px;
+  position: relative;
+}
+.first-component {
+  width: 100%;
+  background: #4d4bec;
+  border-radius: 12px;
+  position: absolute;
+  top: -25%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 29px;
+  padding-inline-start: 70px;
+  gap: 24px;
+}
+.first-component .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  max-width: 435px;
+}
+.first-component .text > * {
+  margin: 0;
+}
+.first-component .stepper {
+  width: 100%;
+  max-width: 435px;
+}
+.first-component .text .title {
+  color: #ebecf2;
+}
+.first-component .text .description {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #c2c1fb;
+}
+.second-component {
+  background: #171821;
+  min-height: 747px;
+}
+.stepper-wrapper {
+  min-height: 316px;
+  background: #615ff9;
+  border-radius: 6px;
+  padding: 32px;
+
+  position: relative;
+}
+.stepper-wrapper * {
+  margin: 0;
+}
+.stepper-wrapper .message {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.stepper-wrapper .server-info {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.stepper-wrapper .server-info img {
+  border-radius: 8px;
+}
+.stepper-wrapper .server-info__name-members p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(255, 255, 255, 0.6);
+}
+.stepper-wrapper .server-info .server-info__name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.stepper-wrapper .progress-ring {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.stepper-wrapper .progress-ring .arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 48%;
+  transform: translate(50%, -50%);
+}
+.stepper-wrapper.rtl .arrow-icon {
+  transform: translate(-50%, -50%) rotateY(-180deg);
+  left: unset;
+  right: 30%;
+}
+.second-component__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 45px;
+}
+.second-component .brand {
+  max-width: 388px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.second-component .brand .brand__name-image {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.second-component .brand .brand__name-image h3 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21.636px;
+  line-height: 30px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.second-component .brand .brand__description {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #828699;
+}
+.second-component .links {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.second-component .links > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.second-component .links > div h4 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #d8dae6;
+}
+.second-component .links > div ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.second-component .links > div ul a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9a9eb3;
+}
+.third-component {
+  margin-top: 60px;
+  width: 100%;
+  border-top: 1px solid #1c1d26;
+  padding-block: 40px;
+}
+.third-component p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #9a9eb3;
+}
+
+@media screen and (max-width: 1200px) {
+  .first-component {
+    width: 95%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+@media screen and (max-width: 770px) {
+  .first-component {
+    padding: 29px;
+  }
+  .first-component .stepper {
+    max-width: unset;
+  }
+}
