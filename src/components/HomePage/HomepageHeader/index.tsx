@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "@docusaurus/Link";
 import Badges from "../../Badges";
 import styles from "./style.module.css";
 import HeaderBackground from "@site/static/img/landing-page/header.svg";
@@ -20,13 +21,15 @@ export default function HomepageHeader() {
       </div>
       <div className={clsx("container", styles.container)}>
         <div className={styles["text-info"]}>
-          <Badges label="Version: 2.2.0" />
+          <Badges label="Beta" />
           <h2 className="text-h2">Welcome to the ProBot Docs!</h2>
           <p className="big-regular-text">
             A very customizable multipurpose bot for welcome image, In-depth
             logs, Social commands, Music, Moderation and many more ...
           </p>
-          <button className={clsx("btn", "btn-primary")}>Add To Discord</button>
+          <Link to="/docs/intro">
+          <button className={clsx("btn", "btn-primary")}>Go to Docs</button>
+          </Link>
         </div>
         <div className={styles["just-space"]} />
       </div>
