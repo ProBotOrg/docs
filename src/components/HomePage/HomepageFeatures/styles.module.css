@@ -21,21 +21,60 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  border-radius: 4px;
   background: linear-gradient(
       145.35deg,
       rgba(129, 154, 255, 0.5) -179.88%,
       rgba(129, 154, 255, 0) 24.3%
     ),
     #171821;
+  background-size: 100%;
+  background-position: left;
+  transition: all 350ms;
+  border-image: linear-gradient(320deg, #819aff00, #819aff30) 30;
+  border-width: 1px;
+  border-style: solid;
+  transition: all 350ms;
 }
+.feature:hover {
+  transition: all 350ms;
+  background-size: 150%;
+  background-position: left;
+  border-image: linear-gradient(320deg, #819aff00, #819aff70) 30;
+}
+
 .green .feature {
+  border-image: linear-gradient(320deg, #29cc7a00, #29cc7b30) 30;
   background: linear-gradient(
       145.35deg,
       rgba(41, 204, 122, 0.5) -179.88%,
       rgba(41, 204, 122, 0) 24.3%
     ),
     #171821;
+  background-size: 100%;
+  background-position: left;
+  transition: all 350ms;
+}
+.green .feature:hover {
+  transition: all 350ms;
+  background-size: 150%;
+  border-image: linear-gradient(320deg, #29cc7a00, #29cc7b60) 30;
+}
+.sliver .feature {
+  border-image: linear-gradient(320deg, #babdcc00, #babdcc30) 30;
+  background: linear-gradient(
+      145.35deg,
+      rgba(186, 189, 204, 0.5) -179.88%,
+      rgba(186, 189, 204, 0) 24.3%
+    ),
+    #171821;
+  background-size: 100%;
+  background-position: left;
+  transition: all 350ms;
+}
+.sliver .feature:hover {
+  transition: all 350ms;
+  background-size: 150%;
+  border-image: linear-gradient(320deg, #babdcc00, #babdcc70) 30;
 }
 .feature__category {
   font-style: normal;
