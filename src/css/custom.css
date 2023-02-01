@@ -15,6 +15,8 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-card-border-radius: var(--ifm-global-radius);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,6 +33,11 @@
   --ifm-menu-color-active: #8684f8;
   --docsearch-primary-color: #8684f8 !important;
   --ifm-navbar-link-hover-color: #8684c2;
+
+  --ifm-color-gray-800: #282A37;
+  --ifm-color-gray-700: #3A3D4D;
+
+  --ifm-card-background-color:#171821;
 }
 .dropdown__link--active, .dropdown__link--active:hover {
   --ifm-dropdown-link-color: #8684c2;
