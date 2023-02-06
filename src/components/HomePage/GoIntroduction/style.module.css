@@ -15,7 +15,7 @@
   flex-direction: column;
   gap: 8px;
   padding: 24px;
-  text-decoration: none;
+  text-decoration-color: #9a9eb3;
 }
 .wrapper a h3 {
   font-style: normal;
