@@ -1,57 +1,66 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
-import Translate, {translate} from '@docusaurus/Translate';
+import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 
 type FeatureItem = {
-  category: string;
+  category: React.ReactNode;
   Svg: React.ComponentType<React.ComponentProps<"svg">>;
-  description: string;
+  description: React.ReactNode;
   color?: string;
+  redirect: string;
 };
 
 const SERVER_MANAGEMENT: FeatureItem[] = [
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
 ];
 
 const UTILITIES: FeatureItem[] = [
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
   {
-    category: "Embed Messages",
+    category: <Translate>Embed Messages</Translate>,
     Svg: require("@site/static/img/landing-page/messageIcon.svg").default,
-    description: "Easily create embeds for your server!",
+    description: <Translate>Easily create embeds for your server!</Translate>,
+    redirect: "/docs/modules/embed",
   },
 ];
 
-function Feature({ category, Svg, description, color }: FeatureItem) {
+function Feature({ category, Svg, description, color, redirect }: FeatureItem) {
   return (
     <div className={styles["feature"]}>
       <div className={clsx(styles["feature-svg__wrapper"], styles[color])}>
@@ -60,9 +69,9 @@ function Feature({ category, Svg, description, color }: FeatureItem) {
       <div>
         <h3 className={styles["feature__category"]}>{category}</h3>
         <p className={styles["feature__description"]}>{description}</p>
-        <a href="#" className={styles["feature__learn-more"]}>
+        <Link to={redirect} className={styles["feature__learn-more"]}>
           Learn More
-        </a>
+        </Link>
       </div>
     </div>
   );
