@@ -4,15 +4,15 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomePage/HomepageFeatures";
 import HomepageHeader from "../components/HomePage/HomepageHeader";
 import GoIntroduction from "../components/HomePage/GoIntroduction";
-import HomePageFooter from "../components/HomePage/Footer";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Get started with ProBot and take your Discord server to new heights with our comprehensive ProBot Docs!
+      Discover tips, tricks, and best practices for using this powerful bot."
       wrapperClassName="pb-layout"
       // noFooter
     >
@@ -21,7 +21,6 @@ export default function Home(): JSX.Element {
         <HomepageFeatures />
         <GoIntroduction />
       </main>
-      {/* <HomePageFooter /> */}
     </Layout>
   );
 }
