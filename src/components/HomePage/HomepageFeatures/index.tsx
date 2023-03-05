@@ -70,7 +70,7 @@ const UTILITIES: FeatureItem[] = [
     description: <Translate id="homepage.feature_two_description_four">
     Level System
     </Translate>,
-    redirect: "/docs/modules/level-system",
+    redirect: "/docs/modules/level_system",
   },
 ];
 
