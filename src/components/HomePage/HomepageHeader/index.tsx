@@ -22,7 +22,7 @@ export default function HomepageHeader() {
       </div>
       <div className={clsx("container", styles.container)}>
         <div className={styles["text-info"]}>
-          <Badges label="Beta" />
+          <Badges label="1.0.0"/>
           <h2 className="text-h2">
           <Translate
               id="homepage.header_welcome">
