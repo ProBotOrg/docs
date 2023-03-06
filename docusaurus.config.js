@@ -75,6 +75,7 @@ const config = {
           alt: 'ProBot Docs',
           src: 'img/logo.png',
         },
+        image: 'static/img/probot_docs.png',
         items: [
           {
             type: 'doc',
