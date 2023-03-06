@@ -94,8 +94,8 @@ const config = {
       footer: {
         style: 'dark',
         logo: {
-          alt: 'probot brand logo',
-          src: 'static/img/logo.png',
+          alt: 'ProBot brand logo',
+          src: 'img/logo.png',
           width: 130,
           height: 130,
         },
