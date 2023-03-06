@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'static/img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -69,13 +69,13 @@ const config = {
         apiKey: '2d6650a9a6362a5661c602fe41e1f013',
         indexName: 'ProBot-Docs',
       },
+      image: 'static/img/probot_docs.png',
       navbar: {
         title: 'ProBot Docs',
         logo: {
           alt: 'ProBot Docs',
-          src: 'img/logo.png',
+          src: 'static/img/logo.png',
         },
-        image: 'img/probot_docs.png',
         items: [
           {
             type: 'doc',
@@ -95,7 +95,7 @@ const config = {
         style: 'dark',
         logo: {
           alt: 'probot brand logo',
-          src: 'img/logo.png',
+          src: 'static/img/logo.png',
           width: 130,
           height: 130,
         },
