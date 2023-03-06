@@ -68,6 +68,7 @@ const config = {
         appId: 'Z27HQGOQQQ',
         apiKey: '2d6650a9a6362a5661c602fe41e1f013',
         indexName: 'ProBot-Docs',
+        contextualSearch: true,
       },
       image: 'img/probot_docs.png',
       navbar: {
