@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "ProBot Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Introduction": {
+    "message": "Introduction",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.Dashboard": {
+    "message": "Dashboard",
+    "description": "Navbar item with label Dashboard"
+  },
+  "item.label.Contact support": {
+    "message": "Contact support",
+    "description": "Navbar item with label Contact support"
+  }
+}
