@@ -14,6 +14,7 @@ export default function Home(): JSX.Element {
       Discover tips, tricks, and best practices for using this powerful bot."
       wrapperClassName="pb-layout"
     >
+      <meta property="og:image" content="@site/static/img/probot_docs.png" />
       <HomepageHeader />
       <main>
         <HomepageFeatures />
