@@ -4,11 +4,10 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomePage/HomepageFeatures";
 import HomepageHeader from "../components/HomePage/HomepageHeader";
 import GoIntroduction from "../components/HomePage/GoIntroduction";
-import { inject } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
-  inject();
 
   return (
     <Layout
@@ -21,6 +20,7 @@ export default function Home(): JSX.Element {
         <HomepageFeatures />
         <GoIntroduction />
       </main>
+      <Analytics />
     </Layout>
   );
 }
