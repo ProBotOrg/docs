@@ -1,5 +1,4 @@
 import React from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomePage/HomepageFeatures";
 import HomepageHeader from "../components/HomePage/HomepageHeader";
@@ -7,8 +6,6 @@ import GoIntroduction from "../components/HomePage/GoIntroduction";
 import { Analytics } from "@vercel/analytics/react";
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <Layout
       description="Get started with ProBot and take your Discord server to new heights with our comprehensive ProBot Docs!
