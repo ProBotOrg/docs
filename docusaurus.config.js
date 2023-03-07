@@ -65,9 +65,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       algolia: {
-        appId: 'Z27HQGOQQQ',
-        apiKey: '2d6650a9a6362a5661c602fe41e1f013',
-        indexName: 'ProBot-Docs',
+        appId: 'BWE1MS63HY',
+        apiKey: '815249683b18febc9f81ffb305465b9f',
+        indexName: 'probot',
         contextualSearch: true,
       },
       image: 'img/probot_docs.png',

@@ -1,6 +1,6 @@
 new Crawler({
-    appId: 'Z27HQGOQQQ',
-    apiKey: '2d6650a9a6362a5661c602fe41e1f013',
+    appId: 'BWE1MS63HY',
+    apiKey: '815249683b18febc9f81ffb305465b9f',
     rateLimit: 8,
     maxDepth: 10,
     startUrls: ['https://docs.probot.io/'],
@@ -9,7 +9,7 @@ new Crawler({
     discoveryPatterns: ['https://docs.probot.io/**'],
     actions: [
       {
-        indexName: 'ProBot-Docs',
+        indexName: 'probot',
         pathsToMatch: ['https://docs.probot.io/**'],
         recordExtractor: ({ $, helpers }) => {
           // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
