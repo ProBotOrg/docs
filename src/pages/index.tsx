@@ -4,9 +4,11 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomePage/HomepageFeatures";
 import HomepageHeader from "../components/HomePage/HomepageHeader";
 import GoIntroduction from "../components/HomePage/GoIntroduction";
+import { inject } from "@vercel/analytics";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+  inject();
 
   return (
     <Layout
