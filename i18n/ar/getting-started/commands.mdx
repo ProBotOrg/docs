@@ -1,112 +1,112 @@
 ---
 sidebar_position: 5
 slug: /getting-started/commands
-description: List of all commands, including their usage and descriptions.
+description: قائمة بجميع الاوامر مع امثلة استخدام و شرحها.
 ---
 
-# Commands
+# الاوامر
 
-In this section, you will gain a deeper understanding of the ProBot commands, their usage, and an example of how to put such commands into action.
+في هذا القسم ستحصل على شرح عميق لاوامر بروبوت و استخدامها و امثلة لاستخدام الاوامر.
 
 :::important
 
-- As slash commands are the default bot prefix, all usages and examples will be exemplified with the slash command `/`.
+- نظرا لان السلاش هو البريفكس الافتراضي للبوت فسيتم استخدامه بجميع الاستخدامات و الامثلة للاوامر. `/`.
 
-- `[` `]` signs are required for every command referenced with that sign, but `(` `)` are optional.
+- `[` `]` الاوامر المشار اليها بهذه العلامات هذا يعني انها اختيارية `(` `)`.
 
 :::
 
-## General 
+## عامة 
 
-| Command | Explanation | Usage |
+| الامر | شرح | الاستخدامات |
 | ------------- |:-------------:|:-------------:|
-| /credits | Show yours or somebody else's credit | /credits [user] (amount) |
-| /rep | Award someone a reputation point. Can only be used once every 24 hours | /rep [user] |
-| /moveme | Moves you to another voice channel | /moveme [channel or user] |
-| /color | Change your color on the server | /color [color's number] |
-| /colors | Lists you all the available colors | /colors |
-| /short | Shortens a URL | /short [URL] |
-| /roll | rolling dice | /roll (number) |
+| /credits | يظهر رصيدك أو رصيد شخص اخر. | /credits [user] (amount) |
+| /rep | منح شخص نقطة سمعة. يمكن استخدامها مرة واحدة فقط كل 24 ساعة. | /rep [user] |
+| /moveme | ينقلك إلى روم صوتي اخر. | /moveme [channel or user] |
+| /color | لتغيير لونك بالسيرفر. | /color [color's number] |
+| /colors | يسرد لك كل الألوان المتاحة. | /colors |
+| /short | اختصار رابط. | /short [URL] |
+| /roll | رمي حجر نرد. | /roll (number) |
 
-## Leveling
+## اللفلات
 
-| Command | Explanation | Usage |
+| الامر | شرح | الاستخدامات |
 | ------------- |:-------------:|:-------------:|
-| /profile | View your or someone else's customizable personal global profile card | /profile (user) |
-| /rank | View your rank card or someone else's in the server | /rank (user) |
-| /top | Display the top members by text or voice | /top (day/week/month) |
-| /title | Changes your profile title | /title [new title] |
-| /setxp | Sets the user's xp | /setxp [user] [type] [new_xp] |
-| /setlevel | Sets the user's level | /setlevel [user] [type] [new_level] |
+| /profile | عرض بطاقة التعريف الشخصية العامة المخصصة لك أو لشخص آخر. | /profile (user) |
+| /rank | إظهار بطاقة الترتيب (الرانك) الخاصة بك او بشخص آخر بالسيرفر. | /rank (user) |
+| /top | عرض الأعضاء الذين لديهم أكثر نقاط xp كتابي او صوتي في السيرفر. | /top (day/week/month) |
+| /title | يغير عنوان بروفايلك. | /title [new title] |
+| /setxp | تغيير اكسبي العضو. | /setxp [user] [type] [new_xp] |
+| /setlevel | تغيير لفل العضو. | /setlevel [user] [type] [new_level] |
 
-## Info
+## معلومات
 
-| Command | Explanation | Usage |
+| الامر | شرح | الاستخدامات |
 | ------------- |:-------------:|:-------------:|
-| /user | Shows information, such as ID and join date, about yourself or a user | /user (user) |
-| /avatar | Get a user's avatar | /avatar (user) |
-| /server | Shows information about the server | /server |
-| /roles | Get a list of server roles and member counts | /roles |
+| /user | يعرض معلومات، مثل تاريخ دخول السيرفر وتاريخ التسجيل في الديسكورد عنك او عن مستخدم آخر. | /user (user) |
+| /avatar | الحصول على افتارك او افتار شخص اخر. | /avatar (user) |
+| /server | يظهر معلومات حول السيرفر. | /server |
+| /roles | احصل على قائمة برولات السيرفر وعدد الأعضاء. | /roles |
 
-## Moderation
+## الاشراف
 
-| Command | Explanation | Usage |
+| الامر | شرح | الاستخدامات |
 | ------------- |:-------------:|:-------------:|
-| /setnick | Changes the nickname of a member | /setnick [user] (nickname) |
-| /ban | Bans a member | /ban [user] (time) (reason) |
-| /unban | Unbans a member | /unban [user or user ID] |
-| /kick | Kicks a member | /kick [user] (reason) |
-| /vkick | Kicks a member from a voice channel | /vkick [user] |
-| /mute text | Mute a member so they can't type in text channels | /mute text [user] (time) (reason) |
-| /unmute text | Unmutes a member | /unmute [user] |
-| /mute voice | Mute a member so they can't speak in voice channels | /mute voice [user] (time) (reason) |
-| /unmute voice | Unmutes a member from voice channels | /unmute voice [user] |
-| /timeout | Timeouts a member | /timeout [user] (time) (reason) |
-| /untimeout | Removes a timeout from a member | /untiemout [user] |
-| /clear | Cleans up channel messages | /clear (user/bots) (number of messages) | 
-| /move | Moves a member to another voice channel | /move [user] (user or channel) |
-| /role give | Add/remove role(s) for a member | /role give [user] [role] (bulk) |
-| /role remove | remove role(s) from a member | /role remove [user] [role] (bulk) |
-| /role multiple | Add/remove role(s) from members | /role multiple [give_or_remove] [role] [pick_type] (required role) |
-| /points set | A server based points that can be given by moderators | /points set [user] [points] |
-| /points list | A server based points that can be given by moderators | /points list (role) (page) |
-| /points decrease | A server based points that can be given by moderators | /points decrease [user] [points] |
-| /points increase | A server based points that can be given by moderators | /points increase [user] [points] |
-| /points reset | A server based points that can be given by moderators | /points reset (user) |
-| /warn | Warns a member | /warn [user] [reason] |
-| /warn_remove | Remove warnings for the server or user | /warn_remove [user/all/warnID] |
-| /warnings | Get the list of warnings for the server or a user | /warnings (user) |
-| /lock | Disables `@everyone` from sending messages in specific channel | /lock (channel) (reason) |
-| /unlock | Allows `@everyone` to send messages in specific channel | /unlock (channel) |
-| /setcolor | Changes role's color by hex codes | /setcolor [role name] [color code]
-| /slowmode | Enable or disable slowmode on a channel | /slowmode (time) |
-| /reset | Reset text/voice/invites xp points for all or specific members | /reset [text / voice / invites / limits) [all / user] |
+| /setnick | تغيير لقب العضو. | /setnick [user] (nickname) |
+| /ban | حظر العضو. | /ban [user] (time) (reason) |
+| /unban |  إزالة الحظر عن عضو. | /unban [user or user ID] |
+| /kick | طرد عضو. | /kick [user] (reason) |
+| /vkick | طرد عضو من الروم الصوتي. | /vkick [user] |
+| /mute text | منع العضو من الكتابة في الرومات الكتابية. | /mute text [user] (time) (reason) |
+| /unmute text | إلغاء منع كتابي من عضو. | /unmute [user] |
+| /mute voice | منع عضو من التحدث في الرومات الصوتية. | /mute voice [user] (time) (reason) |
+| /unmute voice | إلغاء الكتم الصوتي من العضو. | /unmute voice [user] |
+| /timeout | أعطاء وقت مستقطع للعضو. | /timeout [user] (time) (reason) |
+| /untimeout | إزالة الوقت المستقطع من المستخدم. | /untiemout [user] |
+| /clear | مسح رسائل الروم. | /clear (user/bots) (number of messages) | 
+| /move | نقل عضو إلى روم صوتي. | /move [user] (user or channel) |
+| /role give | إضافة رول للمستخدم. | /role give [user] [role] (bulk) |
+| /role remove | ازالة رول من المستخدم. | /role remove [user] [role] (bulk) |
+| /role multiple | إضافة / إزالة رولات من الاعضاء. | /role multiple [give_or_remove] [role] [pick_type] (required role) |
+| /points set | تحديد النقاط للمستخدم. | /points set [user] [points] |
+| /points list |  عرض الأعضاء الذين لديهم أكثر نقاط في السيرفر. | /points list (role) (page) |
+| /points decrease | ازالة نقاط من المستخدم. | /points decrease [user] [points] |
+| /points increase | زيادة نقاط المستخدم. | /points increase [user] [points] |
+| /points reset | تصفير نقاط جميع اعضاء السيرفر او عضو محدد. | /points reset (user) |
+| /warn | تحذير العضو. | /warn [user] [reason] |
+| /warn_remove | إزالة انذارات السيرفر أو العضو. | /warn_remove [user/all/warnID] |
+| /warnings | الحصول على قائمة إنذارات السيرفر او العضو. | /warnings (user) |
+| /lock | Disables `@everyone` يقوم بتعطيل خاصية إرسال الرسائل من الجميع في روم معين. | /lock (channel) (reason) |
+| /unlock | Allows `@everyone` للسماح للجميع بإرسال رسائل في قناة محددة. | /unlock (channel) |
+| /setcolor | تغيير لون رول عن طريق الـHex Code. | /setcolor [role name] [color code]
+| /slowmode | تفعيل او تعطيل سلو مود من الروم. | /slowmode (time) |
+| /reset | اعادة تعيين النقاط الكتابيه/الصوتية/الانفايت من جميع الاعضاء او عضو معين. | /reset [text / voice / invites / limits) [all / user] |
 
 <details>
 
-<summary>Important Moderation Notes</summary>
+<summary>ملاحظات ادارية مهمة</summary>
 
-- Only users with `Administrator` permission, `Mod Roles` on the dashboard, or the permission for that command can use moderation commands. __For example__, users with ban permission can use the "/ban" command.
+- يمكن للاعضاء الذين لديهم صلاحيات `ادمن ستريتر` او `رولات المشرفين` في لوحة التحكم استخدام جميع اوامر الاشراف على سبيل المثال يمكن للاعضاء الذين لديهم صلاحية الحظر باستخدام امر "/ban".
 
-- If no time was specified, the default time duration for all time-input commands is **3 months**; this can be modified at any time. For additional information, please visit [moderation] (). 
+- اذا لم يتم تحديد وقت ستكون المده الافتراضية ** ثلاثة اشهر** لجميع الاوامر التي تتطلب ادخال مده معينة، يمكن تعديل المده في اي وقت للمزيد من المعلومات يرجى التوجه الى [moderation] (). 
 
 </details>
 
-## VIP
+## البريميوم
 
 :::caution 
 
-The following commands are only available to premium subscribers.
+الاوامر الاتية متاحة فقط لمشتركين البريميوم.
 
 :::
 
-| Command | Explanation | Usage |
+| الامر | شرح | الاستخدامات |
 | ------------- |:-------------:|:-------------:|
-| /vip info | Shows information about your premium bot | /vip |
-| /vip move | Move your premium bot to a new server `Tier 2` | /vip move [number] |
-| /vip restart | Restart your premium bot `Tier 2` | /vip restart |
-| /vip whitelist | Whitelist a user to allow access to the ProBot dashboard | /vip whitelist [user] |
-| /vip avatar | Change your bot's avatar `Tier 2` | /vip avatar |
-| /vip username | Change your bot's username `Tier 2` | /vip username [name] |
-| /vip status | Change your bot's status `Tier 2` | /vip status [status] |
-| /vip transfer | Transfer your bot ownership to another user `Tier 2` | /vip transfer [user]
+| /vip info | يعرض معلومات حول بوت بريميوم الخاص بك. | /vip |
+| /vip move | لنقل بوت البريميوم لسيرفر اخر. `باقة 2` | /vip move [number] |
+| /vip restart | لاعادة تشغيل بوت البريميوم. `باقة 2` | /vip restart |
+| /vip whitelist | السماح للمستخدم بدخول لوحة التحكم. | /vip whitelist [user] |
+| /vip avatar | لتغيير صورة البوت. `باقة 2` | /vip avatar |
+| /vip username | لتغيير اسم البوت. `باقة 2` | /vip username [name] |
+| /vip status | لتغيير حالة البوت. `باقة 2` | /vip status [status] |
+| /vip transfer | تحويل ملكية البريميوم لمستخدم اخر. `باقة 2` | /vip transfer [user]
