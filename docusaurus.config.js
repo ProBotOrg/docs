@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -12,28 +9,17 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  organizationName: 'ProBotOrg',
+  projectName: 'docs',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ProBotOrg', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'fr', 'tr'],
+    locales: ['en', 'ar', 'fr', 'tr', 'vi', 'ru'],
     localeConfigs: {
-      en: {
-        htmlLang: 'en',
-      },
-      // You can omit a locale (e.g. ar) if you don't need to override the defaults
       ar: {
         direction: 'rtl',
       },
     },
-
   },
 
   presets: [
@@ -43,8 +29,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ProBotOrg/docs/blob/master',
         },
@@ -69,6 +53,7 @@ const config = {
         apiKey: '815249683b18febc9f81ffb305465b9f',
         indexName: 'probot',
         contextualSearch: true,
+        aggregateContent: true,
       },
       image: 'img/probot_docs.png',
       navbar: {

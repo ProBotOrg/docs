@@ -1,0 +1,39 @@
+---
+sidebar_position: 2
+slug: /getting-started/dashboard
+title: Dashboard Setup
+description: A comprehensive guide on using the dashboard to manage your server and configure modules and commands.
+keywords: [dashboard, configuration, manage, server, modules]
+---
+
+# Dashboard: Your One-Stop-Shop for Server Management
+
+The Dashboard is the heart of your server's configuration. It provides an easy-to-use interface for managing all modules and commands. Say goodbye to complex and time-consuming command line configurations!
+
+## Accessing the Dashboard
+
+Accessing the Dashboard is simple and straightforward. Here are the steps:
+- Navigate to the [website](https://probot.io/) and log in to your account.
+- The dashboard button will appear on the same page, click it to access the dashboard.
+
+:::caution
+You need `Administrator` permission to see your server on the list.
+:::
+
+## Configuring Modules and Commands
+
+Every module in the Dashboard comes with a switch button in the top-right corner, which allows you to disable all commands within that module. In addition, each command has its own switch button to enable or disable it, as well as an edit button to make customizations.
+
+Here are some of the customization options available for each command:
+- **Alias**: A custom alias for the command, making it easy to remember and use.
+- **Enabled Roles**: Limit who can use the command to specific roles.
+- **Disabled Roles**: Prevent certain roles from using the command.
+- **Enabled Channels**: The bot will only respond to the command in specified channels.
+- **Disabled Channels**: The bot won't respond to the command in these channels.
+- **Auto-delete with message deletion**: The bot's response will be deleted if the sender deletes their message.
+- **Auto-delete command invocation message**: The command message sent by the sender will be deleted immediately after sending.
+- **Auto-delete bot's reply message after 5 seconds**: The bot's reply will be deleted 5 seconds after it was sent.
+
+:::caution
+Don't see your server on the list? This means you don't have the `Administrator` permission required for full access to the Dashboard. Ensure your role has the `Administrator` permission explicitly granted in your role setting.
+:::

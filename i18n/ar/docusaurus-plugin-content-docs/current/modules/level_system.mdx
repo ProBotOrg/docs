@@ -1,0 +1,99 @@
+---
+sidebar_position: 6
+keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message] 
+---
+
+# Level System
+
+With ProBot levelling system, active server members will be automatically rewarded with extraordinary level roles, privileged permissions, and access to mystery channels once they reach a specific level!
+
+:::info
+
+The dashboard is where the configurations described here are managed.
+
+1. Go to the dashboard and log in.
+2. Select your server from the menu on the left.
+3. Choose the module and make sure that it is enabled.
+
+:::
+
+You will initially have three distinct options, each of which may be adjusted to produce a more individualized levelling experience.
+
+## No XP Roles
+
+Using this, you can prevent certain users with the selected roles from accumulating experience points anywhere on your server.
+
+## No XP Channels
+
+You can prevent specific channels from accumulating experience points.
+
+## Level-Up Message
+
+Send congratulatory messages to members who have levelled up from one level to a higher one. You can also use unique variables in these messages!
+
+:::caution
+
+The **Level-up message** will only be sent to those who have levelled up in a text level. At this time, we do not have a voice-level message.
+
+:::
+
+## Setup
+
+The procedure for establishing the role reward system is as described in the following:
+
+
+There will be a button named `Add Role Rewards` where you can add the role reward, a custom level that users must reach, and other options detailed below.
+
+### Text Level
+
+- This is the text level a member must reach to obtain the level role if it was set independently.
+
+- The text level range is 0 to 100; provide additional rewards to users as they reach the required level.
+
+### Voice Level
+
+- This is the voice level a member must reach to obtain the level role if it was set independently.
+
+- The voice level range is 0 to 100; provide additional rewards to users as they reach the required level.
+
+### Role Rewards
+
+Reward the members with exceptional level positions as they progress through the levels and meet your requirements.
+
+:::caution
+
+If the roles do not display, the bot's role is nested underneath all server roles. To resolve this issue, move the bot role to the top of the roles hierarchy to ensure that roles are displayed.
+
+:::
+
+## Remove with a higher level
+
+It is entirely up to you to decide whether the levels should stack or be removed when users climb to higher levels.
+
+- If you disable the option, roles will stack.
+
+- If you enable the option, roles get removed as a higher level is reached.
+
+## DM Member
+
+Notifies a member when they receive a text-level role via direct message.
+
+## Important Notes
+
+:::important Three potential situations that may arise when setting up a level requirement
+
+1. **Both Voice & Text**: If you set the need for both the text and voice level without leaving `0` in any option, both Text and Voice will be required. This will require the user to reach both levels to obtain the role reward.
+
+2. **Text only**: If you set the need for the text level and leave the Voice at `0`, only Text will be required. This will require the user to reach the level needed for the Text to obtain the role reward.
+
+3. **Voice only**: If you set the need for the voice level and leave the Text at `0`, only Voice will be required. This will require the user to reach the level needed for the Voice to obtain the role reward.
+
+4. **Role Position**: If you have selected the same role rewards for many levels, don't worry—it will still provide users with the role you specified as they reach the requirements of any level you set for the same role.
+
+:::
+
+:::caution
+
+Users need to type in chats for the bot to update their XP data and award them voice-level prizes, and only then will the bot be able to reward them.
+
+:::
