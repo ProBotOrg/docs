@@ -1,18 +1,18 @@
 {
   "title": {
-    "message": "ProBot Docs",
+    "message": "مستندات بروبوت",
     "description": "The title in the navbar"
   },
   "item.label.Introduction": {
-    "message": "Introduction",
+    "message": "المقدمة",
     "description": "Navbar item with label Introduction"
   },
   "item.label.Dashboard": {
-    "message": "Dashboard",
+    "message": "لوحة التحكم",
     "description": "Navbar item with label Dashboard"
   },
   "item.label.Contact support": {
-    "message": "Contact support",
+    "message": "تواصل مع الدعم الفني",
     "description": "Navbar item with label Contact support"
   }
 }
