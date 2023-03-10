@@ -1,68 +1,66 @@
 ---
 sidebar_position: 17
 title: Automod
-description: A guide to properly configure the ProBot Automod for your server
+description: دليل اعداد الرقابة التلقائية بشكل صحيح
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# الرقابة التلقائية
 
 Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+يمكنك تطبيق الخطوات الاتية في لوحة التحكم لاعداد الرقابة التلقائية.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. انتقل الى لوحة التحكم و سجل دخولك.
+2. اختر سيرفرك من القائمة على اليمين.
+3. اذهب الى القسم و تأكد من تفعيله.
 
 :::
 
-## Detection Options
+## خيارات الرقابة التلقائية
 
-The following options are available for detecting potential spam or malicious messages on your server:
+الغرض من الخيارات الاتية منع الرسائل التخريبية و حجب الكلمات المسيئة في سيرفرك:
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+> **إزعاج بالرسائل (5 رسائل \ 5 ثواني)**: تعمل هذه الرقابة عندما يرسل العضو اكثر من خمس رسائل خلال خمس ثواني.
 
-> **BAD WORDS**: This option detects messages containing bad words.
+> **الكلمات المسيئة**: تعمل هذه الرقابة عند ارسال رسائل تحتوي على كلمات مسيئة.
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+> **تكرار النص**: تعمل هذه الرقابة عند تكرار النص عدة مرات بنفس الرسالة.
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **الرسائل المكررة**: سوف تعمل هذه الرقابة عند تكرار نفس الرسالة.
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **روابط السيرفرات**: سوف تعمل هذه الرقابة عند ارسال رسائل تحتوي على رابط دعوة لسيرفر ديسكورد.
 
-> **LINKS**: This option detects messages that contain links.
+> **الروابط**: سوف تعمل هذه الرقابة عند ارسال رسائل تحتوي على روابط.
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **سبام الأحرف الكبيرة (70% > احرف مكبرة)**: سوف تعمل هذه الرقابة عند ارسال رسائل تحتوي على حروف كبيرة، مثال "HELLO WORLD".
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **إزعاج EMOJI**: سوف تعمل هذه الرقابة عند ارسال رسائل تحتوي على 8 ايموجي او اكثر.
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **إزعاج منشن**:سوف تعمل هذه الرقابة عند منشن عدد كبير من الاعضاء بنفس الرسالة.
 
-## Action Options
+## خيارات الاجراء
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+توفر كل رقابة خيارات مختلفة للاجراء، الاجراءات المتوفرة هي:
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+1. **منع الرسالة**: سيتم منع الرسالة فور اكتشافها.
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+2. **اسكات العضو**: سيتم اسكات العضو عند المخالفة.
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
 
-## Settings
+## الاعدادات
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+كل رقابة توفر خيار **الاعدادات** يشار اليه بـ ايموجي الترس `⚙️` بالنقر عليه ستظهر لك اعدادات الرقابة التي يمكنك تخصيصها على حسب حاجتك.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+> **الرومات المعطلة**: سيتم حجب الرقابة من الرومات المحددة.
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
+> **الرولات المعطلة**: اصحاب الرولات المعطلة سيتم استثنائهم من الرقابة التلقائية.
 
 > **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
 
 In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
 
