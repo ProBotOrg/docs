@@ -1,18 +1,18 @@
 {
   "title": {
-    "message": "ProBot Docs",
+    "message": "Документация ProBot",
     "description": "The title in the navbar"
   },
   "item.label.Introduction": {
-    "message": "Introduction",
+    "message": "Введение",
     "description": "Navbar item with label Introduction"
   },
   "item.label.Dashboard": {
-    "message": "Dashboard",
+    "message": "Панель управления",
     "description": "Navbar item with label Dashboard"
   },
   "item.label.Contact support": {
-    "message": "Contact support",
+    "message": "Связаться с поддержкой",
     "description": "Navbar item with label Contact support"
   }
 }
