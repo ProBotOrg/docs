@@ -1,10 +1,10 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "Документация",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Сообщество",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
