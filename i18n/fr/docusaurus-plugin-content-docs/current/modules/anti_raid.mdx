@@ -5,65 +5,65 @@ keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take]
 
 # Anti-Raid
 
-:::caution
+:::alerte
 
-This feature is only available for `Tier 2` subscribers.
+Cette fonctionnalité est uniquement disponible pour les abonnés aux versions payantes.
 
 :::
 
-The anti-raid feature of ProBot allows you to protect your server from unwanted raiders. With this feature, you can set up a system that automatically detects and takes action against raiders based on your desired configuration.
+La fonction anti-raid de ProBot vous permet de protéger votre serveur contre les raiders indésirables. Avec cette fonctionnalité, vous pouvez configurer un système qui détecte automatiquement et prend des mesures contre les raiders en fonction de la configuration souhaitée.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Le tableau de bord est l'emplacement où sont gérées les configurations décrites ici.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
-
-:::
-
-## Account Age
-
-The minimum Discord account age for detection and action against raiders. Four options are available:
-
-> **1 Week**: ProBot will detect accounts less or equal to one week and take action against them.
-
-> **1 Month**: ProBot will detect accounts less or equal to one month and take action against them.
-
-> **3 Months**: ProBot will detect accounts less or equal to three months and take action against them.
-
-> **None**: This option will detect all account ages, regardless of how long the account has existed.
-
-
-## List Length
-
-The number of people that must join for ProBot to start an anti-raid. This can be set between 5 and 100.
-
-## Time To Fill The List (Seconds)
-
-The time frame within which ProBot will detect users joining. With this option, you can set how much time raiders have to join before ProBot starts taking action.
-
-:::info How It Works
-
-As an example, if you set the account age to `1 Week`, the list length to `5`, and the time in seconds to `5`, the anti-raid system will start as soon as `5` users with an account age of `1 week` join within `5` seconds. This means that if `5` users join your server within `5` seconds and they all have accounts that are less than or equal to one week old, ProBot will start taking action against them.
+1. Accédez au tableau de bord et connectez-vous.
+2. Sélectionnez votre serveur dans le menu de gauche.
+3. Choisissez le module et assurez-vous qu'il est activé. 
 
 :::
 
-## Action To Take
+## Âge du Compte
 
-The action ProBot will take against raiders. Three options are available:
+L'âge minimum du compte Discord pour la détection et l'action contre les raiders. Quatre options sont disponibles:
 
-1. **None**: ProBot will take no action.
-2. **Mute**: ProBot will mute the raider.
-3. **Ban**: ProBot will ban the raider.
+> **1 semaine**: ProBot détectera les comptes inférieurs ou égaux à une semaine et prendra des mesures à leur encontre.
 
-If ban or mute is selected, you will have the option to specify the duration of the action in hours, days, and months.
+> **1 Mois**: ProBot détectera les comptes inférieurs ou égaux à un mois et prendra des mesures à leur encontre.
 
-## Disable Welcome During Raid
+> **3 mois**: ProBot détectera les comptes inférieurs ou égaux à trois mois et prendra des mesures à leur encontre.
 
-You can enable this option to prevent the welcome message from being spammed by raiders.
+> **Aucun**: cette option détectera tous les âges de compte, quelle que soit la durée d'existence du compte.
 
-## Send A Message To A Channel
 
-ProBot can keep you updated on the start and end of a raid by sending a message to a channel. You can customize the message for the start and end of a raid as desired. This allows you to keep track of when raids are happening on your server.
+## Longueur de Liste
+
+Le nombre de personnes qui doivent se joindre à ProBot pour lancer un anti-raid. Cela peut être réglé entre 5 et 100.
+
+## Temps Pour Remplir la Liste (secondes)
+
+Le délai dans lequel ProBot détectera les utilisateurs qui se joignent. Avec cette option, vous pouvez définir combien de temps les raiders doivent rejoindre avant que ProBot ne commence à agir.
+
+:::info Comment ça Marche
+
+Par exemple, si vous définissez l'âge du compte sur `1 semaine`, la longueur de la liste sur `5` et le temps en secondes sur `5`, le système anti-raid démarrera dès que `5` utilisateurs avec un âge du compte de `1 semaine` rejoindre dans `5` secondes. Cela signifie que si `5` utilisateurs rejoignent votre serveur en `5` secondes et qu'ils ont tous des comptes datant de moins d'une semaine, ProBot commencera à prendre des mesures à leur encontre.
+
+:::
+
+## Mesure à Prendre
+
+L'action que ProBot entreprendra contre les raiders. Trois options sont disponibles:
+
+1. **Aucun**: ProBot n'entreprendra aucune action.
+2. **Muet**: ProBot mettra le raider en sourdine.
+3. **Ban**: ProBot bannira le raider.
+
+Si l'interdiction ou le silence est sélectionné, vous aurez la possibilité de spécifier la durée de l'action en heures, jours et mois.
+
+## Désactiver L'Accueil Pendant le Raid
+
+Vous pouvez activer cette option pour éviter que le message de bienvenue ne soit spammé par les pirates.
+
+## Envoyer un Message à un Salon
+
+ProBot peut vous tenir informé du début et de la fin d'un raid en envoyant un message à un canal. Vous pouvez personnaliser le message pour le début et la fin d'un raid comme vous le souhaitez. Cela vous permet de savoir quand des raids se produisent sur votre serveur.
