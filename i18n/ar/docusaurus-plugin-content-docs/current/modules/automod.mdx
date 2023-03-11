@@ -8,7 +8,7 @@ keywords: [Spam, automation, invite links, caps, mention]
 
 # الرقابة التلقائية
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+الرقابة التلقائية تعمل على منع السبام و الكلمات المسيئة و المعلنين لتوفير مجتمع هادئ في سيرفرك، استمتع براحة البال فأن الرقابة التلقائية لبروبوت تعمل طوال الوقت للحفاظ على مجتمع امن و هادئ في سيرفرك.
 
 :::info
 
@@ -50,6 +50,8 @@ Ensure a smooth and stress-free server environment with ProBot Automod. Say good
 
 2. **اسكات العضو**: سيتم اسكات العضو عند المخالفة.
 
+4. **اعطاء تايم اوت للعضو**: سيتم اعطاء تايم اوت للعضو عند المخالفة (متوفر هذا الخيار بديل لاسكاات العضو لبعض الرقابات). 
+
 
 ## الاعدادات
 
@@ -59,31 +61,32 @@ Ensure a smooth and stress-free server environment with ProBot Automod. Say good
 
 > **الرولات المعطلة**: اصحاب الرولات المعطلة سيتم استثنائهم من الرقابة التلقائية.
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+> **مدة اسكات العضو**: طول فترة اسكات العضو عند المخالفة.
+
+> **مدة تايم اوت العضو**: طول فترة التايم اوت للعضو. 
 
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+متوفر خيارات اضافية لرقابة **الكلمات المسيئة** و رقابة **الروابط** غير متوفرة للرقابات الاخرى هي:
 
-> **Bad Words**
+> **الكلمات المسيئة**
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+- الكلمات المسيئة: قائمة بالكلمات المسيئة التي سيتم منع الرسائل الي تحتوي عليها.
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
 
-> **Links**
+> **الروابط**
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+- الروابط المسموحة: قائمة لروابط ستتخطى رقابة الروابط.
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+- الروابط الممنوعة: قائمة روابط ستعمل رقابة الروابط على منعها فقط وتسمح للروابط الاخرى.
 
-## Additional Features
+## مميزات اضافية
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
+بالاضافة الى الخيارات التي تم توضيحها يتوفر ايضا الخيارات الاتية:
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+> **تخطي الرومات**: سيتم تخطي الرومات المحددة من الرقابة التلقائية.
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+> **تخطي الرولات**: سيسمح لاعضاء الرولات المحددة تخطي الرقابة التلقائية.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+> **رومات صور فقط**: سيتم السماح للاعضاء بارسال الصور فقط في الرومات المحددة.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+> **رومات يوتيوب فقط**: سيتم السماح للاعضاء بارسال روابط يوتيوب فقط بالرومات المحددة.
