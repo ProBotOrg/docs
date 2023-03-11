@@ -3,106 +3,106 @@ sidebar_position: 13
 keyword: [link, temporary link command, premium subscribers, link uses, invite link] 
 ---
 
-# Temp Links
+# Liens Temporaires
 
-The Temporary Link Command feature allows server administrators to set up a command for users to invite their friends easily. The following instructions provide a step-by-step guide on how to set up the command.
+La fonction de commande de lien temporaire permet aux administrateurs de serveur de configurer une commande permettant aux utilisateurs d'inviter facilement leurs amis. Les instructions suivantes fournissent un guide étape par étape sur la configuration de la commande.
 
-:::info
+:::Info
 
-The dashboard is where the configurations described here are managed.
+Le tableau de bord est l'endroit où les configurations décrites ici sont gérées.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
-
-:::
-
-:::caution
-
-This feature is only available to premium subscribers. 
+1. Accédez au tableau de bord et connectez-vous.
+2. Sélectionnez votre serveur dans le menu de gauche.
+3. Choisissez le module et assurez-vous qu'il est activé.
 
 :::
 
-## Command Name
+:::alerte
 
-The first step is to enter a command name that users can type in to receive a personalized link. This command can be any desired text, prefix, symbol, or character.
+Cette fonctionnalité est uniquement disponible pour les abonnés Premium.
+
+:::
+
+## Nom de la Commande
+
+La première étape consiste à entrer un nom de commande que les utilisateurs peuvent saisir pour recevoir un lien personnalisé. Cette commande peut être n'importe quel texte, préfixe, symbole ou caractère souhaité.
 
 ## Messages
 
-### Message When Link is Requested
+### Message Lorsque le Lien est Demandé
 
-When a user types in the command, a message will appear as a reply, indicating that the link has been successfully sent to the user's DMs. The text of this message can be adjusted as desired.
+Lorsqu'un utilisateur saisit la commande, un message apparaîtra en réponse, indiquant que le lien a été envoyé avec succès aux DM de l'utilisateur. Le texte de ce message peut être ajusté à volonté.
 
-### Message When Link Cannot be Sent
+### Message Lorsque le Lien ne peut pas être Envoyé
 
-If the bot cannot send the link, a separate message will be displayed as a reply, indicating that the bot could not send the link because the user's DMs are closed. The text of this message can also be adjusted as desired.
+Si le bot ne peut pas envoyer le lien, un message séparé s'affichera en guise de réponse, indiquant que le bot n'a pas pu envoyer le lien car les DM de l'utilisateur sont fermés. Le texte de ce message peut également être ajusté à volonté.
 
-## Roles
+## Les Rôles
 
-### Disabled Roles
+### Rôles Désactivés
 
-The administrator can prevent specific roles from being able to use the link command.
+L'administrateur peut empêcher des rôles spécifiques d'utiliser la commande de liaison.
 
-### Enabled Roles
+### Rôles Activés
  
-Users with the chosen roles will be able to use the link command.
+Les utilisateurs avec les rôles choisis pourront utiliser la commande de lien.
 
-## Channels
+## Salons
 
-### Disabled Channels
+### Salons Désactivées
 
-The bot will not respond to the link command in the chosen channels.
+Le bot ne répondra pas à la commande de lien dans les salons choisis.
 
-### Enabled Channels
+### Salons Activés
  
-The bot will respond to the link command in the chosen channels.
+Le bot répondra à la commande de lien dans les salons choisis.
 
-## Link Information
+## Informations sur le Lien
 
-### Text with the Link Message
+### Texte avec le Message de Lien
 
-The text sent to a user's DMs when they use the command will include an invite link along with information on the link's uses and expiration time. The text of this message can be adjusted as desired.
+Le texte envoyé aux DM d'un utilisateur lorsqu'il utilise la commande comprendra un lien d'invitation ainsi que des informations sur les utilisations du lien et le délai d'expiration. Le texte de ce message peut être ajusté à volonté.
 
-### Link Uses
+### Utilisations des Liens
 
-The administrator can specify how many times the link can be used and limit the number of users who can join with that link. An adjustable scroll bar is provided to set the number of link uses.
+L'administrateur peut spécifier combien de fois le lien peut être utilisé et limiter le nombre d'utilisateurs qui peuvent rejoindre avec ce lien. Une barre de défilement réglable est fournie pour définir le nombre d'utilisations du lien.
 
-### Invitation Default Channel
+### Salon d'Invitation par Défaut
 
-The administrator can specify which channel the invite links will belong to. For example, if the administrator sets the track to "Test," users who use the link will be redirected to the "Test" channel upon joining.
+L'administrateur peut spécifier à quel canal les liens d'invitation appartiendront. Par exemple, si l'administrateur définit la piste sur `Test`, les utilisateurs qui utilisent le lien seront redirigés vers le canal `Test` lors de leur adhésion.
 
-### Link Age in Minutes
+### Âge du Lien en Minutes
 
-The administrator can specify the age of the link in minutes. The link will expire unless it is used within this time. An adjustable scroll bar is provided to set the linkage.
+L'administrateur peut spécifier l'âge du lien en minutes. Le lien expirera s'il n'est pas utilisé dans ce délai. Une barre de défilement réglable est fournie pour régler la liaison.
 
-## Wait Time
+## Temps d'Attente
 
-### Wait Time in Hours
+### Temps d'Attente en Heures
 
-The administrator can set a waiting time for users to request the link again.
+L'administrateur peut définir un délai d'attente pour que les utilisateurs demandent à nouveau le lien.
 
-### How Many Links Can Be Requested Before Wait Time
+### Combien de Liens Peuvent être Demandés avant le Temps d'Attente
 
-The administrator can set the number of links that can be requested before the wait time is enforced.
+L'administrateur peut définir le nombre de liens pouvant être demandés avant que le temps d'attente ne soit appliqué.
 
-### Waiting Time Message
+### Message de Temps d'Attente
 
-When a user attempts to request a new link before the wait time has ended, a message will appear as a reply indicating that they should wait the specified amount of time before requesting a new link. The text of this message can be adjusted as desired.
+Lorsqu'un utilisateur tente de demander un nouveau lien avant la fin du temps d'attente, un message apparaîtra comme réponse indiquant qu'il doit attendre le temps spécifié avant de demander un nouveau lien. Le texte de ce message peut être ajusté à volonté.
 
-## Disable Wait Time
+## Désactiver le Temps d'Attente
 
-The administrator can allow users with `Invite Members` permission to bypass the wait time and create links anytime.
+L'administrateur peut autoriser les utilisateurs disposant de l'autorisation `Invite Members` à contourner le temps d'attente et à créer des liens à tout moment.
 
-## Delete User Command Invocation and Bot's Reply
+## Supprimer l'Invocation de la Commande Utilisateur et la Réponse du Bot
 
-The administrator can choose to have the bot delete the user's command and the bot's reply after five seconds or keep it persistent. Enabling the option will delete the message, and disabling it will keep them.
+L'administrateur peut choisir de demander au bot de supprimer la commande de l'utilisateur et la réponse du bot après cinq secondes ou de la conserver. L'activation de l'option supprimera le message et la désactiver le conservera.
 
 :::important
 
-These are the following limits for our temp link options;
+Voici les limites suivantes pour nos options de lien temporaire;
 
-- Link age in minutes `1440`
-- Wait time in hours `9999999999999`
-- How many links can be requested before wait time `9999999999999`
+- Âge du lien en minutes `1440`
+- Temps d'attente en heures `9999999999999`
+- Combien de liens peuvent être demandés avant le temps d'attente `9999999999999`
 
 :::

@@ -3,97 +3,97 @@ sidebar_position: 6
 keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message] 
 ---
 
-# Level System
+# Système de Niveau
 
-With ProBot levelling system, active server members will be automatically rewarded with extraordinary level roles, privileged permissions, and access to mystery channels once they reach a specific level!
+Avec le système de mise à niveau ProBot, les membres actifs du serveur seront automatiquement récompensés par des rôles de niveau extraordinaires, des autorisations privilégiées et un accès aux canaux mystères une fois qu'ils auront atteint un niveau spécifique!
 
-:::info
+:::Info
 
-The dashboard is where the configurations described here are managed.
+Le tableau de bord est l'endroit où les configurations décrites ici sont gérées.
 
-1. Go to the dashboard and log in.
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled.
-
-:::
-
-You will initially have three distinct options, each of which may be adjusted to produce a more individualized levelling experience.
-
-## No XP Roles
-
-Using this, you can prevent certain users with the selected roles from accumulating experience points anywhere on your server.
-
-## No XP Channels
-
-You can prevent specific channels from accumulating experience points.
-
-## Level-Up Message
-
-Send congratulatory messages to members who have levelled up from one level to a higher one. You can also use unique variables in these messages!
-
-:::caution
-
-The **Level-up message** will only be sent to those who have levelled up in a text level. At this time, we do not have a voice-level message.
+1. Accédez au tableau de bord et connectez-vous.
+2. Sélectionnez votre serveur dans le menu de gauche.
+3. Choisissez le module et assurez-vous qu'il est activé.
 
 :::
 
-## Setup
+Vous aurez initialement trois options distinctes, chacune pouvant être ajustée pour produire une expérience de mise à niveau plus individualisée.
 
-The procedure for establishing the role reward system is as described in the following:
+## Aucun rôle XP
 
+En utilisant cela, vous pouvez empêcher certains utilisateurs avec les rôles sélectionnés d'accumuler des points d'expérience n'importe où sur votre serveur.
 
-There will be a button named `Add Role Rewards` where you can add the role reward, a custom level that users must reach, and other options detailed below.
+## Aucun salon XP
 
-### Text Level
+Vous pouvez empêcher des canaux spécifiques d'accumuler des points d'expérience.
 
-- This is the text level a member must reach to obtain the level role if it was set independently.
+## Message de Niveau Supérieur
 
-- The text level range is 0 to 100; provide additional rewards to users as they reach the required level.
+Envoyez des messages de félicitations aux membres qui sont passés d'un niveau à un autre. Vous pouvez également utiliser des variables uniques dans ces messages!
 
-### Voice Level
+:::alerte
 
-- This is the voice level a member must reach to obtain the level role if it was set independently.
-
-- The voice level range is 0 to 100; provide additional rewards to users as they reach the required level.
-
-### Role Rewards
-
-Reward the members with exceptional level positions as they progress through the levels and meet your requirements.
-
-:::caution
-
-If the roles do not display, the bot's role is nested underneath all server roles. To resolve this issue, move the bot role to the top of the roles hierarchy to ensure that roles are displayed.
+Le **Message de Niveau Supérieur** ne sera envoyé qu'à ceux qui ont atteint un niveau supérieur dans un niveau textuel. Pour le moment, nous n'avons pas de message vocal.
 
 :::
 
-## Remove with a higher level
+## Configuration
 
-It is entirely up to you to decide whether the levels should stack or be removed when users climb to higher levels.
+La procédure d'établissement du système de récompense de rôle est décrite ci-dessous:
 
-- If you disable the option, roles will stack.
 
-- If you enable the option, roles get removed as a higher level is reached.
+Il y aura un bouton nommé `Ajouter une Récompense de Rôle` où vous pourrez ajouter la récompense de rôle, un niveau personnalisé que les utilisateurs doivent atteindre et d'autres options détaillées ci-dessous.
 
-## DM Member
+### Niveau de Texte
 
-Notifies a member when they receive a text-level role via direct message.
+- Il s'agit du niveau de texte qu'un membre doit atteindre pour obtenir le rôle de niveau s'il a été défini indépendamment.
 
-## Important Notes
+- La plage de niveau de texte est de 0 à 100; fournir des récompenses supplémentaires aux utilisateurs lorsqu'ils atteignent le niveau requis.
 
-:::important Three potential situations that may arise when setting up a level requirement
+### Niveau de Voix
 
-1. **Both Voice & Text**: If you set the need for both the text and voice level without leaving `0` in any option, both Text and Voice will be required. This will require the user to reach both levels to obtain the role reward.
+- Il s'agit du niveau de voix qu'un membre doit atteindre pour obtenir le rôle de niveau s'il a été défini indépendamment.
 
-2. **Text only**: If you set the need for the text level and leave the Voice at `0`, only Text will be required. This will require the user to reach the level needed for the Text to obtain the role reward.
+- La plage de niveau de voix est de 0 à 100; fournir des récompenses supplémentaires aux utilisateurs lorsqu'ils atteignent le niveau requis.
 
-3. **Voice only**: If you set the need for the voice level and leave the Text at `0`, only Voice will be required. This will require the user to reach the level needed for the Voice to obtain the role reward.
+### Récompense de Rôle
 
-4. **Role Position**: If you have selected the same role rewards for many levels, don't worry—it will still provide users with the role you specified as they reach the requirements of any level you set for the same role.
+Récompensez les membres avec des postes de niveau exceptionnel au fur et à mesure qu'ils progressent dans les niveaux et répondent à vos exigences.
+
+:::alerte
+
+Si les rôles ne s'affichent pas, le rôle du bot est imbriqué sous tous les rôles de serveur. Pour résoudre ce problème, déplacez le rôle du bot vers le haut de la hiérarchie des rôles pour vous assurer que les rôles sont affichés.
 
 :::
 
-:::caution
+## Supprimer avec un Niveau Supérieur
 
-Users need to type in chats for the bot to update their XP data and award them voice-level prizes, and only then will the bot be able to reward them.
+Il vous appartient entièrement de décider si les niveaux doivent s'empiler ou être supprimés lorsque les utilisateurs montent à des niveaux supérieurs.
+
+- Si vous désactivez l'option, les rôles se cumuleront.
+
+- Si vous activez l'option, les rôles sont supprimés lorsqu'un niveau supérieur est atteint.
+
+## Membre DM
+
+Avertit un membre lorsqu'il reçoit un rôle au niveau du texte par message direct.
+
+## Notes IMPORTANTES
+
+:::important Trois situations potentielles pouvant survenir lors de la configuration d'une exigence de niveau
+
+1. **Voix et texte**: si vous définissez le besoin pour le texte et le niveau de la voix sans laisser "0" dans aucune option, le texte et la voix seront requis. Cela nécessitera que l'utilisateur atteigne les deux niveaux pour obtenir la récompense de rôle.
+
+2. **Texte uniquement**: si vous définissez le niveau de texte requis et laissez la voix sur "0", seul le texte sera requis. Cela nécessitera que l'utilisateur atteigne le niveau nécessaire pour que le texte obtienne la récompense de rôle.
+
+3. **Voix uniquement**: si vous définissez le besoin de niveau de voix et laissez le texte sur "0", seule la voix sera requise. Cela nécessitera que l'utilisateur atteigne le niveau nécessaire pour que la voix obtienne la récompense de rôle.
+
+4. **Position de rôle**: si vous avez sélectionné les mêmes récompenses de rôle pour plusieurs niveaux, ne vous inquiétez pas : les utilisateurs recevront toujours le rôle que vous avez spécifié lorsqu'ils atteindront les exigences de n'importe quel niveau que vous avez défini pour le même rôle. .
+
+:::
+
+:::alerte
+
+Les utilisateurs doivent taper des chats pour que le bot mette à jour leurs données XP et leur attribue des prix au niveau de la voix, et ce n'est qu'alors que le bot pourra les récompenser.
 
 :::
