@@ -1,61 +1,61 @@
 ---
 sidebar_position: 5
 slug: /getting-started/commands
-description: List of all commands, including their usage and descriptions.
+description: Tüm komutların listesine buradan ulaşabilirsiniz.
 ---
 
-# Commands
+# Komutlar
 
-In this section, you will gain a deeper understanding of the ProBot commands, their usage, and an example of how to put such commands into action.
+Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkında bilgi edinebilirsiniz.
 
 :::important
 
-- As slash commands are the default bot prefix, all usages and examples will be exemplified with the slash command `/`.
+- Varsayılan bot öneki olarak Slash komutları kullanılmaktadır. Tüm örneklerde `/` slash komutu kullanılmaktadır.
 
-- `[` `]` signs are required for every command referenced with that sign, but `(` `)` are optional.
+- `[` `]` bulunan yerler her komut için zorunludur, ancak `(` `)` bulunan yerler isteğe bağlıdır.
 
 :::
 
-## General 
+## Genel
 
-| Command | Explanation | Usage |
+| Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /credits | Show yours or somebody else's credit | /credits [user] (amount) |
-| /rep | Award someone a reputation point. Can only be used once every 24 hours | /rep [user] |
-| /moveme | Moves you to another voice channel | /moveme [channel or user] |
-| /color | Change your color on the server | /color [color's number] |
-| /colors | Lists you all the available colors | /colors |
-| /short | Shortens a URL | /short [URL] |
-| /roll | rolling dice | /roll (number) |
+| /credits | Kendinizin veya başka birinin kredisini görüntüleyin | /credits [kullanıcı] (tutar) |
+| /rep | Herhangi birine itibar puanı vermek için kullanabilirsiniz Her 24 saatte bir kullanılabilir | /rep [kullanıcı] |
+| /moveme | Sizi başka bir ses kanalına taşır | /moveme [kanal veya kullanıcı] |
+| /color | Sunucudaki renginizi değiştirmek için kullanabilirsiniz | /color [renk numarası] |
+| /colors | Kullanılabilir renkleri listeler | /colors |
+| /short | Bir URL'yi kısaltmak için kullanabilirsiniz | /short [URL] |
+| /roll | Zar atmak için kullanabilirsiniz | /roll (sayı) |
 
-## Leveling
+## Seviye
 
-| Command | Explanation | Usage |
+| Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /profile | View your or someone else's customizable personal global profile card | /profile (user) |
-| /rank | View your rank card or someone else's in the server | /rank (user) |
-| /top | Display the top members by text or voice | /top (day/week/month) |
-| /title | Changes your profile title | /title [new title] |
-| /setxp | Sets the user's xp | /setxp [user] [type] [new_xp] |
-| /setlevel | Sets the user's level | /setlevel [user] [type] [new_level] |
+| /profile | Profil kartını/kartınızı görüntüleyin | /profile (kullanıcı) |
+| /rank | Seviye kartını/kartınızı görüntüleyin | /rank (kullanıcı) |
+| /top | Metin veya ses seviyesi en yüksek kişileri görüntüleyin | /top (gün/hafta/ay) |
+| /title | Profil başlığınızı değiştirebilirsiniz | /title [yeni başlık] |
+| /setxp | Kullanıcının XP'sini ayarlamak için kullanabilirsiniz | /setxp [kullanıcı] [tür] [yeni_xp] |
+| /setlevel | Kullanıcının seviyesini değiştirmek için kullanabilirsiniz | /setlevel [kullanıcı] [tür] [yeni_level] |
 
-## Info
+## Bilgi Komutları
 
-| Command | Explanation | Usage |
+| Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /user | Shows information, such as ID and join date, about yourself or a user | /user (user) |
-| /avatar | Get a user's avatar | /avatar (user) |
-| /server | Shows information about the server | /server |
-| /roles | Get a list of server roles and member counts | /roles |
+| /user | Kullanıcı bilgilerini/bilgilerinizi görüntüleyebilirsiniz | /user (kullanıcı) |
+| /avatar | Profil fotoğrafını/fotoğrafınızı getirir | /avatar (kullanıcı) |
+| /server | Sunucu hakkında bilgiileri gösterir | /server |
+| /roles | Sunucuda ki roller ve üyeler hakkında bilgi almak için kullanabilirsiniz | /roles |
 
-## Moderation
+## Moderasyon
 
-| Command | Explanation | Usage |
+| Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /setnick | Changes the nickname of a member | /setnick [user] (nickname) |
-| /ban | Bans a member | /ban [user] (time) (reason) |
-| /unban | Unbans a member | /unban [user or user ID] |
-| /kick | Kicks a member | /kick [user] (reason) |
+| /setnick | Bir üyenin takma adını değiştirebilirsiniz | /setnick [kullanıcı] (kullanıcı_adı) |
+| /ban | Bir üyeyi yasaklayabilirsiniz | /ban [kullanıcı] (süre) (sebep) |
+| /unban | Bir üyenin yasaklanmasını kaldırırsınız | /unban [kullanıcı veya kullanıcı ID] |
+| /kick | Bir üyeyi sunucudan atabilirsiniz | /kick [kullanıcı] (sebep) |
 | /vkick | Kicks a member from a voice channel | /vkick [user] |
 | /mute text | Mute a member so they can't type in text channels | /mute text [user] (time) (reason) |
 | /unmute text | Unmutes a member | /unmute [user] |
