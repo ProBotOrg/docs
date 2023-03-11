@@ -3,181 +3,181 @@ sidebar_position: 10
 keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management] 
 ---
 
-# Self-Assignable Roles 
+# Rôles Auto-Assignables
 
-Set up exclusive roles with various options that can be used to improve workflow and message style.
+Configurez des rôles exclusifs avec diverses options pouvant être utilisées pour améliorer le flux de travail et le style des messages.
 
-:::info
+:::Info
 
-The dashboard is where the configurations described here are managed.
+Le tableau de bord est l'endroit où les configurations décrites ici sont gérées.
 
-1. Go to the dashboard and log in.
-2. Choose your server from the menu on the left.
-3. Select the module and ensure that it is enabled.
-
-:::
-
-# Setup
-
-To have the bot apply the self-assignable options to the message, you must first create an 'Embed Message' and send it to a channel.
-
-[Embed Messages](https://docs.probot.io/docs/modules/embed) describes how to create and send a message.
-
-1. Select `Add Message` from the menu.
-2. Select `Edit` from the menu.
-3. From the `Embed` menu, choose the embed message you created.
-4. Select the embed message you sent to a channel from the `Choose a message` option.
-
-You're ready to move on to one of the module's options. 🙋
-
-## Role limitation per user
-
-The role limit for how many roles the user can play for that specific reaction and interaction.
-
-# Button
-
-A one-of-a-kind Discord button interaction that allows users to interact easily with a single click.
-
-1. Select your preferred button color by clicking on the `Button`.
-2. Select `Add Button` to add a button.
-3. Then, you'll see a `Settings` button and a `Delete` button.
-4. By selecting `Settings` you will be presented with the following options:
-
-> Button Emoji and text
-
-- The emoji and text you want to appear on the button.
-
-:::caution
-
-The text filed field is required; you must fill it out.
+1. Accédez au tableau de bord et connectez-vous.
+2. Choisissez votre serveur dans le menu de gauche.
+3. Sélectionnez le module et assurez-vous qu'il est activé.
 
 :::
 
-> Colors
+# Configuration
 
-- You will have four color options if you want to change them at any time.
+Pour que le bot applique les options auto-assignables au message, vous devez d'abord créer un `message en embed` et l'envoyer à un canal.
 
-## Add Roles
+[Messages en Embed](https://docs.probot.io/docs/modules/embed) décrit comment créer et envoyer un message.
 
-To add a role to the button and have the user revive it when they click on it, look for a plus sign '+' where you can click and add a role.
+1. Sélectionnez `Ajouter un message` dans le menu.
+2. Sélectionnez `Modifier` dans le menu.
+3. Dans le menu `Embed`, choisissez le message en embed que vous avez créé.
+4. Sélectionnez le message en embed que vous avez envoyé à un canal à partir de l'option `Choisir un message`.
 
-:::info
+Vous êtes prêt à passer à l'une des options du module. 🙋
 
-You can include up to 25 buttons in a single embed message.
+## Limitation des Rôles par Utilisateur
 
-:::
+La limite du nombre de rôles que l'utilisateur peut jouer pour cette réaction et cette interaction spécifiques.
 
-# Select Menu
+# Bouton
 
-A distinct discord that is simple to use, select the menu to have the member interact with and the option to have the role (s).
+Une interaction de bouton Discord unique en son genre qui permet aux utilisateurs d'interagir facilement en un seul clic.
 
-1. Select `Select Menu` from the drop-down menu.
-2. Then, select `Add Option`.
-3. You will be presented with several options, each of which is explained in detail below:
+1. Sélectionnez votre couleur de bouton préférée en cliquant sur le `bouton`.
+2. Sélectionnez `Ajouter un bouton` pour ajouter un bouton.
+3. Ensuite, vous verrez un bouton `Paramètres` et un bouton `Supprimer`.
+4. En sélectionnant `Paramètres`, les options suivantes s'afficheront :
 
-## Select Menu Placeholder
+> Bouton Emoji et Texte
 
-The text you want users to see from the outside on the select menu option before selecting any roles.
+- L'emoji et le texte que vous souhaitez voir apparaître sur le bouton.
 
-## Emoji
+:::alerte
 
-The emoji you want to see before each option.
-
-## Label
-
-The title you want users to see above each option.
-
-## Option Title
-
-The option title you want to see below each option title; can be used to describe the contents of the option.
-
-## Roles
-
-The option where you get to set a role for users to have as they interact with a select menu option, click on the plus `+` sign will display the server roles list.
-
-:::caution
-
-A single embed message can contain up to 20 select menu options.
+Le champ de texte est obligatoire; vous devez le remplir.
 
 :::
 
-# Reaction
+> Couleurs
 
-Members receive a role when they click on a reaction in traditional reaction roles.
+- Vous aurez quatre options de couleur si vous souhaitez les modifier à tout moment.
 
-1. Select `Reaction` from the drop-down menu.
-2. Select `Add Emoji` from the drop-down menu.
-3. Select whether you want to add a normal or a gif emoji.
-4. Create a role for that reaction using the plus `+` sign.
+## Ajouter des Rôles
 
-:::caution
+Pour ajouter un rôle au bouton et que l'utilisateur le réactive lorsqu'il clique dessus, recherchez un signe plus `+` sur lequel vous pouvez cliquer et ajouter un rôle.
 
-If your server roles do not appear in the dashboard, move the ProBot's role higher in the server roles hierarchy.
+:::Info
 
-:::
-
-# Role Mode
-
-You will have several mode options for the reaction role.
-
-:::caution
-
-The mode will apply to all of the options in that message.
+Vous pouvez inclure jusqu'à 25 boutons dans un seul message en embed.
 
 :::
 
-## Toggle Mode
+# Sélectionnez Menu
 
-This mode adds or removes roles based on whether the user has the roles or not. `Recommended`
+Un discord distinct et simple à utiliser, sélectionnez le menu avec lequel le membre doit interagir et l'option d'avoir le ou les rôles.
 
-## Give Mode
+1. Sélectionnez `Sélectionner un menu` dans le menu déroulant.
+2. Ensuite, sélectionnez `Ajouter une option`.
+3. Plusieurs options vous seront présentées, chacune étant expliquée en détail ci-dessous:
 
-This mode adds roles whenever a reaction/interaction is added or removed. 'Excellent for accepting rules!'
+## Sélectionnez l'Espace Réservé du Menu
 
+Le texte que les utilisateurs doivent voir de l'extérieur sur l'option de menu de sélection avant de sélectionner des rôles.
 
-## Take Mode
+## Émoji
 
-This mode will remove roles whenever a reaction/interaction is added or removed.
+L'emoji que vous voulez voir avant chaque option.
 
-# Type of Notification
+## Étiqueter
 
-You will have two options for managing the notification type, whether you want it to respond to user interaction or keep it quiet: no bell:
+Le titre que les utilisateurs doivent voir au-dessus de chaque option.
 
-## Notify Type
+## Titre de l'Option
 
-This option will send a reply message that can only be seen by the user who interacted with the interaction as they add, remove, or make no changes to the roles to keep them tuned.
+Le titre d'option que vous souhaitez voir sous chaque titre d'option; peut être utilisé pour décrire le contenu de l'option.
 
-1. The first option is the reply message when the role is added.
-2. The second option is the reply message when the role is removed.
-3. The third option is when no changes have been made to the user roles.
+## Les Rôles
 
-:::info
+L'option permettant de définir un rôle pour les utilisateurs lorsqu'ils interagissent avec une option de menu de sélection, cliquez sur le signe plus `+` affichera la liste des rôles du serveur.
 
-To have the bot mention the role, include `{0}` in the reply message, as it refers to the role.
+:::alerte
 
-:::
-
-## Silent Type
-
-If you want to keep things quiet without drawing the user's attention to any reply messages from the bot, this option is for you because it will not display any reply messages.
-
-
-# Important Notes
-
-:::warning
-
-The reaction may break if you have select menus or buttons in the background but aren't using them; to resolve this issue, you need to delete any select menu and button options that you may have added on the same message but aren't using.
+Un seul message en embed peut contenir jusqu'à 20 options de menu de sélection.
 
 :::
 
-:::warning
+# Réaction
 
-You are not allowed to link multiple messages with self-assignable roles to the same embedded message because doing so may cause problems.
+Les membres reçoivent un rôle lorsqu'ils cliquent sur une réaction dans les rôles de réaction traditionnels.
+
+1. Sélectionnez `Réaction` dans le menu déroulant.
+2. Sélectionnez `Ajouter un Emoji` dans le menu déroulant.
+3. Sélectionnez si vous souhaitez ajouter un emoji normal ou gif.
+4. Créez un rôle pour cette réaction en utilisant le signe plus `+`.
+
+:::alerte
+
+Si vos rôles de serveur n'apparaissent pas dans le tableau de bord, déplacez le rôle du ProBot plus haut dans la hiérarchie des rôles de serveur.
 
 :::
 
-:::info
+# Mode Rôle
 
-You need to subscribe to the `Premium Tier 1/2` tier to set multiple roles for the same option.
+Vous aurez plusieurs options de mode pour le rôle de réaction.
+
+:::alerte
+
+Le mode s'appliquera à toutes les options de ce message.
+
+:::
+
+## Basculer en Mode
+
+Ce mode ajoute ou supprime des rôles selon que l'utilisateur possède ou non les rôles. `Recommandé`
+
+## Mode Donner
+
+Ce mode ajoute des rôles chaque fois qu'une réaction/interaction est ajoutée ou supprimée. `Excellent pour accepter les règles!`
+
+
+## Mode de Prise de Vue
+
+Ce mode supprimera des rôles chaque fois qu'une réaction/interaction est ajoutée ou supprimée.
+
+# Type de Notification
+
+Vous aurez deux options pour gérer le type de notification, que vous souhaitiez qu'elle réponde à l'interaction de l'utilisateur ou qu'elle reste silencieuse: pas de cloche:
+
+## Notifiy le Type
+
+Cette option enverra un message de réponse qui ne peut être vu que par l'utilisateur qui a interagi avec l'interaction lorsqu'il ajoute, supprime ou n'apporte aucune modification aux rôles pour les garder à l'écoute.
+
+1. La première option est le message de réponse lorsque le rôle est ajouté.
+2. La deuxième option est le message de réponse lorsque le rôle est supprimé.
+3. La troisième option est lorsqu'aucune modification n'a été apportée aux rôles d'utilisateur.
+
+:::Info
+
+Pour que le bot mentionne le rôle, incluez `{0}` dans le message de réponse, car il fait référence au rôle.
+
+:::
+
+## Type Silencieux
+
+Si vous souhaitez que les choses restent silencieuses sans attirer l'attention de l'utilisateur sur les messages de réponse du bot, cette option est pour vous car elle n'affichera aucun message de réponse.
+
+
+# Notes IMPORTANTES
+
+:::avertir
+
+La réaction peut être interrompue si vous avez sélectionné des menus ou des boutons en arrière-plan mais que vous ne les utilisez pas ; Pour résoudre ce problème, vous devez supprimer toutes les options de menu et de bouton de sélection que vous avez peut-être ajoutées au même message mais que vous n'utilisez pas.
+
+:::
+
+:::avertir
+
+Vous n'êtes pas autorisé à lier plusieurs messages avec des rôles auto-assignables au même message intégré, car cela pourrait entraîner problèmes.
+
+:::
+
+:::Info
+
+Vous devez vous abonner au niveau "Premium Niveau 1/2" pour définir plusieurs rôles pour la même option.
 
 :::
