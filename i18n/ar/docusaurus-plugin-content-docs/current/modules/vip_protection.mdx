@@ -1,143 +1,144 @@
 ---
 sidebar_position: 15
-title: VIP Protection
-description: VIP Protection, provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands and actions.
+title: الحماية الخاصة
+description: الحماية الخاصة توفر لك مجتمع آمن لسيرفرك بتقييد تصرفات الادارة و وضع حدود على تنفيذ الاجراءات الادارية.
 keywords: [Protection, Actions, Permissions, Restrictions, Limits]
 ---
 
-# VIP Protection: Have ProBot Secure Your Server with Flawless Protection
+# الحماية الخاصة: احصل على حماية بروبوت لتأمين سيرفرك بحماية خالية من العيوب
 
 :::caution 
 
-VIP Protection is a premium feature and is only available to subscribers with a premium subscription. If you do not have a premium subscription, you will need to upgrade to access this feature.
+الحماية الخاصة ميزة للبريميوم فقط، اذا لم يكن لديك اشتراك بريميوم فستحتاج الى الترقية للوصول الى الميزة.
 
 :::
 
-ProBot is a powerful bot for Discord that can help you manage your server and provide various features to improve your community experience. One such feature is VIP Protection, which provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands.
+بروبوت هو امثل بوت للديسكورد يمكنه مساعدتك في ادارة سيرفرك و توفير ميزات متنوعة يمكن تخصيصها لتحسين مجتمع السيرفر، احد هذه الميزات هي الحماية الخاصة التي توفر الامان لسيرفرك بتقييد تصرفات الادارة و وضع حدود على تنفيذ الاجراءات الادارية.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+يمكنك تطبيق الخطوات الاتية في لوحة التحكم لاعداد الرومات المؤقتة.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. انتقل الى لوحة التحكم و سجل دخولك. 
+2. اختر سيرفرك من القائمة على اليمين.
+3. اذهب الى القسم و تأكد من تفعيله
 
 :::
 
-## Adding Specific Roles
+## اضف رول معين
 
-By default, the `@everyone` role has no limits. However, ProBot allows you to add any desired role and set restrictions and limits.
+الوضع الافتراضي لا حدود لرتبة `@everyone`، يسمح لك بروبوت باضافة رتب ترغب في تعيين حدود و قيود لها.
 
-## Permissions Limits 
+## حدود الصلاحيات
 
-With ProBot, you can further restrict the actions of users with permissions and prevent them from causing trouble in the future. VIP Protection allows you to set limitations on the following actions:
+باستخدام الحماية الخاصة لبروبوت يمكنك تقييد اجراءات الادارة و منعهم من التصرف بطلاقة التي قد تسبب في مشاكل ، تتيح لك الحماية الخاصة وضع قيود على الاجراءات الاتية:
 
-- Ban 
-- Kick 
-- Channels (This limitation will apply to channel create/update/delete actions) 
-- Roles (This limitation will apply to role create/update/delete actions)
+- الحظر
+- الطرد
+- الرومات (الحدود سوف تطبق على انشاء/تعديل/حذف الرومات)
+- الرولات (الحدود سوف تطبق على انشاء/تعديل/حذف الرولات)
 
 :::note 
 
-Note that the roles limit does not include user role updates.
+يرجى العلم ان حدود الرولات لا تشمل تحديث رولات العضو.
 
 :::
 
-## Actions 
+## الاجراءات
 
-VIP Protection provides three different actions for each permission limit:
+الحماية الخاصة توفر ثلاثة اجراءات مختلفين لكل حدود الصلاحيات:
 
-1. Remove all administrative permission from all roles. 
-2. Remove administrative permission from user roles (**RECOMMENDED**). 
-3. Remove the administrative roles from the memeber. 
+1. إزالة جميع الصلاحيات الإدارية من الرولات.
+2. ازالة جميع الصلاحيات الإدارية من رولات العضو(**ينصح به**).
+3. إزالة الرولات الإدارية من العضو.
 
-You can select the action that fits your community best.
+يمكنك تحديد الاجراء الذي يناسبك.
 
 :::caution
 
-When the first two options are selected, the server ownership will receive a backup code in DMs to revert the role permissions.
+عند تحديد اول خيارين سيتلقى مالك السيرفر كود لاسترجاع الصلاحيات الذي قام البروبوت بازالتها.
 
 :::
 
-## Commands Limits 
+## حدود الاوامر
 
-VIP Protection also provides limits on specific commands, which you can set using ProBot commands. The following commands can have limits set:
+الحماية الخاصة توفر ايضا قيود على الاوامر الادارية والتي يمكن استخدامها بواسطة بروبوت ، يمكن تعيين حدود للاوامر الاتية:
 
-- Mute 
-- Vmute
-- Timeout 
-- Kick 
-- Ban 
-- Role 
+- الميوت
+- الميوت الصوتي
+- التايم اوت
+- الطرد
+- الحظر
+- الرول
 
-For the `/role` command, you have two additional options:
+بالنسبة لامر `/role` لديك خيارين اضافيان:
 
-- **Disabled Roles:** Prevent users with the `/role` permission from giving specific roles that they are able to.
+- **الرولات المعطلة:** منع الاعضاء الذين لديهم صلاحيات لاستخدام امر `/role` من اعطاء رولات معينة باستخدام الامر.
 
-- **Enables Roles:** Allow users with the `/role` permission to give specific roles.
+- **الرولات المفعلة:**
 
 :::caution
 
-Users with administrative permissions will bypass the role options
+السماح للاعضاء الذين لديهم صلاحيات لاستخدام امر `/role` باعطاء فقط رولات محددة بواسطة الامر.
 
 :::
 
 :::tip
 
-If a user has multiple roles, the higher limits will apply. Everyone's default role is `@everyone`
+إذا كان الشخص لديه اكثر من رتبة، سيتم تطبيق الحدود الأعلى. رتبة `@everyone` هي الرتبة الاساسية للجميع.
 
 :::
 
 :::warning
 
-These limits might not apply to bots due to how they work, be careful from inviting unknown bots.
+قد لا تنطبق هذه الحدود على البوت بسبب كيفية عملها، كن حذراً من دعوة بوت غير معروف.
 
 :::
 
-## Limits 
+## الحدود 
 
-Please note that there is no limit to the number of options available, so feel free to select your desired number without any restrictions.
+يرجى العلم انه لا يوجد حد لرقم حدود الخيارات المتاحة، لذلك لا تتردد في تحديد الرقم الذي تريده.
 
 
-## Protection Option 
+## اعدادات الحماية
 
-VIP Protection provides additional options to ensure that your server remains secure:
+توفر الحماية الخاصة خيارات اضافية لضمان بقاء الامان لسيرفرك:
 
-### Roles Without Administrative 
+### رولات بلا صلاحيات إدارية
 
-Probot will prevent roles without administrative permissions from being given such permissions by removing them when assigned.
+بروبوت سيمنع هذه الرتب من الحصول على صلاحيات إدارية عن طريق إزالة الصلاحيات عند منحها.
 
 :::tip
 
-It is recommended to add the `@everyone` role and the `auto role` to this list 
+ينصح باضافة رول `@everyone` و `الرولات التلقائية` في هذه القائمة.
 
 :::
 
-### Action When Another Bot Is Given An Administrative Role 
+### الأجراء عندما يتم إعطاء اي بوت رول يمتلك صلاحيات إدارية
 
-Probot can detect when another bot is given administrative permissions and take the following actions:
+بروبوت يستطيع معرفة عند منح بوت اخر صلاحيات ادارية و اتخاذ احد الاجراءات الاتية:
 
-1. Remove all administrative roles from the bot (**RECOMMENDED**). 
+1. إزالة جميع الرولات الإدارية من البوت (**ينصح به**).
 
-2. Remove all administrative permission from all roles (**Tier 2**).
+2. إزالة جميع الصلاحيات الإدارية من الرولات (بريميوم باقة 2).
 
-3. Kicks the bot.
+3. طرد البوت.
 
-When you select an action, a new option named **Whitelist Bot** will appear. You can input specific bot IDs that you think are safe to use and are safe for your community. Adding a bot to the whitelist will have ProBot bypass them and avoid taking any action.
+عند اختيار اجراء سيظهر خيار جديد باسم **البوتات المسموح بها** يمكنك ادخال ايدي البوتات التي تعتقد انها امنة و تريد السماح لها بتخطي حماية البوتات.
 
-### Who Can Access The Control Panel 
+### من يستطيع دخول لوحة تحكم بروبوت؟
 
-By default, any user with "Administrator" permission can access the VIP Protection control panel. However, you can limit access to the control panel for specific users. There are two options available
+الوضع الافتراضي يمكن لأي عضو لديه صلاحيات "ادمن ستريتر" بدخول لوحة التحكم السيرفر ، يمكنك تقييد الوصول الى لوحة التحكم لاشخاص محددين هناك خيارين متاحان
 
-1. Any user with `Administrator` permission 
+1. أي عضو يمتلك صلاحية `ادمن ستريتر`
 
-2. Owner + Specific member with `Administrator ` permission
+2. مالك السيرفر و اعضاء محددين لديهم `ادمن ستريتر`
 
-When **2** is chosen, a box will appear where you are able to enter the user ID's, also bear in mind that those specific users must have `Administrator` permission as well. 
+عند اختيار الخيار التاني سيظهر لك خيار باسم `الأعضاء` يمكنك ادخال به ايدي الاعضاء الذي تريد  سماح لهم بدخول لوحة التحكم، ضع في اعتبارك انهم بحاجة الى صلاحيات ادمن ستريتور ايضا للوصول الى لوحة تحكم السيرفر.
 
-Lastly, users with administrative permissions will have access by default to protection in which they will be able to edit the protection module as they desire without restrictions. However, you will have an option to restrict all users regardless of what permission they have to access the protection module. 
+اخيرا سيتمكن الاعضاء المحددين الذين لديهم صلاحيات ادمن ستريتر بالوصول الى لوحة التحكم السيرفر و سيتمكنون من تعديل الحماية الخاصة ولكن لديك الخيار الاتي لحصر تعديل الحماية الخاصة:
 
-- Restrict protection properties to the owner of the server
+- حصر تعديل خصائص الحماية على صاحب السيرفر
+
 
 
