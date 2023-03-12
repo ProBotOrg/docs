@@ -56,39 +56,39 @@ Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkı
 | /ban | Bir üyeyi yasaklayabilirsiniz | /ban [kullanıcı] (süre) (sebep) |
 | /unban | Bir üyenin yasaklanmasını kaldırırsınız | /unban [kullanıcı veya kullanıcı ID] |
 | /kick | Bir üyeyi sunucudan atabilirsiniz | /kick [kullanıcı] (sebep) |
-| /vkick | Kicks a member from a voice channel | /vkick [user] |
-| /mute text | Mute a member so they can't type in text channels | /mute text [user] (time) (reason) |
-| /unmute text | Unmutes a member | /unmute [user] |
-| /mute voice | Mute a member so they can't speak in voice channels | /mute voice [user] (time) (reason) |
-| /unmute voice | Unmutes a member from voice channels | /unmute voice [user] |
-| /timeout | Timeouts a member | /timeout [user] (time) (reason) |
-| /untimeout | Removes a timeout from a member | /untiemout [user] |
-| /clear | Cleans up channel messages | /clear (user/bots) (number of messages) | 
-| /move | Moves a member to another voice channel | /move [user] (user or channel) |
-| /role give | Add/remove role(s) for a member | /role give [user] [role] (bulk) |
-| /role remove | remove role(s) from a member | /role remove [user] [role] (bulk) |
-| /role multiple | Add/remove role(s) from members | /role multiple [give_or_remove] [role] [pick_type] (required role) |
-| /points set | Set the points of a user | /points set [user] [points] |
-| /points list | See all points | /points list (role) (page) |
-| /points decrease | Decrease the points of a user | /points decrease [user] [points] |
-| /points increase | Increase the points of a user | /points increase [user] [points] |
-| /points reset | Reset the points | /points reset (user) |
-| /warn | Warns a member | /warn [user] [reason] |
-| /warn_remove | Remove warnings for the server or user | /warn_remove [user/all/warnID] |
-| /warnings | Get the list of warnings for the server or a user | /warnings (user) |
-| /lock | Disables `@everyone` from sending messages in specific channel | /lock (channel) (reason) |
-| /unlock | Allows `@everyone` to send messages in specific channel | /unlock (channel) |
-| /setcolor | Changes role's color by hex codes | /setcolor [role name] [color code]
-| /slowmode | Enable or disable slowmode on a channel | /slowmode (time) |
-| /reset | Reset text/voice/invites xp points for all or specific members | /reset [text / voice / invites / limits) [all / user] |
+| /vkick | Bir üyeyi sesli kanaldan atarsınız | /vkick [kullanıcı] |
+| /mute text | Bir üyenin metin kanallarına yazmalarını engelleyebilirsiniz | /mute text [kullanıcı] (süre) (sebep) |
+| /unmute text | Bir üyenin metin kanallarında ki susturmasını kaldırabilirsiniz | /unmute [kullanıcı] |
+| /mute voice | Bir üyenin sesli kanallarda konuşmalarını engelleyebilirsiniz | /mute voice [kullanıcı] (süre) (sebep) |
+| /unmute voice | Bir üyenin sesli kanallarda ki susturmasını kaldırabilirsiniz | /unmute voice [kullanıcı] |
+| /timeout | Bir üyenin mesaj göndermesini/tepki eklemesini veya sesli kanallara katılmasını engelleyin | /timeout [kullanıcı] (süre) (sebep) |
+| /untimeout | Bir üyenin zaman aşımı cezasını kaldırın | /untiemout [kullanıcı] |
+| /clear | Kanalda bulunan mesajları temizleyin | /clear (user/bots) (mesaj sayısı) | 
+| /move | Bir üyeyi başka bir ses kanalına taşıyın | /move [kullanıcı] (kullanıcı veya kanal) |
+| /role give | Bir üye için rol ekleyin/kaldırın | /role give [kullanıcı] [rol] (toplu rol) |
+| /role remove | Bir üyeden rolleri kaldırın | /role remove [kullanıcı] [rol] (toplu rol) |
+| /role multiple | Üyelerden rol(ler) ekleyin/çıkarın | /role multiple [give_veya_remove] [rol] [verilecek_kişi_tür] (gereken rol) |
+| /points set | Bir kullanıcının puanını ayarlayın | /points set [kullanıcı] [puan] |
+| /points list | Tüm puanları görüntüleyin | /points list (rol) (sayfa) |
+| /points decrease | Bir kullanıcının puanlarını azaltın | /points decrease [kullanıcı] [puan] |
+| /points increase | Bir kullanıcının puanlarını arttırın | /points increase [kullanıcı] [puan] |
+| /points reset | Puanları sıfırlayın | /points reset (kullanıcı) |
+| /warn | Bir üyeyi uyarın | /warn [kullanıcı] [sebep] |
+| /warn_remove | Bir kullanıcının/bütün herkesin uyarılarını kaldırın | /warn_remove [kullanıcı/all/warnID] |
+| /warnings | Bir Kullanıcının/herkesin uyarılarının listesini görüntüleyin | /warnings (kullanıcı) |
+| /lock | `@everyone` rolünün o kanala mesaj göndermesini engelleyin | /lock (kanal) (sebep) |
+| /unlock | `@everyone` rolünün o kanala mesaj göndermesini tekrar etkinleştirin | /unlock (kanal) |
+| /setcolor | Rolün rengini girdiğiniz HEX kodlarıyla değiştirir | /setcolor [rol ismi] [renk kodu]
+| /slowmode | Bir kanalda yavaş modu etkinleştirin/devre dışı bırakın | /slowmode (süre) |
+| /reset | Tüm üyelerin/belirli üyelerin Metin/ses/davetiye XP puanlarını sıfırlayın | /reset [text / voice / invites / limits) [all / kullanıcı] |
 
 <details>
 
-<summary>Important Moderation Notes</summary>
+<summary>Önemli Moderasyon Notları</summary>
 
-- Only users with `Administrator` permission, `Mod Roles` on the dashboard, or the permission for that command can use moderation commands. __For example__, users with ban permission can use the `/ban` command.
+- Sadece `Yönetici` iznine, kontrol panelinde `Mod Rolleri`ne veya o komutun iznine sahip kullanıcılar moderasyon komutlarını kullanabilir. __Örneğin__, yasaklama iznine sahip kullanıcılar `/ban` komutunu kullanabilir.
 
-- If no time was specified, the default time duration for all time-input commands is **3 months**; this can be modified at any time. 
+- Komut kullanılırken zaman belirtilmez ise, tüm komutları için varsayılan süre **3 aydır**; Bu zaman değiştirilebilir.
 
 </details>
 
