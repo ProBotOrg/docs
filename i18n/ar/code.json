@@ -7,13 +7,13 @@
     "message": "المقدمة"
   },
   "homepage.feature_one_category_first": {
-    "message": "اعداد لوحة التحكم"
+    "message": "إعداد لوحة التحكم"
   },
   "homepage.feature_one_description_first": {
-    "message": "لوحة التحكم قاعدتك الشاملة لادارة سيرفرك"
+    "message": "لوحة التحكم هي قاعدتك الشاملة لإدارة سيرفرك"
   },
   "homepage.feature_one_category_second": {
-    "message": "اعداد بروبوت"
+    "message": "إعداد بروبوت"
   },
   "homepage.feature_one_description_second": {
     "message": "دعوة بروبوت خطوة بـ خطوة"
@@ -25,16 +25,16 @@
     "message": "أسئلة مكررة"
   },
   "homepage.feature_two_category_one": {
-    "message": "الاقسام"
+    "message": "الأقسام"
   },
   "homepage.feature_two_description_first": {
-    "message": "تخصيص رسائل ترحيب و وداع لادارة سيرفرك"
+    "message": "تخصيص رسائل ترحيب والمغادرة إدارة سيرفرك"
   },
   "homepage.feature_two_description_second": {
-    "message": "الرولات القابلة للاخذ"
+    "message": "الرولات القابلة للأخذ"
   },
   "homepage.feature_two_description_third": {
-    "message": "انشاء ايمبد بسهولة لسيرفرك!"
+    "message": "إنشاء إيمبد بسهولة لسيرفرك!"
   },
   "homepage.feature_two_description_four": {
     "message": "نظام اللفلات"
@@ -43,19 +43,19 @@
     "message": "لمعرفة المزيد"
   },
   "homepage.category_first_section": {
-    "message": "ادارة سيرفرك"
+    "message": "إدارة سيرفرك"
   },
   "homepage.category_second_section": {
-    "message": "الاقسام"
+    "message": "الأقسام"
   },
   "homepage.header_welcome": {
-    "message": "مرحبا بك في دليل استخدام بروبوت!"
+    "message": "مرحبا بك في دليل إستخدام بروبوت!"
   },
   "homepage.header_welcome_description": {
-    "message": "بروبوت هو بوت متعدد الأغراض و قابل للتخصيص بشكل مثالي و يوفر مميزات مثل الترحيب، اللوق، و الاوامر العامة، الإشراف، الرولات القابلة للأخذ، إشعارات السوشيال ميديا، و الحماية لسيرفرك."
+    "message": "بروبوت هو بوت متعدد المميزات وقابل للتخصيص بشكل مثالي يوفر ميزات مثل الترحيب ، اللوق ، الأوامر العامة والإدارية ، الرتب القابلة للأخذ ، إشعارات وسائل التواصل الإجتماعي وحماية الخادم الخاص بك."
   },
   "homepage.header_go_to_docs": {
-    "message": "اذهب الى المستندات"
+    "message": "إذهب إلى المستندات"
   },
   "theme.ErrorPageContent.title": {
     "message": "هذه الصفحة لا تستجيب.",
@@ -66,7 +66,7 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "الصفحة غير موجودة",
+    "message": "الصفحة غير متوفرة",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
@@ -98,7 +98,7 @@
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "أنتقل للأعلى",
+    "message": "إنتقل للأعلى",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -404,15 +404,15 @@
     "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "to navigate",
+    "message": "للتنقل",
     "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Arrow up",
+    "message": "السهم للأعلى",
     "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Arrow down",
+    "message": "السهم للأسفل",
     "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.closeText": {
@@ -420,11 +420,11 @@
     "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Escape key",
+    "message": "مفتاح الإغلاق",
     "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Search by",
+    "message": "البحث بواسطة",
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
@@ -436,7 +436,7 @@
     "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Believe this query should return results?",
+    "message": "هل تعتقد أن هذا البحث يجب أن يعود بنتائج؟",
     "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
@@ -444,7 +444,7 @@
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Search docs",
+    "message": "بحث المستندات",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.common.skipToMainContent": {
