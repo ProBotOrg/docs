@@ -4,58 +4,58 @@
     "description": "The label used to navigate to the next doc"
   },
   "homepage.introduction": {
-    "message": "Introduction"
+    "message": "المقدمة"
   },
   "homepage.feature_one_category_first": {
-    "message": "Dashboard Setup"
+    "message": "اعداد لوحة التحكم"
   },
   "homepage.feature_one_description_first": {
-    "message": "Dashboard Your One-Stop-Shop for Server Management"
+    "message": "لوحة التحكم قاعدتك الشاملة لادارة سيرفرك"
   },
   "homepage.feature_one_category_second": {
-    "message": "Setup ProBot"
+    "message": "اعداد بروبوت"
   },
   "homepage.feature_one_description_second": {
-    "message": "Step by Step to invite ProBot"
+    "message": "دعوة بروبوت خطوة بـ خطوة"
   },
   "homepage.feature_one_category_third": {
-    "message": "FAQ"
+    "message": "اسئلة شائعة"
   },
   "homepage.feature_one_description_third": {
-    "message": "Frequently Asked Questions"
+    "message": "أسئلة مكررة"
   },
   "homepage.feature_two_category_one": {
-    "message": "Modules"
+    "message": "الاقسام"
   },
   "homepage.feature_two_description_first": {
-    "message": "Custom Welcome and Goodbye Messages for Engaging Discord Server Management"
+    "message": "تخصيص رسائل ترحيب و وداع لادارة سيرفرك"
   },
   "homepage.feature_two_description_second": {
-    "message": "Self-Assignable Roles"
+    "message": "الرولات القابلة للاخذ"
   },
   "homepage.feature_two_description_third": {
-    "message": "Easily create embeds for your server!"
+    "message": "انشاء ايمبد بسهولة لسيرفرك!"
   },
   "homepage.feature_two_description_four": {
-    "message": "Level System"
+    "message": "نظام اللفلات"
   },
   "homepage.learn_more": {
-    "message": "Learn More"
+    "message": "لمعرفة المزيد"
   },
   "homepage.category_first_section": {
-    "message": "Server management"
+    "message": "ادارة سيرفرك"
   },
   "homepage.category_second_section": {
-    "message": "Modules"
+    "message": "الاقسام"
   },
   "homepage.header_welcome": {
-    "message": "Welcome to the ProBot Docs!"
+    "message": "مرحبا بك في دليل استخدام بروبوت!"
   },
   "homepage.header_welcome_description": {
-    "message": "ProBot is a highly configurable, multipurpose bot that offers features like image greeting, detailed logs, social commands, moderation, self-assignable roles, social media notifications, and protection for your server."
+    "message": "بروبوت هو بوت متعدد الأغراض و قابل للتخصيص بشكل مثالي و يوفر مميزات مثل الترحيب، اللوق، و الاوامر العامة، الإشراف، الرولات القابلة للأخذ، إشعارات السوشيال ميديا، و الحماية لسيرفرك."
   },
   "homepage.header_go_to_docs": {
-    "message": "Go to Docs"
+    "message": "اذهب الى المستندات"
   },
   "theme.ErrorPageContent.title": {
     "message": "هذه الصفحة لا تستجيب.",
@@ -82,7 +82,7 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "تمليح",
+    "message": "نصيحة",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
@@ -94,7 +94,7 @@
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.caution": {
-    "message": "حذر",
+    "message": "انتبه",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -360,47 +360,47 @@
     "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Cancel",
+    "message": "الغاء",
     "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Recent",
+    "message": "مؤخرًا",
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "No recent searches",
+    "message": "لا توجد عمليات بحث حديثة",
     "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Save this search",
+    "message": "حفظ البحث",
     "description": "The label for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Remove this search from history",
+    "message": "ازالة البحث من السجل",
     "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Favorite",
+    "message": "مفضل",
     "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Remove this search from favorites",
+    "message": "إزالة هذا البحث من المفضلات",
     "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Unable to fetch results",
+    "message": "تعذر جلب النتائج",
     "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "You might want to check your network connection.",
+    "message": "يرجى التحقق من اتصالك بالانترنت..",
     "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "to select",
+    "message": "لتحديد",
     "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter key",
+    "message": "ادخل مفتاح",
     "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.navigateText": {
@@ -416,7 +416,7 @@
     "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "to close",
+    "message": "لإغلاق",
     "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
@@ -428,11 +428,11 @@
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "No results for",
+    "message": "لا توجد نتائج لـ",
     "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Try searching for",
+    "message": "حاول البحث عن",
     "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
@@ -440,7 +440,7 @@
     "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Let us know.",
+    "message": "دعنا نعرف.",
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
