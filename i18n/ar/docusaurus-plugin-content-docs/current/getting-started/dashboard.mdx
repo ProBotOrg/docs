@@ -1,39 +1,40 @@
 ---
 sidebar_position: 2
 slug: /getting-started/dashboard
-title: Dashboard Setup
-description: A comprehensive guide on using the dashboard to manage your server and configure modules and commands.
+title: إعداد لوحة التحكم
+description: مستند شامل حَول إستخدام لوحة التحكم لإدارة السيرفر الخاص بك وإعداد الأقسام والأوامر.
 keywords: [dashboard, configuration, manage, server, modules]
 ---
 
-# Dashboard: Your One-Stop-Shop for Server Management
+# لوحة التحكم: قاعدتك الشاملة لإدارة سيرفرك
 
-The Dashboard is the heart of your server's configuration. It provides an easy-to-use interface for managing all modules and commands. Say goodbye to complex and time-consuming command line configurations!
+لوحة التحكم هي عنصر أساسي لإعداد سيرفرك، توفر لك واجهة سهلة الأستخدام لإدارة جميع الأقسام و الأوامر، الوداع لأوامر الإعداد المعقدة و المضيعة للوقت!
 
-## Accessing the Dashboard
+## الوصول إلى لوحة التحكم
 
-Accessing the Dashboard is simple and straightforward. Here are the steps:
-- Navigate to the [website](https://probot.io/) and log in to your account.
-- The dashboard button will appear on the same page, click it to access the dashboard.
+الوصول الى لوحة التحكم أمر بسيط و مباشر، إتبع الخطوات:
+- توجه الى [موقعنا](https://probot.io/) وقم بتسجيل الدخول إلى حسابك.
+- سوف تجد زر لوحة التحكم في نفس الصفحة, إضغط عليه للدخول إلى لوحة التحكم.
 
 :::caution
-You need `Administrator` permission to see your server on the list.
+انت بحاجة إلى صلاحية `Administrator` لرؤية سيرفرك في القائمة
 :::
 
-## Configuring Modules and Commands
+## إعداد الأقسام و الأوامر
 
-Every module in the Dashboard comes with a switch button in the top-right corner, which allows you to disable all commands within that module. In addition, each command has its own switch button to enable or disable it, as well as an edit button to make customizations.
+في جميع أقسام لوحة التحكم يوجد زر في الزواية اليسرى في الأعلى تسمح لك بتعطيل جميع الأوامر داخل القسم، بالإضافة إلى ذالك زر بجانب كل أمر لتعطيل او تفعيل الأمر بالإضافة إلى زر التعديل لتخصيص الأمر.
 
-Here are some of the customization options available for each command:
-- **Alias**: A custom alias for the command, making it easy to remember and use.
-- **Enabled Roles**: Limit who can use the command to specific roles.
-- **Disabled Roles**: Prevent certain roles from using the command.
-- **Enabled Channels**: The bot will only respond to the command in specified channels.
-- **Disabled Channels**: The bot won't respond to the command in these channels.
-- **Auto-delete with message deletion**: The bot's response will be deleted if the sender deletes their message.
-- **Auto-delete command invocation message**: The command message sent by the sender will be deleted immediately after sending.
-- **Auto-delete bot's reply message after 5 seconds**: The bot's reply will be deleted 5 seconds after it was sent.
+فيما يلي بعض خيارات التخصيص المتاحة لكل أمر:
+- **الإختصارات**: إختصار مخصص للأمر يسهل عليك إستخدام الأمر و تذكره.
+- **الرولات المفعلة**: السماح لأصحاب الرولات المفعلة المحددة من إاستخدام الأمر.
+- **الرولات المعطلة**: منع أصحاب الرولات المعطلة المحددة من إستخدام الأمر.
+- **الرومات المفعلة**: الإستجابة للأمر عبر الرومات المفعلة المحددة فقط.
+- **الرومات المعطلة**: عدم الإستجابة للأمر عبر الرومات المعطلة المحددة فقط.
+- **حذف رد البوت تلقائياً عندما يتم حذف رسالة العضو**: سيتم حذف رد البوت إذا تم حذف رسالة المرسل.
+- **الحذف التلقائي للأمر المستدعى**: سيتم حذف رسالة الأمر تلقائي عند إرساله.
+- **مسح تلقائي لرسالة الرد من البوت بعد ٥ ثواني**: سيتم حذف رد البوت بعد 5 ثواني من إرسال الرد.
 
 :::caution
-Don't see your server on the list? This means you don't have the `Administrator` permission required for full access to the Dashboard. Ensure your role has the `Administrator` permission explicitly granted in your role setting.
+لا يظهر سيرفرك في القائمة ؟ هذا يعني انك لا تمتلك صلاحية `Administrator`
+يرجى التأكد من حصولك على صلاحية `Administrator` .
 :::
