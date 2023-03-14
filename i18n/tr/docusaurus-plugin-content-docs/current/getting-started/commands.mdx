@@ -46,40 +46,40 @@ Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkı
 | /user | Kullanıcı bilgilerini/bilgilerinizi görüntüleyebilirsiniz | /user (kullanıcı) |
 | /avatar | Profil fotoğrafını/fotoğrafınızı getirir | /avatar (kullanıcı) |
 | /server | Sunucu hakkında bilgileri gösterir | /server |
-| /roles | Sunucuda ki roller ve üyeler hakkında bilgi almak için kullanabilirsiniz | /roles |
+| /roles | Sunucudaki roller ve üyeler hakkında bilgi almak için kullanabilirsiniz | /roles |
 
 ## Moderasyon
 
 | Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /setnick | Bir üyenin takma adını değiştirebilirsiniz | /setnick [kullanıcı] (kullanıcı_adı) |
-| /ban | Bir üyeyi yasaklayabilirsiniz | /ban [kullanıcı] (süre) (sebep) |
-| /unban | Bir üyenin yasaklanmasını kaldırırsınız | /unban [kullanıcı veya kullanıcı ID] |
-| /kick | Bir üyeyi sunucudan atabilirsiniz | /kick [kullanıcı] (sebep) |
-| /vkick | Bir üyeyi sesli kanaldan atarsınız | /vkick [kullanıcı] |
-| /mute text | Bir üyenin metin kanallarına yazmalarını engelleyebilirsiniz | /mute text [kullanıcı] (süre) (sebep) |
-| /unmute text | Bir üyenin metin kanallarında ki susturmasını kaldırabilirsiniz | /unmute [kullanıcı] |
-| /mute voice | Bir üyenin sesli kanallarda konuşmalarını engelleyebilirsiniz | /mute voice [kullanıcı] (süre) (sebep) |
-| /unmute voice | Bir üyenin sesli kanallarda ki susturmasını kaldırabilirsiniz | /unmute voice [kullanıcı] |
-| /timeout | Bir üyenin mesaj göndermesini/tepki eklemesini veya sesli kanallara katılmasını engelleyin | /timeout [kullanıcı] (süre) (sebep) |
-| /untimeout | Bir üyenin zaman aşımı cezasını kaldırın | /untiemout [kullanıcı] |
+| /setnick | Üyenin sunucudaki ismini değiştirebilirsiniz | /setnick [kullanıcı] (kullanıcı_adı) |
+| /ban | Üyeyi yasaklayabilirsiniz | /ban [kullanıcı] (süre) (sebep) |
+| /unban | Üyenin yasaklanmasını kaldırırsınız | /unban [kullanıcı veya kullanıcı ID] |
+| /kick | Üyeyi sunucudan atabilirsiniz | /kick [kullanıcı] (sebep) |
+| /vkick | Üyeyi sesli kanaldan atarsınız | /vkick [kullanıcı] |
+| /mute text | Üyenin metin kanallarına yazmalarını engelleyebilirsiniz | /mute text [kullanıcı] (süre) (sebep) |
+| /unmute text | Üyenin metin kanallarında ki susturmasını kaldırabilirsiniz | /unmute [kullanıcı] |
+| /mute voice | Üyenin sesli kanallarda konuşmalarını engelleyebilirsiniz | /mute voice [kullanıcı] (süre) (sebep) |
+| /unmute voice | Üyenin sesli kanallarda ki susturmasını kaldırabilirsiniz | /unmute voice [kullanıcı] |
+| /timeout | Üyenin mesaj göndermesini/tepki eklemesini veya sesli kanallara katılmasını engelleyin | /timeout [kullanıcı] (süre) (sebep) |
+| /untimeout | Üyenin zaman aşımı cezasını kaldırın | /untimeout [kullanıcı] |
 | /clear | Kanalda bulunan mesajları temizleyin | /clear (user/bots) (mesaj sayısı) | 
-| /move | Bir üyeyi başka bir ses kanalına taşıyın | /move [kullanıcı] (kullanıcı veya kanal) |
-| /role give | Bir üye için rol ekleyin/kaldırın | /role give [kullanıcı] [rol] (toplu rol) |
-| /role remove | Bir üyeden rolleri kaldırın | /role remove [kullanıcı] [rol] (toplu rol) |
-| /role multiple | Üyelerden rol(ler) ekleyin/çıkarın | /role multiple [give_veya_remove] [rol] [verilecek_kişi_tür] (gereken rol) |
-| /points set | Bir kullanıcının puanını ayarlayın | /points set [kullanıcı] [puan] |
+| /move | Üyeyi başka bir ses kanalına taşıyın | /move [kullanıcı] (kullanıcı veya kanal) |
+| /role give | Üyeye rol ekleyin/kaldırın | /role give [kullanıcı] [rol] (toplu rol) |
+| /role remove | Üyeden rolleri kaldırın | /role remove [kullanıcı] [rol] (toplu rol) |
+| /role multiple | Üyelerden rol(ler) ekleyin/çıkarın | /role multiple [give or_remove] [rol] [pick_type] (rol) |
+| /points set | Kullanıcının puanını ayarlayın | /points set [kullanıcı] [puan] |
 | /points list | Tüm puanları görüntüleyin | /points list (rol) (sayfa) |
-| /points decrease | Bir kullanıcının puanlarını azaltın | /points decrease [kullanıcı] [puan] |
-| /points increase | Bir kullanıcının puanlarını arttırın | /points increase [kullanıcı] [puan] |
+| /points decrease | Kullanıcının puanlarını azaltın | /points decrease [kullanıcı] [puan] |
+| /points increase | Kullanıcının puanlarını arttırın | /points increase [kullanıcı] [puan] |
 | /points reset | Puanları sıfırlayın | /points reset (kullanıcı) |
-| /warn | Bir üyeyi uyarın | /warn [kullanıcı] [sebep] |
-| /warn_remove | Bir kullanıcının/bütün herkesin uyarılarını kaldırın | /warn_remove [kullanıcı/all/warnID] |
-| /warnings | Bir Kullanıcının/herkesin uyarılarının listesini görüntüleyin | /warnings (kullanıcı) |
-| /lock | `@everyone` rolünün o kanala mesaj göndermesini engelleyin | /lock (kanal) (sebep) |
-| /unlock | `@everyone` rolünün o kanala mesaj göndermesini tekrar etkinleştirin | /unlock (kanal) |
+| /warn | Üyeyi uyarın | /warn [kullanıcı] [sebep] |
+| /warn_remove | Kullanıcının/bütün herkesin uyarılarını kaldırın | /warn_remove [kullanıcı/all/warnID] |
+| /warnings | Kullanıcının/herkesin uyarılarının listesini görüntüleyin | /warnings (kullanıcı) |
+| /lock | `@everyone` rolünün kanala mesaj göndermesini engelleyin | /lock (kanal) (sebep) |
+| /unlock | `@everyone` rolünün kanala mesaj göndermesini tekrar etkinleştirin | /unlock (kanal) |
 | /setcolor | Rolün rengini girdiğiniz HEX kodlarıyla değiştirir | /setcolor [rol ismi] [renk kodu]
-| /slowmode | Bir kanalda yavaş modu etkinleştirin/devre dışı bırakın | /slowmode (süre) |
+| /slowmode | Kanalda yavaş modu etkinleştirin/devre dışı bırakın | /slowmode (süre) |
 | /reset | Tüm üyelerin/belirli üyelerin Metin/ses/davetiye XP puanlarını sıfırlayın | /reset [text / voice / invites / limits) [all / kullanıcı] |
 
 <details>
@@ -96,17 +96,17 @@ Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkı
 
 :::caution 
 
-The following commands are only available to premium subscribers.
+Aşağıdaki komutlar yalnızca premium aboneler tarafından kullanılabilir.
 
 :::
 
-| Command | Explanation | Usage |
+| Komut | Açıklama | Kullanım |
 | ------------- |:-------------:|:-------------:|
-| /vip info | Shows information about your premium bot | /vip |
-| /vip move | Move your premium bot to a new server `Tier 2` | /vip move [number] |
-| /vip restart | Restart your premium bot `Tier 2` | /vip restart |
-| /vip whitelist | Whitelist a user to allow access to the ProBot dashboard | /vip whitelist [user] |
-| /vip avatar | Change your bot's avatar `Tier 2` | /vip avatar |
-| /vip username | Change your bot's username `Tier 2` | /vip username [name] |
-| /vip status | Change your bot's status `Tier 2` | /vip status [status] |
-| /vip transfer | Transfer your bot ownership to another user `Tier 2` | /vip transfer [user]
+| /vip info | Premium botunuzla ilgili bilgileri gösterir | /vip |
+| /vip move | Premium botunuzu yeni bir sunucuya taşıyın `Tier 2` | /vip move [bot numarası] |
+| /vip restart | Premium botunuzu yeniden başlatın `Tier 2` | /vip restart |
+| /vip whitelist | ProBot yönetim paneline erişime izin vermek için bir kullanıcıyı beyaz listeye ekleyin | /vip whitelist [kullanıcı] |
+| /vip avatar | Premium botunuzun profil resmini değiştirin `Tier 2` | /vip avatar |
+| /vip username | Premium botunuzun ismini değiştirin `Tier 2` | /vip username [isim] |
+| /vip status | Premium botunuzun durumunu değiştirin `Tier 2` | /vip status [durum] |
+| /vip transfer | Bot sahipliğini başka bir kullanıcıya aktarın `Tier 2` | /vip transfer [kullanıcı]
