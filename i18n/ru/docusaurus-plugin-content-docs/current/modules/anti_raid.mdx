@@ -10,6 +10,7 @@ keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take]
 Эта функция доступна только для подписчиков `Уровня 2`.
 
 :::
+
 Функция Антирейд ProBot позволяет вам защитить ваш сервер от нежелательных рейдеров. С этой функцией вы можете настроить систему, которая автоматически обнаруживает рейдеров и принимает меры против них, основываясь на желаемой вами конфигурации.
 
 :::info
@@ -32,19 +33,20 @@ keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take]
 
 > **3 Месяца**: ProBot будет обнаруживать аккаунты, возраст которых меньше или равен трём месяцам, и принимать против них меры.
 
-> **None**: This option will detect all account ages, regardless of how long the account has existed.
+> **Нет**: Этот параметр обнаруживает все возрасты аккаунта, независимо от того, как долго он существует.
 
 
-## List Length
+## Длина списка
 
-The number of people that must join for ProBot to start an anti-raid. This can be set between 5 and 100.
+Количество людей, которые должны присоединиться, чтобы ProBot начал антирейд. Этот параметр можно установить в диапазоне от 5 до 100.
 
-## Time To Fill The List (Seconds)
+## Время заполнения списка (Секунды)
 
-The time frame within which ProBot will detect users joining. With this option, you can set how much time raiders have to join before ProBot starts taking action.
+Временной интервал, в течение которого ProBot будет обнаруживать присоединение пользователей. С помощью этого параметра вы можете установить, сколько времени должно пройти с момента присоединения рейдеров до того, как ProBot начнет действовать.
 
-:::info How It Works
+:::info Как это работает
 
+Например, если вы установили возраст аккаунта на `1 Неделю`, длину списка на `5` и время в секундах на `5`, то антирейд активируется, как только `5` пользователей с возрастом аккаунта `1 неделя` присоединятся за 5 секунд. Это значит, что если `5` пользователей присоединятся за `5` секунд и возраст всех их аккаунтов меньше или равен 1 неделе
 As an example, if you set the account age to `1 Week`, the list length to `5`, and the time in seconds to `5`, the anti-raid system will start as soon as `5` users with an account age of `1 week` join within `5` seconds. This means that if `5` users join your server within `5` seconds and they all have accounts that are less than or equal to one week old, ProBot will start taking action against them.
 
 :::
