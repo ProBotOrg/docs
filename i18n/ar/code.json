@@ -16,7 +16,7 @@
     "message": "إعداد بروبوت"
   },
   "homepage.feature_one_description_second": {
-    "message": "دعوة بروبوت خطوة بـ خطوة"
+    "message": "إعداد بروبوت خطوة بـ خطوة"
   },
   "homepage.feature_one_category_third": {
     "message": "اسئلة شائعة"
@@ -28,13 +28,13 @@
     "message": "الأقسام"
   },
   "homepage.feature_two_description_first": {
-    "message": "تخصيص رسائل ترحيب والمغادرة"
+    "message": "تخصيص رسالة الترحيب والمغادرة"
   },
   "homepage.feature_two_description_second": {
     "message": "الرولات القابلة للأخذ"
   },
   "homepage.feature_two_description_third": {
-    "message": "إنشاء إيمبد بسهولة لسيرفرك!"
+    "message": "إنشاء إيمبد بسهولة في سيرفرك!"
   },
   "homepage.feature_two_description_four": {
     "message": "نظام اللفلات"
@@ -49,7 +49,7 @@
     "message": "الأقسام"
   },
   "homepage.header_welcome": {
-    "message": "مرحبا بك في دليل إستخدام بروبوت!"
+    "message": "مرحبًا بك في مستندات بروبوت!"
   },
   "homepage.header_welcome_description": {
     "message": "بروبوت هو بوت متعدد المميزات وقابل للتخصيص بشكل مثالي يوفر ميزات مثل الترحيب ، اللوق ، الأوامر العامة والإدارية ، الرتب القابلة للأخذ ، إشعارات وسائل التواصل الإجتماعي وحماية الخادم الخاص بك."
