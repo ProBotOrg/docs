@@ -142,41 +142,41 @@ keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles,
 
 У вас будет 2 варианта для управления типами уведомления, хотите ли вы, чтобы он реагировал на взаимодействие пользователя или молчал: без уведомления:
 
-## Notify Type
+## Уведомление
 
-This option will send a reply message that can only be seen by the user who interacted with the interaction as they add, remove, or make no changes to the roles to keep them tuned.
+Этот вариант отправит ответное сообщение, которое может видеть только пользователь, который взаимодействовал с вариантами, когда роли добавлены, удалены или без изменений.
 
-1. The first option is the reply message when the role is added.
-2. The second option is the reply message when the role is removed.
-3. The third option is when no changes have been made to the user roles.
+1. Первый вариант — ответное сообщение, когда роль была добавлена.
+2. Второй вариант — ответное сообщение, когда роль была убрана.
+3. Третий вариант — когда никаких изменений в ролях пользователя не произошло.
 
 :::info
 
-To have the bot mention the role, include `{0}` in the reply message, as it refers to the role.
+Чтобы бот упомянул роль, включите `{0}` в ответное сообщение, так как оно относится к роли.
 
 :::
 
-## Silent Type
+## Тихий режим
 
-If you want to keep things quiet without drawing the user's attention to any reply messages from the bot, this option is for you because it will not display any reply messages.
+Если вы хотите сделать все тихо, не привлекая внимания пользователя к ответным сообщениям бота, этот вариант для вас, поскольку он не будет отображать никаких ответных сообщений.
 
-
-# Important Notes
+# Важные замечания
 
 :::warning
 
+Реакция может сломаться, если вы выбрали кнопки или меню выбора в фоновом режиме, но вы их не используете; чтобы решить эту проблему, необходимо удалить все опции меню выбора и кнопки, которые вы добавили в том же сообщении, но не используете.
 The reaction may break if you have select menus or buttons in the background but aren't using them; to resolve this issue, you need to delete any select menu and button options that you may have added on the same message but aren't using.
 
 :::
 
 :::warning
 
-You are not allowed to link multiple messages with self-assignable roles to the same embedded message because doing so may cause problems.
+Вам не можете связать несколько сообщений с самоназначаемыми ролями к одному и тому же embed-сообщению, поскольку это может вызвать проблемы.
 
 :::
 
 :::info
 
-You need to subscribe to the `Premium Tier 1/2` tier to set multiple roles for the same option.
+Вам нужно подписаться на `Премиум 1/2 уровня`, чтобы установить несколько ролей на один вариант.
 
 :::
