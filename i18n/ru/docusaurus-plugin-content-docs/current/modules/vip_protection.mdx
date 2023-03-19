@@ -17,104 +17,103 @@ ProBot — это мощный бот для Discord, который помож�
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Панель управления — это место, где осуществляется управление описанными здесь конфигурациями.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Перейдите в панель управления и авторизуйтесь. 
+2. Выберите ваш сервер в левом меню.
+3. Выберите модуль и убедитесь, что он включён. 
 
 :::
 
-## Adding Specific Roles
+## Добавление определённых ролей
 
-By default, the `@everyone` role has no limits. However, ProBot allows you to add any desired role and set restrictions and limits.
+По умолчанию роль `@everyone` не имеет лимитов. Тем не менее, ProBot позволяет вам добавить любую желаемую роль и установить ограничения и лимиты.
 
-## Permissions Limits 
+## Лимиты разрешений
 
-With ProBot, you can further restrict the actions of users with permissions and prevent them from causing trouble in the future. VIP Protection allows you to set limitations on the following actions:
+С ProBot вы можете дополнительно ограничить действия пользователей с правами и предотвратить возникновение проблем в будущем. VIP Защита позволяет установить ограничения на следующие действия:
 
-- Ban 
-- Kick 
-- Channels (This limitation will apply to channel create/update/delete actions) 
-- Roles (This limitation will apply to role create/update/delete actions)
+- Бан
+- Кик
+- Каналы (Это ограничение будет применяться при создании/обновлении/удалении) 
+- Роли (Это ограничение будет применяться при создании/обновлении/удалении)
 
 :::note 
 
-Note that the roles limit does not include user role updates.
+Обратите внимание, что лимит ролей не включает обновления ролей пользователя.
 
 :::
 
-## Actions 
+## Действия
 
-VIP Protection provides three different actions for each permission limit:
+VIP Защита предоставляет три различных действия для каждого лимита разрешения:
 
-1. Remove all administrative permission from all roles. 
-2. Remove administrative permission from user roles (**RECOMMENDED**). 
-3. Remove the administrative roles from the memeber. 
+1. Удалить административные разрешения со всех ролей. 
+2. Удалить административные разрешения с ролей пользователя (**РЕКОМЕНДУЕТСЯ**). 
+3. Удалить все административные роли с участника. 
 
-You can select the action that fits your community best.
+Вы можете выбрать действие, которое лучше всего подходит для вашего сообщества.
 
 :::caution
 
-When the first two options are selected, the server ownership will receive a backup code in DMs to revert the role permissions.
+При выборе первых двух вариантов владелец сервера получит в ЛС резервный код для восстановления разрешений роли.
 
 :::
 
-## Commands Limits 
+## Лимиты команд
 
-VIP Protection also provides limits on specific commands, which you can set using ProBot commands. The following commands can have limits set:
+VIP Защита также предоставляет ограничения на определенные команды, которые вы можете установить с помощью команд ProBot. Следующие команды могут иметь установленные ограничения:
 
-- Mute 
-- Vmute
-- Timeout 
-- Kick 
-- Ban 
-- Role 
+- Мут
+- Голосовой мут
+- Тайм-аут
+- Кик
+- Бан
+- Роль
 
-For the `/role` command, you have two additional options:
+Для команды `/role` у вас есть две дополнительные опции:
 
-- **Disabled Roles:** Prevent users with the `/role` permission from giving specific roles that they are able to.
+- **Отключённые роли:** Препятствует пользователям с разрешением `/role` от предоставления определённых ролей, которые они могут выдать.
 
-- **Enables Roles:** Allow users with the `/role` permission to give specific roles.
+- **Разрешённые роли:** Разрешает пользователям с разрешением `/role` выдавать определённые роли.
 
 :::caution
 
-Users with administrative permissions will bypass the role options
+Пользователи с административными правами обходят опции ролей
 
 :::
 
 :::tip
 
-If a user has multiple roles, the higher limits will apply. Everyone's default role is `@everyone`
+Если у участника несколько ролей, то будут применены более высокие лимиты. Роль по умолчанию для всех – @everyone.
 
 :::
 
 :::warning
 
-These limits might not apply to bots due to how they work, be careful from inviting unknown bots.
+Эти лимиты не применяются к ботам из-за их работы, поэтому будьте осторожны, приглашая неизвестных ботов.
 
 :::
 
-## Limits 
+## Лимиты
 
-Please note that there is no limit to the number of options available, so feel free to select your desired number without any restrictions.
+Обратите внимание, что количество доступных вариантов не ограничено, поэтому смело выбирайте желаемое количество без каких-либо ограничений.
 
+## Опции защиты
 
-## Protection Option 
+VIP Защита предоставляет дополнительные возможности для обеспечения безопасности вашего сервера:
 
-VIP Protection provides additional options to ensure that your server remains secure:
+### Роли без административных прав
 
-### Roles Without Administrative 
-
-Probot will prevent roles without administrative permissions from being given such permissions by removing them when assigned.
+ProBot запретит этим ролям иметь административные разрешения, удалив их, когда они будут предоставлены.
 
 :::tip
 
-It is recommended to add the `@everyone` role and the `auto role` to this list 
+Рекомендуется добавить `@everyone` и `автороль` в этот список
 
 :::
 
-### Action When Another Bot Is Given An Administrative Role 
+### Действие, когда другой бот выдал административную роль
 
 Probot can detect when another bot is given administrative permissions and take the following actions:
 
