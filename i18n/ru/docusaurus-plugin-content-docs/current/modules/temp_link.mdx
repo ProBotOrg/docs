@@ -3,106 +3,106 @@ sidebar_position: 13
 keyword: [link, temporary link command, premium subscribers, link uses, invite link] 
 ---
 
-# Temp Links
+# Временные ссылки
 
-The Temporary Link Command feature allows server administrators to set up a command for users to invite their friends easily. The following instructions provide a step-by-step guide on how to set up the command.
+Функция команды Временной ссылки позволяет администраторам сервера установить команду для пользователей для приглашения друзей с лёгкостью. Следующие инструкции содержат пошаговое руководство по настройке команды.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Панель управления — это место, где осуществляется управление описанными здесь конфигурациями.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Перейдите к панели управления и авторизуйтесь. 
+2. Выберите ваш сервер в левом меню.
+3. Выберите модуль и убедитесь, что он включён. 
 
 :::
 
 :::caution
 
-This feature is only available to premium subscribers. 
+Эта функция доступна только для премиум-подписчиков.
 
 :::
 
-## Command Name
+## Название команды
 
-The first step is to enter a command name that users can type in to receive a personalized link. This command can be any desired text, prefix, symbol, or character.
+Первым шагом является ввод имени команды, которую пользователи могут ввести, чтобы получить персональную ссылку. Команда может быть желаемым текстом, префиксом, символом и буквой.
 
-## Messages
+## Сообщения
 
-### Message When Link is Requested
+### Сообщение, когда ссылка была запрошена
 
-When a user types in the command, a message will appear as a reply, indicating that the link has been successfully sent to the user's DMs. The text of this message can be adjusted as desired.
+Когда пользователь вводит команду, сообщение появится как ответ, указывая на то, что ссылка была успешно отправлена в ЛС пользователю. Текст этого сообщения может быть изменён по желанию.
 
-### Message When Link Cannot be Sent
+### Сообщение, когда ссылка не может быть отправлена
 
-If the bot cannot send the link, a separate message will be displayed as a reply, indicating that the bot could not send the link because the user's DMs are closed. The text of this message can also be adjusted as desired.
+Если бот не может отправить ссылку, отобразится отдельное сообщение в ответ, указывая на то, что бот не смог отправить ссылку, потому что ЛС пользователя закрыт. Текст этого сообщения также может быть изменён по желанию.
 
-## Roles
+## Роли
 
-### Disabled Roles
+### Запрещённые роли 
 
-The administrator can prevent specific roles from being able to use the link command.
+Администратор может предотвратить указанным ролям использование команды для ссылки.
 
-### Enabled Roles
+### Разрешённые роли
  
-Users with the chosen roles will be able to use the link command.
+Пользователи с указанными ролями смогут использовать команду для ссылки.
 
-## Channels
+## Каналы
 
-### Disabled Channels
+### Отключённые каналы
 
-The bot will not respond to the link command in the chosen channels.
+Бот не будет отвечать на команду ссылки в указанном канале.
 
-### Enabled Channels
- 
-The bot will respond to the link command in the chosen channels.
+### Разрешённые каналы
 
-## Link Information
+Бот ответит на команду ссылки в указанном канале.
 
-### Text with the Link Message
+## Информация о ссылке
 
-The text sent to a user's DMs when they use the command will include an invite link along with information on the link's uses and expiration time. The text of this message can be adjusted as desired.
+### Сообщение текста со ссылкой
 
-### Link Uses
+Сообщение, отправляемое в ЛС пользователю, когда он использовал команду, включая инвайт-ссылку с информацией об использовании ссылки и временем истечения. Текст этого сообщения может быть изменено по желанию.
 
-The administrator can specify how many times the link can be used and limit the number of users who can join with that link. An adjustable scroll bar is provided to set the number of link uses.
+### Использования ссылки
 
-### Invitation Default Channel
+Администратор может указать, сколько раз можно использовать ссылку и лимит пользователей, которые могут присоединиться с этой ссылкой. Для установки количества использований ссылки предусмотрена полоса прокрутки.
 
-The administrator can specify which channel the invite links will belong to. For example, if the administrator sets the track to "Test," users who use the link will be redirected to the "Test" channel upon joining.
+### Канал приглашения по умолчанию
 
-### Link Age in Minutes
+Администратор может указать, какой канал будет принадлежать к инвайт-ссылке. Например, если администратор установил канала "Тест", пользователи, воспользовавшиеся ссылкой, будут перенаправлены на канал "Тест" после присоединения.
 
-The administrator can specify the age of the link in minutes. The link will expire unless it is used within this time. An adjustable scroll bar is provided to set the linkage.
+### Срок действия ссылки в минутах
 
-## Wait Time
+Администратор может указать срок действия ссылки в минутах. Ссылка истечёт, если она использована за это время. Для установки срока действия ссылки предусмотрена полоса прокрутки.
 
-### Wait Time in Hours
+## Время ожидания
 
-The administrator can set a waiting time for users to request the link again.
+### Время ожидания в часах
 
-### How Many Links Can Be Requested Before Wait Time
+Администратор может установить время ожидания для пользователей на новый запрос ссылки.
 
-The administrator can set the number of links that can be requested before the wait time is enforced.
+### Сколько ссылок можно запросить до времени ожидания
 
-### Waiting Time Message
+Администратор может установить количество ссылок, которые можно запросить до времени ожидания.
 
-When a user attempts to request a new link before the wait time has ended, a message will appear as a reply indicating that they should wait the specified amount of time before requesting a new link. The text of this message can be adjusted as desired.
+### Сообщение времени ожидания
 
-## Disable Wait Time
+Когда пользователь попытается запросить новую ссылку перед тем, как время ожидания истечёт, появится сообщение в ответ, указывая на то, что он должен подождать указанное количество времени перед запросом новой ссылки. Текст этого сообщения может быть изменено по желанию.
 
-The administrator can allow users with `Invite Members` permission to bypass the wait time and create links anytime.
+## Отключить время ожидания
 
-## Delete User Command Invocation and Bot's Reply
+Администратор может разрешить пользователям с разрешением `Создание приглашения` могут обойти время ожидания и создавать ссылки в любое время.
 
-The administrator can choose to have the bot delete the user's command and the bot's reply after five seconds or keep it persistent. Enabling the option will delete the message, and disabling it will keep them.
+## Удалить сообщение команды и ответ бота
+
+Администратор может выбрать, удалит ли бот команду пользователя и ответ бота через пять секунд или сохранит их. Включение опции приведет к удалению сообщения, а выключение — к их сохранению.
 
 :::important
 
-These are the following limits for our temp link options;
+Вот ограничения для наших вариантов временной ссылки;
 
-- Link age in minutes `1440`
-- Wait time in hours `9999999999999`
-- How many links can be requested before wait time `9999999999999`
+- Срок ссылки в минутах — `1440`
+- Время ожидания в часах — `9999999999999`
+- Сколько ссылок может быть запрошено перед временем ожидания — `9999999999999`
 
 :::

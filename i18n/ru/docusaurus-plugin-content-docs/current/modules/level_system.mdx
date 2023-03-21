@@ -3,97 +3,97 @@ sidebar_position: 6
 keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message] 
 ---
 
-# Level System
+# Система уровней
 
-With ProBot levelling system, active server members will be automatically rewarded with extraordinary level roles, privileged permissions, and access to mystery channels once they reach a specific level!
+С системой уровней ProBot активные пользователи будут автоматически награждены необычными уровневыми ролями, имеющими эксклюзивные права и доступ к тайным каналам, как только они достигнут указанного уровня!
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Панель управления — это место, где осуществляется управление описанными здесь конфигурациями.
 
-1. Go to the dashboard and log in.
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled.
+1. Перейдите в панель управления и авторизуйтесь. 
+2. Выберите ваш сервер в левом меню.
+3. Выберите модуль и убедитесь, что он включён. 
 
 :::
 
-You will initially have three distinct options, each of which may be adjusted to produce a more individualized levelling experience.
+Сначала у вас будет три различных варианта, каждый из которых можно настроить для получения более индивидуального уровнего опыта.
 
-## No XP Roles
+## Роли, не получающие XP
 
-Using this, you can prevent certain users with the selected roles from accumulating experience points anywhere on your server.
+Используя это, вы можете запретить определенным пользователям с выбранными ролями накапливать очки опыта в любом месте вашего сервера.
 
-## No XP Channels
+## Каналы без получения XP
 
-You can prevent specific channels from accumulating experience points.
+Вы можете запретить определенным каналам накапливать очки опыта.
 
-## Level-Up Message
+## Канал повышения уровня
 
-Send congratulatory messages to members who have levelled up from one level to a higher one. You can also use unique variables in these messages!
+Отправляйте поздравительные сообщения пользователям, которые поднялись с одного уровня на более высокий. Вы также можете использовать уникальные переменные в этих сообщениях!
 
 :::caution
 
-The **Level-up message** will only be sent to those who have levelled up in a text level. At this time, we do not have a voice-level message.
+**Сообщение о повышении уровня** будет отправлено только тем, кто повысил текстовый уровень. В настоящее время у нас нет сообщения о голосовом уровне.
 
 :::
 
-## Setup
+## Настройка
 
-The procedure for establishing the role reward system is as described in the following:
+Процедура создания системы вознаграждения ролью описана ниже:
 
 
-There will be a button named `Add Role Rewards` where you can add the role reward, a custom level that users must reach, and other options detailed below.
+Появится кнопка `Добавить награду ролью`, где вы можете добавить награду ролью, свой уровень, которого должны достичь пользователи, и другие параметры, описанные ниже.
 
-### Text Level
+### Текстовый уровень
 
-- This is the text level a member must reach to obtain the level role if it was set independently.
+- Это текстовый уровень, которого должен достичь участник, чтобы получить роль за уровень, если она была установлена самостоятельно.
 
-- The text level range is 0 to 100; provide additional rewards to users as they reach the required level.
+- Диапазон тестовых уровней — от 0 до 100; предоставляйте пользователям дополнительные вознаграждения по мере достижения ими необходимого уровня.
 
-### Voice Level
+### Голосовой уровень
 
-- This is the voice level a member must reach to obtain the level role if it was set independently.
+- Это головой уровень, которого должен достичь участник, чтобы получить роль за уровень, если она была установлена самостоятельно.
 
-- The voice level range is 0 to 100; provide additional rewards to users as they reach the required level.
+- Диапазон голосовых уровней — от 0 до 100; предоставляйте пользователям дополнительные вознаграждения по мере достижения ими необходимого уровня.
 
-### Role Rewards
+### Награды ролью
 
-Reward the members with exceptional level positions as they progress through the levels and meet your requirements.
+Награждайте участников особенными должностями по мере того, как они продвигаются по уровням и выполняют ваши требования.
 
 :::caution
 
-If the roles do not display, the bot's role is nested underneath all server roles. To resolve this issue, move the bot role to the top of the roles hierarchy to ensure that roles are displayed.
+Если роли не отображаются, то роль бота находится ниже всех ролей сервера. Для решения этой проблемы переместите роль бота выше всех в иерархии сервера, чтобы убедиться, что роли отображаются.
 
 :::
 
-## Remove with a higher level
+## Удалять после повышения уровня
 
-It is entirely up to you to decide whether the levels should stack or be removed when users climb to higher levels.
+Вы сами решаете, должны ли уровни складываться или удаляться, когда пользователи поднимаются на более высокие уровни.
 
-- If you disable the option, roles will stack.
+- Если вы отключите опцию, роли будут складываться.
 
-- If you enable the option, roles get removed as a higher level is reached.
+- Если вы включите опцию, роль будет удалена после достижения более высокого уровня.
 
-## DM Member
+## ЛС участнику
 
-Notifies a member when they receive a text-level role via direct message.
+Уведомляет участника, когда он получил роль за текстовый уровень через личные сообщения.
 
-## Important Notes
+## Важные замечания
 
-:::important Three potential situations that may arise when setting up a level requirement
+:::important Три потенциальные ситуации, которые могут возникнуть при установлении требования к уровню
 
-1. **Both Voice & Text**: If you set the need for both the text and voice level without leaving `0` in any option, both Text and Voice will be required. This will require the user to reach both levels to obtain the role reward.
+1. **И голос, и текст**: Если вы установите необходимость как текстового, так и голосового уровня, не оставляя `0` в любом параметре, то будет требоваться и текст, и голос. Это потребует от пользователя достижения обоих уровней для награждения ролью.
 
-2. **Text only**: If you set the need for the text level and leave the Voice at `0`, only Text will be required. This will require the user to reach the level needed for the Text to obtain the role reward.
+2. **Только текст**: Если вы установите необходимость уровня текста и оставите Голос на `0`, будет требоваться только Текст. Это потребует от пользователя достичь уровня, необходимого для Текста, чтобы получить награждение ролью.
 
-3. **Voice only**: If you set the need for the voice level and leave the Text at `0`, only Voice will be required. This will require the user to reach the level needed for the Voice to obtain the role reward.
+3. **Только войс**: Если вы установите необходимость уровня голоса и оставите значение Text равным `0`, будет требоваться только Голос. Это потребует от пользователя достичь уровня, необходимого для Голоса, чтобы получить награждение ролью.
 
-4. **Role Position**: If you have selected the same role rewards for many levels, don't worry—it will still provide users with the role you specified as they reach the requirements of any level you set for the same role.
+4. **Позиция роли**: Если вы выбрали одинаковые роли для награждения для многих уровней, не волнуйтесь — он все равно будет предоставлять пользователям указанную вами роль по мере достижения ими требований любого уровня, который вы установили для этой же роли.
 
 :::
 
 :::caution
 
-Users need to type in chats for the bot to update their XP data and award them voice-level prizes, and only then will the bot be able to reward them.
+Пользователям необходимо набирать текст в чатах, чтобы бот обновил данные об их XP и вознаградил их наградами голосового уровня, и только после этого бот сможет наградить их.
 
 :::
