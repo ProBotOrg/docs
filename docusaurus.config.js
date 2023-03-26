@@ -36,6 +36,9 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         blog: false,
+        gtag: {
+          trackingID: 'G-D4J7KG79HW',
+        },
       }),
     ],
   ],
