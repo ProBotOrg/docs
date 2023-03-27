@@ -1,39 +1,41 @@
 ---
 sidebar_position: 2
 slug: /getting-started/dashboard
-title: Dashboard Setup
-description: A comprehensive guide on using the dashboard to manage your server and configure modules and commands.
+title: Configuración del Dashboard
+description: Una guía completa sobre el uso del panel de control para gestionar su servidor y configurar apartados y comandos.
 keywords: [dashboard, configuration, manage, server, modules]
 ---
 
-# Dashboard: Your One-Stop-Shop for Server Management
+# Dashboard: El Apartado Único Para Editar Su Servidor
 
-The Dashboard is the heart of your server's configuration. It provides an easy-to-use interface for managing all modules and commands. Say goodbye to complex and time-consuming command line configurations!
+El Dashboard es el corazón de la configuración de su servidor. Proporciona una interfaz fácil de usar para gestionar todos los apartados y comandos. Despídete de las complejas y lentas configuraciones de línea de comandos.
 
-## Accessing the Dashboard
+## Acceso al Dashboard
 
-Accessing the Dashboard is simple and straightforward. Here are the steps:
-- Navigate to the [website](https://probot.io/) and log in to your account.
-- The dashboard button will appear on the same page, click it to access the dashboard.
+Acceder al dashboard es sencillo y directo. Estos son los pasos:
+
+- Navegue hasta el [sitio web](https://probot.io/) e inicie sesión en su cuenta.
+- El botón del dashboard aparecerá en la misma página, haga clic en él para acceder al Dashboard.
 
 :::caution
-You need `Administrator` permission to see your server on the list.
+Necesita permiso de `Administrador` para ver su servidor en la lista.
 :::
 
-## Configuring Modules and Commands
+## Configuración de Apartados y Comandos
 
-Every module in the Dashboard comes with a switch button in the top-right corner, which allows you to disable all commands within that module. In addition, each command has its own switch button to enable or disable it, as well as an edit button to make customizations.
+Todos los apartados del Dashboard tienen un botón en la esquina superior derecha que permite desactivar todos los comandos de ese apartado. Además, cada comando tiene su propio botón para activarlo o desactivarlo, así como un botón de edición para personalizarlo.
 
-Here are some of the customization options available for each command:
-- **Alias**: A custom alias for the command, making it easy to remember and use.
-- **Enabled Roles**: Limit who can use the command to specific roles.
-- **Disabled Roles**: Prevent certain roles from using the command.
-- **Enabled Channels**: The bot will only respond to the command in specified channels.
-- **Disabled Channels**: The bot won't respond to the command in these channels.
-- **Auto-delete with message deletion**: The bot's response will be deleted if the sender deletes their message.
-- **Auto-delete command invocation message**: The command message sent by the sender will be deleted immediately after sending.
-- **Auto-delete bot's reply message after 5 seconds**: The bot's reply will be deleted 5 seconds after it was sent.
+Estas son algunas de las opciones de personalización disponibles para cada comando:
+
+- **Alias**: Un alias personalizado para el comando, haciéndolo fácil de recordar y usar.
+- **Roles Habilitados**: Limita quién puede usar el comando a roles específicos.
+- **Roles Deshabilitados**: Impedir que determinados roles utilicen el comando.
+- **Canales Habilitados**: El bot sólo responderá al comando en los canales especificados.
+- **Canales Deshabilitados**: El bot no responderá al comando en estos canales.
+- **Borrado automático con eliminación de mensajes**: La respuesta del bot se borrará si el remitente borra su mensaje.
+- **Mensaje de invocación de comando de borrado automático**: El mensaje de comando enviado por el remitente se borrará inmediatamente después del envío.
+- **Auto-borrar el mensaje de respuesta del bot después de 5 segundos**: La respuesta del bot se borrará 5 segundos después de ser enviada.
 
 :::caution
-Don't see your server on the list? This means you don't have the `Administrator` permission required for full access to the Dashboard. Ensure your role has the `Administrator` permission explicitly granted in your role setting.
+¿No ves tu servidor en la lista? Esto significa que no tiene el permiso "Administrador" necesario para acceder al Dashboard. Asegúrese de que su rol tiene el permiso "Administrador" explícitamente concedido en la configuración de su rol.
 :::
