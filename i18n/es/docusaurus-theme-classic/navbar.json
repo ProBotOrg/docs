@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Introduction": {
-    "message": "Introduction",
+    "message": "Introducción",
     "description": "Navbar item with label Introduction"
   },
   "item.label.Dashboard": {
@@ -16,7 +16,7 @@
     "description": "Navbar item with label Dashboard"
   },
   "item.label.Contact support": {
-    "message": "Contact support",
+    "message": "Contacto Soporte",
     "description": "Navbar item with label Contact support"
   }
 }
