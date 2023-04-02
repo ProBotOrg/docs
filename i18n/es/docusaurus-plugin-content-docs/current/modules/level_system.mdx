@@ -1,99 +1,98 @@
 ---
 sidebar_position: 6
-keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message] 
+keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message]
 ---
 
-# Level System
+# Sistema de niveles
 
-With ProBot levelling system, active server members will be automatically rewarded with extraordinary level roles, privileged permissions, and access to mystery channels once they reach a specific level!
+Con el sistema de niveles de ProBot, los miembros activos del servidor serán recompensados automáticamente con roles de nivel extraordinarios, permisos privilegiados y acceso a canales misteriosos una vez que alcancen un nivel específico.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+El panel de control es donde se gestionan las configuraciones descritas aquí.
 
-1. Go to the dashboard and log in.
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled.
+1. Ve al panel de control e inicia sesión.
+2. Selecciona tu servidor en el menú de la izquierda.
+3. Elije el módulo y asegúrate de que está habilitado.
 
 :::
 
-You will initially have three distinct options, each of which may be adjusted to produce a more individualized levelling experience.
+Inicialmente tendrás tres opciones distintas, cada una de las cuales se puede ajustar para producir una experiencia de nivelación más individualizada.
 
-## No XP Roles
+## Roles sin XP
 
-Using this, you can prevent certain users with the selected roles from accumulating experience points anywhere on your server.
+Usando esto, puedes evitar que ciertos usuarios con los roles seleccionados acumulen puntos de experiencia en cualquier lugar de tu servidor.
 
-## No XP Channels
+## Canales sin XP
 
-You can prevent specific channels from accumulating experience points.
+Puedes evitar que canales específicos acumulen puntos de experiencia.
 
-## Level-Up Message
+## Mensaje de nivel ascendente
 
-Send congratulatory messages to members who have levelled up from one level to a higher one. You can also use unique variables in these messages!
+Envía mensajes de felicitación a los miembros que han ascendido de nivel. ¡También puedes usar variables únicas en estos mensajes!
 
 :::caution
 
-The **Level-up message** will only be sent to those who have levelled up in a text level. At this time, we do not have a voice-level message.
+El **mensaje de nivel ascendente** solo se enviará a aquellos que hayan ascendido de nivel en un nivel de texto. En este momento, no tenemos un mensaje de nivel de voz.
 
 :::
 
-## Setup
+## Configuración
 
-The procedure for establishing the role reward system is as described in the following:
+El procedimiento para establecer el sistema de recompensa de roles se describe a continuación:
 
+Habrá un botón llamado `Añadir recompensas de roles` donde puedes añadir la recompensa del rol, un nivel personalizado que los usuarios deben alcanzar y otras opciones detalladas a continuación.
 
-There will be a button named `Add Role Rewards` where you can add the role reward, a custom level that users must reach, and other options detailed below.
+### Nivel de texto
 
-### Text Level
+- Este es el nivel de texto que un miembro debe alcanzar para obtener el rol de nivel si se estableció de forma independiente.
 
-- This is the text level a member must reach to obtain the level role if it was set independently.
+- El rango de nivel de texto es de 0 a 100; proporciona recompensas adicionales a los usuarios a medida que alcanzan el nivel requerido.
 
-- The text level range is 0 to 100; provide additional rewards to users as they reach the required level.
+### Nivel de voz
 
-### Voice Level
+- Este es el nivel de voz que un miembro debe alcanzar para obtener el rol de nivel si se estableció de forma independiente.
 
-- This is the voice level a member must reach to obtain the level role if it was set independently.
+- El rango de nivel de voz es de 0 a 100; proporciona recompensas adicionales a los usuarios a medida que alcanzan el nivel requerido.
 
-- The voice level range is 0 to 100; provide additional rewards to users as they reach the required level.
+### Recompensas de roles
 
-### Role Rewards
-
-Reward the members with exceptional level positions as they progress through the levels and meet your requirements.
+Recompensa a los miembros con posiciones de nivel excepcionales a medida que progresan en los niveles y cumplen tus requisitos.
 
 :::caution
 
-If the roles do not display, the bot's role is nested underneath all server roles. To resolve this issue, move the bot role to the top of the roles hierarchy to ensure that roles are displayed.
+Si los roles no se muestran, el rol del bot está anidado debajo de todos los roles del servidor. Para resolver este problema, mueve el rol del bot a la parte superior de la jerarquía de roles para asegurarte de que se muestren los roles.
 
 :::
 
-## Remove with a higher level
+## Eliminar con un nivel superior
 
-It is entirely up to you to decide whether the levels should stack or be removed when users climb to higher levels.
+Depende completamente de ti decidir si los niveles deben acumularse o eliminarse cuando los usuarios suben a niveles superiores.
 
-- If you disable the option, roles will stack.
+- Si deshabilitas la opción, los roles se acumularán.
 
-- If you enable the option, roles get removed as a higher level is reached.
+- Si habilitas la opción, los roles se eliminarán al alcanzar un nivel superior.
 
-## DM Member
+## Mensaje al usuario
 
-Notifies a member when they receive a text-level role via direct message.
+Notifica a un miembro cuando recibe un rol de nivel de texto mediante mensaje directo.
 
-## Important Notes
+## Notas Importantes
 
-:::important Three potential situations that may arise when setting up a level requirement
+:::important Tres situaciones potenciales que pueden surgir al establecer un requisito de nivel
 
-1. **Both Voice & Text**: If you set the need for both the text and voice level without leaving `0` in any option, both Text and Voice will be required. This will require the user to reach both levels to obtain the role reward.
+1. **Ambos Voz y Texto**: Si establece la necesidad tanto del nivel de texto como de voz sin dejar `0` en ninguna opción, se requerirán tanto el Texto como la Voz. Esto requerirá que el usuario alcance ambos niveles para obtener la recompensa del rol.
 
-2. **Text only**: If you set the need for the text level and leave the Voice at `0`, only Text will be required. This will require the user to reach the level needed for the Text to obtain the role reward.
+2. **Solo Texto**: Si establece la necesidad del nivel de texto y deja la Voz en `0`, solo se requerirá el Texto. Esto requerirá que el usuario alcance el nivel necesario para el Texto para obtener la recompensa del rol.
 
-3. **Voice only**: If you set the need for the voice level and leave the Text at `0`, only Voice will be required. This will require the user to reach the level needed for the Voice to obtain the role reward.
+3. **Solo Voz**: Si establece la necesidad del nivel de voz y deja el Texto en `0`, solo se requerirá la Voz. Esto requerirá que el usuario alcance el nivel necesario para la Voz para obtener la recompensa del rol.
 
-4. **Role Position**: If you have selected the same role rewards for many levels, don't worry—it will still provide users with the role you specified as they reach the requirements of any level you set for the same role.
+4. **Posición del Rol**: Si ha seleccionado las mismas recompensas de rol para muchos niveles, no se preocupe: seguirá proporcionando a los usuarios el rol que especificó a medida que alcancen los requisitos de cualquier nivel que haya establecido para el mismo rol.
 
 :::
 
 :::caution
 
-Users need to type in chats for the bot to update their XP data and award them voice-level prizes, and only then will the bot be able to reward them.
+Los usuarios deben escribir en los chats para que el bot actualice sus datos de XP y les otorgue los premios de nivel de voz, y solo entonces el bot podrá recompensarlos.
 
 :::
