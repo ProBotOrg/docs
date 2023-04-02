@@ -1,183 +1,181 @@
 ---
 sidebar_position: 10
-keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management] 
+keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management]
 ---
 
-# Self-Assignable Roles 
+# Roles AutoAsignables
 
-Set up exclusive roles with various options that can be used to improve workflow and message style.
+Configure roles exclusivos con varias opciones que se pueden utilizar para mejorar el flujo de trabajo y el estilo de los mensajes.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+El panel de control es donde se administran las configuraciones descritas aquí.
 
-1. Go to the dashboard and log in.
-2. Choose your server from the menu on the left.
-3. Select the module and ensure that it is enabled.
+1. Vaya al panel de control e inicie sesión.
+2. Elija su servidor del menú de la izquierda.
+3. Seleccione el módulo y asegúrese de que esté habilitado.
 
 :::
 
-# Setup
+# Configuración
 
-To have the bot apply the self-assignable options to the message, you must first create an 'Embed Message' and send it to a channel.
+Para que el bot aplique las opciones autoasignables al mensaje, primero debe crear un 'mensaje embed' y enviarlo a un canal.
 
-[Embed Messages](https://docs.probot.io/docs/modules/embed) describes how to create and send a message.
+[Los mensajes embed](https://docs.probot.io/docs/modules/embed) describen cómo crear y enviar un mensaje.
 
-1. Select `Add Message` from the menu.
-2. Select `Edit` from the menu.
-3. From the `Embed` menu, choose the embed message you created.
-4. Select the embed message you sent to a channel from the `Choose a message` option.
+1. Seleccione `Agregar mensaje` del menú.
+2. Seleccione `Editar` del menú.
+3. Desde el menú `Embed`, elija el mensaje embed que creó.
+4. Seleccione el mensaje embed que envió a un canal desde la opción `Elegir un mensaje`.
 
-You're ready to move on to one of the module's options. 🙋
+Ya está listo para pasar a una de las opciones del módulo. 🙋
 
-## Role limitation per user
+## Limitación de roles por usuario
 
-The role limit for how many roles the user can play for that specific reaction and interaction.
+El límite de roles para cuántos roles puede jugar el usuario para esa reacción e interacción específicas.
 
-# Button
+# Botón
 
-A one-of-a-kind Discord button interaction that allows users to interact easily with a single click.
+Una interacción de botón de Discord única que permite a los usuarios interactuar fácilmente con un solo clic.
 
-1. Select your preferred button color by clicking on the `Button`.
-2. Select `Add Button` to add a button.
-3. Then, you'll see a `Settings` button and a `Delete` button.
-4. By selecting `Settings` you will be presented with the following options:
+1. Seleccione su color de botón preferido haciendo clic en el `Botón`.
+2. Seleccione `Agregar botón` para agregar un botón.
+3. Luego, verá un botón `Configuración` y un botón `Eliminar`.
+4. Al seleccionar `Configuración`, se le presentarán las siguientes opciones:
 
-> Button Emoji and text
+> Emoji y texto del botón
 
-- The emoji and text you want to appear on the button.
+- El emoji y el texto que desea que aparezcan en el botón.
 
 :::caution
 
-The text filed field is required; you must fill it out.
+El campo de texto es obligatorio; debe completarlo.
 
 :::
 
-> Colors
+> Colores
 
-- You will have four color options if you want to change them at any time.
+- Tendrá cuatro opciones de color si desea cambiarlos en cualquier momento.
 
-## Add Roles
+## Agregar Roles
 
-To add a role to the button and have the user revive it when they click on it, look for a plus sign '+' where you can click and add a role.
+Para agregar un rol al botón y hacer que el usuario lo reciba cuando haga clic en él, busque un signo más '+' donde pueda hacer clic y agregar un rol.
 
 :::info
 
-You can include up to 25 buttons in a single embed message.
+Puede incluir hasta 25 botones en un solo mensaje embed.
 
 :::
 
-# Select Menu
+# Menú de selección
 
-A distinct discord that is simple to use, select the menu to have the member interact with and the option to have the role (s).
+Un discord distintivo que es fácil de usar, seleccione el menú para que el miembro interactúe con la opción de tener el (los) rol (es).
 
-1. Select `Select Menu` from the drop-down menu.
-2. Then, select `Add Option`.
-3. You will be presented with several options, each of which is explained in detail below:
+1. Seleccione `Menú de selección` del menú desplegable.
+2. Luego, seleccione `Agregar opción`.
+3. Se le presentarán varias opciones, cada una de las cuales se explica en detalle a continuación:
 
-## Select Menu Placeholder
+## Placeholder del menú de selección
 
-The text you want users to see from the outside on the select menu option before selecting any roles.
+El texto que desea que los usuarios vean desde el exterior en la opción del menú de selección antes de seleccionar cualquier rol.
 
 ## Emoji
 
-The emoji you want to see before each option.
+El emoji que desea ver antes de cada opción.
 
-## Option Title 
+## Título de la opción
 
-The option title you want see on each option. 
+El título de la opción que desea ver en cada opción.
 
-## Option Description 
+## Descripción de la opción
 
-The option description you want to see below each option title; can be used to describe the contents of the option.
+La descripción de la opción que desea ver debajo de cada título de opción; se puede utilizar para describir el contenido de la opción.
 
 ## Roles
 
-The option where you get to set a role for users to have as they interact with a select menu option, click on the plus `+` sign will display the server roles list.
+La opción en la que puedes asignar un rol a los usuarios mientras interactúan con una opción de menú seleccionable. Al hacer clic en el signo más `+`, se mostrará la lista de roles del servidor.
 
 :::caution
 
-A single embed message can contain up to 20 select menu options.
+Un solo mensaje incrustado puede contener hasta 20 opciones de menú seleccionables.
 
 :::
 
-# Reaction
+# Reacc
 
-Members receive a role when they click on a reaction in traditional reaction roles.
+Los miembros reciben un rol cuando hacen clic en una reacción en los roles de reacción tradicionales.
 
-1. Select `Reaction` from the drop-down menu.
-2. Select `Add Emoji` from the drop-down menu.
-3. Select whether you want to add a normal or a gif emoji.
-4. Create a role for that reaction using the plus `+` sign.
+1. Seleccione `Reacción` del menú desplegable.
+2. Seleccione `Agregar emoji` del menú desplegable.
+3. Seleccione si desea agregar un emoji normal o un emoji gif.
+4. Cree un rol para esa reacción utilizando el signo más `+`.
 
 :::caution
 
-If your server roles do not appear in the dashboard, move the ProBot's role higher in the server roles hierarchy.
+Si los roles de su servidor no aparecen en el panel de control, mueva el rol de ProBot más arriba en la jerarquía de roles del servidor.
 
 :::
 
-# Role Mode
+# Modo de Rol
 
-You will have several mode options for the reaction role.
+Tendrá varias opciones de modo para el rol de reacción.
 
 :::caution
 
-The mode will apply to all of the options in that message.
+El modo se aplicará a todas las opciones de ese mensaje.
 
 :::
 
-## Toggle Mode
+## Modo de Alternancia
 
-This mode adds or removes roles based on whether the user has the roles or not. `Recommended`
+Este modo agrega o elimina roles según si el usuario tiene o no los roles. `Recomendado`
 
-## Give Mode
+## Modo de Otorgar
 
-This mode adds roles whenever a reaction/interaction is added or removed. 'Excellent for accepting rules!'
+Este modo agrega roles cada vez que se agrega o elimina una reacción/interacción. '¡Excelente para aceptar reglas!'
 
+## Modo de Quitar
 
-## Take Mode
+Este modo eliminará roles cada vez que se agregue o elimine una reacción/interacción.
 
-This mode will remove roles whenever a reaction/interaction is added or removed.
+# Tipo de Notificación
 
-# Type of Notification
+Tendrá dos opciones para gestionar el tipo de notificación, ya sea que desee responder a la interacción del usuario o mantenerlo en silencio: sin campana:
 
-You will have two options for managing the notification type, whether you want it to respond to user interaction or keep it quiet: no bell:
+## Tipo de Notificación
 
-## Notify Type
+Esta opción enviará un mensaje de respuesta que solo puede ser visto por el usuario que interactuó con la interacción a medida que agregan, eliminan o no hacen cambios en los roles para mantenerlos ajustados.
 
-This option will send a reply message that can only be seen by the user who interacted with the interaction as they add, remove, or make no changes to the roles to keep them tuned.
-
-1. The first option is the reply message when the role is added.
-2. The second option is the reply message when the role is removed.
-3. The third option is when no changes have been made to the user roles.
+1. La primera opción es el mensaje de respuesta cuando se agrega el rol.
+2. La segunda opción es el mensaje de respuesta cuando se elimina el rol.
+3. La tercera opción es cuando no se han realizado cambios en los roles de usuario.
 
 :::info
 
-To have the bot mention the role, include `{0}` in the reply message, as it refers to the role.
+Para que el bot mencione el rol, incluya `{0}` en el mensaje de respuesta, ya que se refiere al rol.
 
 :::
 
-## Silent Type
+## Tipo Silencioso
 
-If you want to keep things quiet without drawing the user's attention to any reply messages from the bot, this option is for you because it will not display any reply messages.
+Si desea mantener las cosas en silencio sin llamar la atención del usuario sobre los mensajes de respuesta del bot, esta opción es para usted porque no mostrará ningún mensaje de respuesta.
 
-
-# Important Notes
+# Notas Importantes
 
 :::warning
 
-The reaction may break if you have select menus or buttons in the background but aren't using them; to resolve this issue, you need to delete any select menu and button options that you may have added on the same message but aren't using.
+La reacción puede fallar si tiene menús seleccionables o botones en el fondo pero no los está utilizando; para resolver este problema, debe eliminar cualquier opción de menú seleccionable y botón que haya agregado en el mismo mensaje pero no está utilizando.
 
 :::
 
 :::warning
 
-You are not allowed to link multiple messages with self-assignable roles to the same embedded message because doing so may cause problems.
+No se le permite vincular varios mensajes con roles autoasignables al mismo mensaje incrustado porque esto puede causar problemas.
 
 :::
 
 :::info
 
-You need to subscribe to the `Premium Tier 1/2` tier to set multiple roles for the same option.
+Debe suscribirse al nivel `Premium Tier 1/2` para establecer varios roles para la misma opción.
 
 :::
