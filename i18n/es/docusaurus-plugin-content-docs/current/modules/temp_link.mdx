@@ -1,108 +1,108 @@
 ---
 sidebar_position: 13
-keyword: [link, temporary link command, premium subscribers, link uses, invite link] 
+keyword: [link, temporary link command, premium subscribers, link uses, invite link]
 ---
 
-# Temp Links
+# Enlaces Temporales
 
-The Temporary Link Command feature allows server administrators to set up a command for users to invite their friends easily. The following instructions provide a step-by-step guide on how to set up the command.
+La función de Comando de Enlace Temporal permite a los administradores de servidores configurar un comando para que los usuarios puedan invitar a sus amigos fácilmente. Las siguientes instrucciones proporcionan una guía paso a paso sobre cómo configurar el comando.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+El panel de control es donde se administran las configuraciones descritas aquí.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Vaya al panel de control e inicie sesión.
+2. Seleccione su servidor del menú de la izquierda.
+3. Elija el módulo y asegúrese de que esté habilitado.
 
 :::
 
 :::caution
 
-This feature is only available to premium subscribers. 
+Esta función solo está disponible para suscriptores premium.
 
 :::
 
-## Command Name
+## Nombre del Comando
 
-The first step is to enter a command name that users can type in to receive a personalized link. This command can be any desired text, prefix, symbol, or character.
+El primer paso es ingresar un nombre de comando que los usuarios puedan escribir para recibir un enlace personalizado. Este comando puede ser cualquier texto, prefijo, símbolo o carácter deseado.
 
-## Messages
+## Mensajes
 
-### Message When Link is Requested
+### Mensaje Cuando se Solicita un Enlace
 
-When a user types in the command, a message will appear as a reply, indicating that the link has been successfully sent to the user's DMs. The text of this message can be adjusted as desired.
+Cuando un usuario escribe el comando, aparecerá un mensaje como respuesta, indicando que el enlace se ha enviado correctamente a los DM del usuario. El texto de este mensaje se puede ajustar según se desee.
 
-### Message When Link Cannot be Sent
+### Mensaje Cuando no se Puede Enviar el Enlace
 
-If the bot cannot send the link, a separate message will be displayed as a reply, indicating that the bot could not send the link because the user's DMs are closed. The text of this message can also be adjusted as desired.
+Si el bot no puede enviar el enlace, se mostrará un mensaje separado como respuesta, indicando que el bot no pudo enviar el enlace porque los DM del usuario están cerrados. El texto de este mensaje también se puede ajustar según se desee.
 
 ## Roles
 
-### Disabled Roles
+### Roles Deshabilitados
 
-The administrator can prevent specific roles from being able to use the link command.
+El administrador puede impedir que roles específicos puedan usar el comando de enlace.
 
-### Enabled Roles
- 
-Users with the chosen roles will be able to use the link command.
+### Roles Habilitados
 
-## Channels
+Los usuarios con los roles elegidos podrán usar el comando de enlace.
 
-### Disabled Channels
+## Canales
 
-The bot will not respond to the link command in the chosen channels.
+### Canales Deshabilitados
 
-### Enabled Channels
- 
-The bot will respond to the link command in the chosen channels.
+El bot no responderá al comando de enlace en los canales seleccionados.
 
-## Link Information
+### Canales Habilitados
 
-### Text with the Link Message
+El bot responderá al comando de enlace en los canales seleccionados.
 
-The text sent to a user's DMs when they use the command will include an invite link along with information on the link's uses and expiration time. The text of this message can be adjusted as desired.
+## Información del Enlace
 
-### Link Uses
+### Texto con el Mensaje del Enlace
 
-The administrator can specify how many times the link can be used and limit the number of users who can join with that link. An adjustable scroll bar is provided to set the number of link uses.
+El texto enviado a los DM de un usuario cuando usa el comando incluirá un enlace de invitación junto con información sobre los usos del enlace y el tiempo de vencimiento. El texto de este mensaje se puede ajustar según se desee.
 
-### Invitation Default Channel
+### Usos del Enlace
 
-The administrator can specify which channel the invite links will belong to. For example, if the administrator sets the track to "Test," users who use the link will be redirected to the "Test" channel upon joining.
+El administrador puede especificar cuántas veces se puede usar el enlace y limitar el número de usuarios que pueden unirse con ese enlace. Se proporciona una barra de desplazamiento ajustable para establecer el número de usos del enlace.
 
-### Link Age in Minutes
+### Canal Predeterminado de Invitación
 
-The administrator can specify the age of the link in minutes. The link will expire unless it is used within this time. An adjustable scroll bar is provided to set the linkage.
+El administrador puede especificar en qué canal pertenecerán los enlaces de invitación. Por ejemplo, si el administrador establece el seguimiento en "Prueba", los usuarios que usen el enlace serán redirigidos al canal "Prueba" al unirse.
 
-## Wait Time
+### Edad del Enlace en Minutos
 
-### Wait Time in Hours
+El administrador puede especificar la edad del enlace en minutos. El enlace expirará a menos que se use dentro de este tiempo. Se proporciona una barra de desplazamiento ajustable para establecer el enlace.
 
-The administrator can set a waiting time for users to request the link again.
+## Tiempo de Espera
 
-### How Many Links Can Be Requested Before Wait Time
+### Tiempo de Espera en Horas
 
-The administrator can set the number of links that can be requested before the wait time is enforced.
+El administrador puede establecer un tiempo de espera para que los usuarios soliciten el enlace nuevamente.
 
-### Waiting Time Message
+### Cantidad de enlaces que se pueden solicitar antes del tiempo de espera
 
-When a user attempts to request a new link before the wait time has ended, a message will appear as a reply indicating that they should wait the specified amount of time before requesting a new link. The text of this message can be adjusted as desired.
+El administrador puede establecer la cantidad de enlaces que se pueden solicitar antes de que se imponga el tiempo de espera.
 
-## Disable Wait Time
+### Mensaje de tiempo de espera
 
-The administrator can allow users with `Invite Members` permission to bypass the wait time and create links anytime.
+Cuando un usuario intenta solicitar un nuevo enlace antes de que haya terminado el tiempo de espera, aparecerá un mensaje como respuesta que indicará que deben esperar la cantidad de tiempo especificada antes de solicitar un nuevo enlace. El texto de este mensaje se puede ajustar según se desee.
 
-## Delete User Command Invocation and Bot's Reply
+## Deshabilitar el tiempo de espera
 
-The administrator can choose to have the bot delete the user's command and the bot's reply after five seconds or keep it persistent. Enabling the option will delete the message, and disabling it will keep them.
+El administrador puede permitir que los usuarios con permiso de "Invitar miembros" eviten el tiempo de espera y creen enlaces en cualquier momento.
 
-:::important
+## Eliminar la invocación del comando del usuario y la respuesta del bot
 
-These are the following limits for our temp link options;
+El administrador puede elegir que el bot elimine el comando del usuario y la respuesta del bot después de cinco segundos o mantenerlos persistentes. Habilitar la opción eliminará el mensaje y deshabilitarla lo mantendrá.
 
-- Link age in minutes `1440`
-- Wait time in hours `9999999999999`
-- How many links can be requested before wait time `9999999999999`
+::: importante
+
+Estos son los siguientes límites para nuestras opciones de enlace temporal:
+
+- Edad del enlace en minutos `1440`
+- Tiempo de espera en horas `9999999999999`
+- Cuántos enlaces se pueden solicitar antes del tiempo de espera `9999999999999`
 
 :::
