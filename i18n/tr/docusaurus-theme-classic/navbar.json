@@ -4,15 +4,15 @@
     "description": "The title in the navbar"
   },
   "item.label.Introduction": {
-    "message": "Introduction",
+    "message": "Giriş",
     "description": "Navbar item with label Introduction"
   },
   "item.label.Dashboard": {
-    "message": "Dashboard",
+    "message": "Yönetim Paneli",
     "description": "Navbar item with label Dashboard"
   },
   "item.label.Contact support": {
-    "message": "Contact support",
+    "message": "İletişime geçin",
     "description": "Navbar item with label Contact support"
   }
 }
