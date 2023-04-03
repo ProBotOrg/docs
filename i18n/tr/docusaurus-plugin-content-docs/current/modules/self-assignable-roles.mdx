@@ -3,181 +3,181 @@ sidebar_position: 10
 keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management] 
 ---
 
-# Self-Assignable Roles 
+# Tepki Rolleri 
 
-Set up exclusive roles with various options that can be used to improve workflow and message style.
+Sunucudaki deneyimi iyileştirmek için kullanılabilecek çeşitli seçeneklerle özel roller ayarlayın.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in.
-2. Choose your server from the menu on the left.
-3. Select the module and ensure that it is enabled.
+1. Kontrol paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 
 :::
 
-# Setup
+# Kurulum
 
-To have the bot apply the self-assignable options to the message, you must first create an 'Embed Message' and send it to a channel.
+Botun Tepki Rol seçenekleri mesaja uygulaması için, önce bir 'Gömülü Mesaj' oluşturmalı ve bunu bir kanala göndermelisiniz.
 
-[Embed Messages](https://docs.probot.io/docs/modules/embed) describes how to create and send a message.
+[Gömülü Mesajlar](https://docs.probot.io/docs/modules/embed) adresinden mesajın nasıl oluşturulacağını ve gönderileceğini inceleyebilirsiniz.
 
-1. Select `Add Message` from the menu.
-2. Select `Edit` from the menu.
-3. From the `Embed` menu, choose the embed message you created.
-4. Select the embed message you sent to a channel from the `Choose a message` option.
+1. `Mesaj Ekle` butonuna basın.
+2. `Düzenle` butonuna basın.
+3. `Gömülü Mesaj` menüsünden, oluşturduğunuz mesajı seçin.
+4. Kanala gönderdiğiniz gömülü mesajı `Mesaj seçin` kısmından seçin.
 
-You're ready to move on to one of the module's options. 🙋
+Modülü kurmaya hazırsınız. 🙋
 
-## Role limitation per user
+## Kullanıcı Başına Rol Sınırı
 
-The role limit for how many roles the user can play for that specific reaction and interaction.
+Bu seçenek kullanıcının bir mesaj ile etkileşimde bulunarak alabileceği en fazla rol sınırından bahsetmektedir.
 
-# Button
+# Buton
 
-A one-of-a-kind Discord button interaction that allows users to interact easily with a single click.
+Kullanıcıların tek bir tıklamayla kolayca etkileşime geçmesini sağlayan, türünün tek örneği Discord buton etkileşimidir.
 
-1. Select your preferred button color by clicking on the `Button`.
-2. Select `Add Button` to add a button.
-3. Then, you'll see a `Settings` button and a `Delete` button.
-4. By selecting `Settings` you will be presented with the following options:
+1. `Buton` seçeneğini seçin ve ardından istediğiniz buton rengini ayarlayabilirsiniz.
+2. Buton eklemek için `Buton Ekle` butonuna basabilirsiniz.
+3. Ardından, bir `Ayarlar` menüsü ve bir `Sil` butonu göreceksiniz.
+4. `Ayarlar`a tıkladığınızda size aşağıdaki seçenekler sunulur:
 
-> Button Emoji and text
+> Buton Emojisi ve metin
 
-- The emoji and text you want to appear on the button.
+- Butonda görünmesini istediğiniz emoji ve metin.
 
 :::caution
 
-The text filed field is required; you must fill it out.
+Metin alanı zorunludur.
 
 :::
 
-> Colors
+> Renkler
 
-- You will have four color options if you want to change them at any time.
+- Değiştirmek isterseniz 4 renk seçeneğiniz mevcuttur.
 
-## Add Roles
+## Rol Ekle
 
-To add a role to the button and have the user revive it when they click on it, look for a plus sign '+' where you can click and add a role.
+Düğmeye bir rol eklemek ve kullanıcı üzerine tıkladığında onu kullanıcıya vermesi için, '+' artı butonundan rol ekleyin.
 
 :::info
 
-You can include up to 25 buttons in a single embed message.
+Tek bir gömülü mesaja en fazla 25 buton ekleyebilirsiniz.
 
 :::
 
-# Select Menu
+# Seçim Menüsü
 
-A distinct discord that is simple to use, select the menu to have the member interact with and the option to have the role (s).
+Kullanımı gayet basittir. Üyenin etkileşim kuracağı menüye sahip olacağı rol(ler)i eklersiniz.
 
-1. Select `Select Menu` from the drop-down menu.
-2. Then, select `Add Option`.
-3. You will be presented with several options, each of which is explained in detail below:
+1. Seçeneklerden `Seçim Menüsü`nü seçin.
+2. Ardından, `Seçenek Ekle`yi seçin.
+3. Her biri aşağıda ayrıntılı olarak açıklanan çeşitli seçenekler bulunmaktadır:
 
-## Select Menu Placeholder
+## Seçim Menüsü Yer Tutucu
 
-The text you want users to see from the outside on the select menu option before selecting any roles.
+Kullanıcıların herhangi bir rolü seçmeden önce menü seçeneğinde dışarıdan görmesini istediğiniz metin.
 
 ## Emoji
 
-The emoji you want to see before each option.
+Her seçenekten önce görmek istediğiniz emoji.
 
-## Label
+## Başlık
 
-The title you want users to see above each option.
+Kullanıcıların her seçeneğin üzerinde görmesini istediğiniz başlıktır.
 
-## Option Title
+## Seçenek Başlığı
 
-The option title you want to see below each option title; can be used to describe the contents of the option.
+Her seçeneğin altında görmek istediğiniz seçenek başlığı; seçeneğin içeriğini açıklamak için kullanılabilir.
 
-## Roles
+## Roller
 
-The option where you get to set a role for users to have as they interact with a select menu option, click on the plus `+` sign will display the server roles list.
-
-:::caution
-
-A single embed message can contain up to 20 select menu options.
-
-:::
-
-# Reaction
-
-Members receive a role when they click on a reaction in traditional reaction roles.
-
-1. Select `Reaction` from the drop-down menu.
-2. Select `Add Emoji` from the drop-down menu.
-3. Select whether you want to add a normal or a gif emoji.
-4. Create a role for that reaction using the plus `+` sign.
+Kullanıcıların belirli bir menü seçeneğiyle etkileşim kurarken sahip olmaları için bir rol ayarlayabileceğiniz seçenektir. `+` butonuna tıkladığınızda sunucu rolleri listesi görüntülenir.
 
 :::caution
 
-If your server roles do not appear in the dashboard, move the ProBot's role higher in the server roles hierarchy.
+Tek bir gömülü mesaj, en fazla 20 seçim menüsü seçeneği içerebilir.
 
 :::
 
-# Role Mode
+# Tepki
 
-You will have several mode options for the reaction role.
+Üyeler, geleneksel tepki rollerinde bir tepkiye tıkladıklarında rol alırlar.
+
+1. Açılır menüden `Tepki`yi seçin.
+2. Açılır menüden `Emoji Ekle`yi seçin.
+3. Normal/hareketli eklemek istediğiniz emojiyi seçin.
+4. `+` işaretini kullanarak bu tepki için bir rol oluşturun.
 
 :::caution
 
-The mode will apply to all of the options in that message.
+Sunucudaki rolleriniz ProBot yönetim panelinde görünmüyorsa, ProBot'un rolünü sunucu rol sıralamasında en üst konuma taşıyın.
 
 :::
 
-## Toggle Mode
+# Rol Modu
 
-This mode adds or removes roles based on whether the user has the roles or not. `Recommended`
+Tepki rolü için çeşitli modlar bulunur.
 
-## Give Mode
+:::caution
 
-This mode adds roles whenever a reaction/interaction is added or removed. 'Excellent for accepting rules!'
+Mod, o mesajdaki tüm seçeneklere uygulanacaktır.
+
+:::
+
+## Aç/Kapat
+
+Bu mod, kullanıcının rollere sahip olup olmamasına bağlı olarak roller ekler veya kaldırır. `ÖNERİLİR!`
+
+## Ver
+
+Bu mod, bir tepki eklendiğinde veya kaldırıldığında rolleri ekler. 'Kuralları kabul etmek için harika!'
 
 
-## Take Mode
+## Al
 
-This mode will remove roles whenever a reaction/interaction is added or removed.
+Bu mod, bir tepki eklendiğinde veya kaldırıldığında rolleri kaldırır.
 
-# Type of Notification
+# Bildirim Türü
 
-You will have two options for managing the notification type, whether you want it to respond to user interaction or keep it quiet: no bell:
+ProBot'un kullanıcı etkileşimde bulunduğunda ona yanıt vermesi ile ilgili iki seçeneğiniz olacaktır:
 
-## Notify Type
+## Bildir
 
-This option will send a reply message that can only be seen by the user who interacted with the interaction as they add, remove, or make no changes to the roles to keep them tuned.
+Bu seçenek, etkileşime giren kullanıcı tarafından görülebilecek bir yanıt mesajı gönderir.
 
-1. The first option is the reply message when the role is added.
-2. The second option is the reply message when the role is removed.
-3. The third option is when no changes have been made to the user roles.
+1. İlk seçenek, rol eklendiğinde yanıt mesajı gönderir.
+2. İkinci seçenek, rol kaldırıldığında yanıt mesajı gönderir.
+3. Üçüncü seçenek, kullanıcı rollerinde herhangi bir değişiklik yapılmadığı zaman yanıt mesajı gönderir.
 
 :::info
 
-To have the bot mention the role, include `{0}` in the reply message, as it refers to the role.
+Botun rolden bahsetmesini sağlamak için, yanıt mesajına `{0}` ekleyin. `{0}`, atanacak roldür.
 
 :::
 
-## Silent Type
+## Sessiz
 
-If you want to keep things quiet without drawing the user's attention to any reply messages from the bot, this option is for you because it will not display any reply messages.
+Kullanıcı etkileşiminde kullanıcının dikkatini çekmeden sessiz kalmak istiyorsanız bu seçenek tam size göre çünkü bu seçenekte herhangi bir cevap mesajı gönderilmez.
 
 
-# Important Notes
+# Önemli Notlar
 
 :::warning
 
-The reaction may break if you have select menus or buttons in the background but aren't using them; to resolve this issue, you need to delete any select menu and button options that you may have added on the same message but aren't using.
+Arka planda belirli menüler veya butonlar varsa, ancak bunları kullanmıyorsanız tepki bozulabilir; bu sorunu çözmek için, aynı mesaja eklediğiniz ancak kullanmadığınız tüm seçme menülerini ve buton seçeneklerini silmeniz gerekir.
 
 :::
 
 :::warning
 
-You are not allowed to link multiple messages with self-assignable roles to the same embedded message because doing so may cause problems.
+Daha önce tepki rol ayarlanmış bir gömülü mesaja tekrar ayarlamanıza izin verilmez çünkü bunu yapmak sorunlara neden olabilir.
 
 :::
 
 :::info
 
-You need to subscribe to the `Premium Tier 1/2` tier to set multiple roles for the same option.
+Tek bir seçenekte birden çok rol vermek için `Premium Tier 1/2` abonesi olmanız gerekir.
 
 :::

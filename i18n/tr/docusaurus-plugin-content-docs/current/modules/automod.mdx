@@ -1,91 +1,91 @@
 ---
 sidebar_position: 17
-title: Automod
+title: Otomatik Moderasyon
 description: A guide to properly configure the ProBot Automod for your server
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# Otomatik Moderasyon
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+ProBot'un Otomatik Moderasyon özelliği ile sorunsuz ve stressiz bir sunucu ortamı sağlayın. Spam gönderenlere ve reklam bağlantıları gönderenlere elveda deyin ve ProBot'un topluluğunuz için güvenli ve emniyetli bir ortam sağlamak için yorulmadan çalıştığını bilmenin rahatlığını yaşayın.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Kontrol paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 
 :::
 
-## Detection Options
+## Tespit Seçenekleri
 
-The following options are available for detecting potential spam or malicious messages on your server:
+Sunucunuzdaki potansiyel kötü niyetli mesajları tespit etmek için aşağıdaki seçenekler mevcuttur:
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+> **SPAM (5 MESAJ/5 SANIYE)**: Bu seçenek, bir kullanıcı beş saniye içerisinde beşten fazla mesaj gönderirse tetiklenir.
 
-> **BAD WORDS**: This option detects messages containing bad words.
+> **UYGUNSUZ KELİMELER**: Bu seçenek, uygunsuz kelimeler içeren mesajlarda tetiklenir.
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+> **ÇOĞALTILMIŞ METİN**: Bu seçenek, yinelenen metin içeren mesajlarda tetiklenir.
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **TEKRARLANAN MESAJLAR**: Bu seçenek, "SPAM SPAM SPAM SPAM..." gibi tekrar eden mesajlarda tetiklenir.
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **DİSCORD DAVETLERİ**: Bu seçenek, Discord davet bağlantıları içeren mesajlarda tetiklenir.
 
-> **LINKS**: This option detects messages that contain links.
+> **BAĞLANTILAR**: Bu seçenek, link içeren mesajlarda tetiklenir.
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **SPAMLANMIŞ CAPSLER (%70>CAPSLER)**: Bu seçenek, "Merhaba BEN PROBOT" gibi tamamı büyük harflerle yazılan mesajlarda tetiklenir.
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **EMOJİ SPAMLAMA**: Bu seçenek, 8 veya daha fazla emoji içeren mesajlarda tetiklenir.
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **TOPLU BAHSETME**: Bu seçenek, çok sayıda kullanıcıyı etiketleyen mesajlarda tetiklenir.
 
-## Action Options
+## Eylem Seçenekleri
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+Her seçenek, topluluğunuzun özel ihtiyaçlarını karşılamak için 3 farklı eylem seçeneği sunar. Bu eylemler:
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+1. **Mesajı sil**: Deletes the message that triggered the detection.
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+2. **Üyeyi Sustur**: Mutes the member who sent the triggering message.
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
+3. **Üyeyi Uyar**: Issues a warning to the member who sent the triggering message.
 
-## Settings
+## Ayarlar
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+Her algılama seçeneği, `⚙️` ile gösterilen bir **Ayarlar** seçeneğine sahiptir. Bu seçeneğe tıklamak, sunucunuz için ProBot Otomatik Moderasyon özelliğini ayarlayabileceğiniz bir dizi ayarı ortaya çıkaracaktır.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+> **Devre Dışı Kanallar**: Tespit seçeneklerinden muaf tutulacak kanallardır.
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
+> **Devre Dışı Roller**: Algılama seçeneklerinden muaf tutulacak rollerdir.
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+> **Susturma Süresi**: Algılama seçeneklerini ihlal etmesi durumunda bir üyenin sesinin kapatılacağı sürenin uzunluğudur.
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
+> **Susturma İhlal Sayısı**: Bir üye susturulmadan önce gereken ihlal sayısıdır.
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+**Uygunsuz Kelimeler** ve **Bağlantılar** otomasyon seçeneklerinde, varsayılan seçeneklerde bulunmayan ek ayarlar vardır:
 
-> **Bad Words**
+> **Uygunsuz Kelimeler**
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+- Uygunsuz Kelimeler: Algılama seçeneğini tetikleyecek uygunsuz kelimelerin listesidir.
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+- BİR KELİMENİN PARÇASI İSE EŞLEŞMEYİN: Bu seçenek etkinleştirilirse, uygunsuz sözcükleri içeren ancak onlarla aynı olmayan sözcüklerin algılanmasını engeller.
 
-> **Links**
+> **Bağlantılar**
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+- Beyaz listedeki URL: Bağlantı içerseler bile algılama seçeneğini tetiklemeyen URL'lerin listesidir.
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+- Kara listeye alınmış URL: Bağlantı içermeseler bile algılama seçeneğini tetikleyecek URL'lerin listesidir.
 
-## Additional Features
+## Ek Özellikler
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
+Yukarıda açıklanan algılama ve eylem seçeneklerine ek olarak, ProBot Otomatik Moderasyon modülü aşağıdaki özellikleri de içerir:
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+> **Yoksayılan Kanallar**: Tüm algılama seçeneklerinden muaf olacak kanallardır.
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+> **Yoksayılan Roller**: Tüm algılama seçeneklerinden muaf olacak rollerdir.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+> **Sadece Görüntü Kanalı**: Belirli kanallarda yalnızca görüntülerin gönderilmesini zorunlu kılmanıza olanak tanır.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+> **Sadece YouTube Kanalı**: Belirli kanallarda yalnızca YouTube bağlantılarının gönderilmesini zorunlu kılmanıza olanak tanır.
