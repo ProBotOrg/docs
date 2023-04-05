@@ -1,84 +1,84 @@
 ---
 sidebar_position: 8
 title: Variables
-description: A guide to use all ProBot variables 
+description: Un guide pour utiliser toutes les variables de ProBot
 keywords: [mention, variable, id, user, variables]
 ---
 
-# ProBot Dashboard Variables
+# Variables du Tableau de Bord ProBot
 
-To make your messages look more professional and aesthetically pleasing, you can use various variables to achieve this. This guide will provide you with all the variables you can use in different sections of your dashboard.
+Pour rendre vos messages plus professionnels et esthétiques, vous pouvez utiliser diverses variables pour y parvenir. Ce guide vous fournira toutes les variables que vous pouvez utiliser dans différentes sections de votre tableau de bord.
 
-## Prerequisites
+## Prérequis
 
-Before using the variables, you must enable the Discord Developer Mode on your device. This mode will provide you with the ID's you need to mention specific things.
+Avant d'utiliser des variables, vous devez activer le mode développeur Discord sur votre appareil. Ce mode vous fournira l'ID dont vous avez besoin pour mentionner des choses spécifiques.
 
-## Enabling Discord Developer Mode 
+## Activer le Mode Développeur sur Discord
 
-> On PC
-1. Launch Discord
-2. Click on `User Settings`
-3. Scroll to `App Settings` — click `Appearance`
-4. Toggle Developer Mode to On
+> Sur PC
+1. Lancer Discord
+2. Cliquer sur `User Settings`
+3. Défilez jusqu'à `App Settings` — cliquez sur `Appearance`
+4. Activer le Mode Développeur
 
-> On Phone
-1. Launch Discord
-2. Tap on `User Settings`
-3. Scroll to `App Settings` — tap `Behavior`
-4. Toggle Developer Mode to On
+> Sur Téléphone
+1. Lancer Discord
+2. Appuyez sur `User Settings`
+3. Défilez jusqu'à `App Settings` — appuyez sur `Behavior`
+4. Activer le Mode Développeur
 
-Once you have enabled the Developer Mode, you are now ready to use the variables.
+Une fois que vous avez activé le mode développeur, vous êtes maintenant prêt à utiliser les variables.
 
-## Welcomer Variables
+## Variables de Bienvenue
 
-The following variables can be used in the Welcomer section of your Discord dashboard:
-
-| Variable | Description | 
-| ------------- |:-------------:|
-| `[user]` | This variable mentions the newcomer member | 
-| `[inviter]` | This variable mentions the inviter |
-| `[server]` | This variable displays the server name |
-| `[userName]` | This variable displays the name of the newcomer member |
-| `[inviterName]` | This variable displays the name of the inviter |
-| `[memberCount]` | This variable displays the number of members reached |
-| `<@user_id>` | This variable mentions a specific user using their ID |
-| `<#channel_id>` | This variable mentions a specific channel using its ID |
-| `<@&role_id>` | This variable mentions a specific role using its ID |
-
-## Auto Responder Variables
-
-The following variables can be used in the Auto Responder section of your Discord dashboard:
+**Les variables suivantes peuvent être utilisées dans la section Bienvenue de votre tableau de bord Discord:**
 
 | Variable | Description | 
 | ------------- |:-------------:|
-| `[user]` | This variable mentions the member who typed the trigger |
-| `[userName]` | This variable displays the name of the user who typed the trigger |
-| `[invites]` | This variable displays the number of invites you have reached |
-| `<@user_id>` | This variable mentions a specific user using their ID |
-| `<#channel_id>` | This variable mentions a specific channel using its ID |
-| `<@&role_id>` | This variable mentions a specific role using its ID |
+| `[user]` | Cette variable mentionne le membre nouveau venu | 
+| `[inviter]` | Cette variable mentionne l'invitant |
+| `[server]` | Cette variable affiche le nom du serveur |
+| `[userName]` | Cette variable affiche le nom du membre nouveau venu |
+| `[inviterName]` | Cette variable affiche le nom de l'invitant |
+| `[memberCount]` | Cette variable affiche le nombre de membres atteints |
+| `<@user_id>` | Cette variable mentionne un utilisateur spécifique à l'aide de son ID |
+| `<#channel_id>` | Cette variable mentionne un salon spécifique à l'aide de son ID |
+| `<@&role_id>` | Cette variable mentionne un rôle spécifique à l'aide de son ID |
 
-## Embed Messages Variables
+## Variables de Répondeur Automatique
 
-The following variables can be used in the Embed Messages section of your Discord dashboard:
-
-| Variable | Description | 
-| ------------- |:-------------:|
-| `[text](link)` | This variable creates a hyperlink |
-| `<@user_id>` | This variable mentions a specific user using their ID |
-| `<#channel_id>` | This variable mentions a specific channel using its ID |
-| `<@&role_id>` | This variable mentions a specific role using its ID |
-
-## Leveling System 
-
-The following variables can be used in the Leveling System section of your Discord dashboard:
+**Les variables suivantes peuvent être utilisées dans la section Répondeur Automatique de votre tableau de bord Discord:**
 
 | Variable | Description | 
 | ------------- |:-------------:|
-| `[level]` | to print given level | 
-| `[user] `| to ping the user |
-| `[user.username]` | to print user name |
-| `[user.tag]` | to bring user tag |
-| `[oldLevel] ` | to bring old user level |
+| `[user]` | Cette variable mentionne le membre qui a tapé le déclencheur |
+| `[userName]` | Cette variable affiche le nom de l'utilisateur qui a tapé le déclencheur |
+| `[invites]` | Cette variable affiche le nombre d'invitations que vous avez atteint |
+| `<@user_id>` | Cette variable mentionne un utilisateur spécifique à l'aide de son ID |
+| `<#channel_id>` | Cette variable mentionne un salon spécifique à l'aide de son ID |
+| `<@&role_id>` | Cette variable mentionne un rôle spécifique à l'aide de son ID |
 
-By using the variables listed above, you can make your messages more professional and eye-catching.
+## Variables des Messages de Embed
+
+**Les variables suivantes peuvent être utilisées dans la section Messages de Embed de votre tableau de bord Discord:**
+
+| Variable | Description | 
+| ------------- |:-------------:|
+| `[text](link)` | Cette variable crée un lien hyperlien |
+| `<@user_id>` | Cette variable mentionne un utilisateur spécifique à l'aide de son ID |
+| `<#channel_id>` | Cette variable mentionne un salon spécifique à l'aide de son ID |
+| `<@&role_id>` | Cette variable mentionne un rôle spécifique à l'aide de son ID |
+
+## Système de Niveau 
+
+**Les variables suivantes peuvent être utilisées dans la section Système de Niveau de votre tableau de bord Discord:**
+
+| Variable | Description | 
+| ------------- |:-------------:|
+| `[level]` | pour imprimer le niveau donné | 
+| `[user] `| envoyer un ping à l'utilisateur |
+| `[user.username]` | pour imprimer le nom d'utilisateur |
+| `[user.tag]` | pour apporter une balise d'utilisateur |
+| `[oldLevel] ` | pour apporter l'ancien niveau d'utilisateur |
+
+En utilisant les variables listées ci-dessus, vous pouvez rendre vos messages plus professionnels et accrocheurs.

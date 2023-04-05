@@ -1,91 +1,98 @@
 ---
 sidebar_position: 17
-title: Automod
-description: A guide to properly configure the ProBot Automod for your server
+title: الرقابة التلقائية
+description: مستند إعداد الرقابة التلقائية بشكل صحيح
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# الرقابة التلقائية
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+الرقابة التلقائية تعمل على منع السبام و الكلمات المسيئة و المعلنين لتوفير مجتمع هادئ في سيرفرك، إستمتع براحة البال فأن الرقابة التلقائية في بروبوت تعمل طوال الوقت للحفاظ على مجتمع أمن و هادئ في سيرفرك.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+يمكنك تطبيق الخطوات الأتية في لوحة التحكم لإعداد الرقابة التلقائية.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. إنتقل إلى لوحة التحكم و سجل دخولك. 
+2. إختر سيرفرك من القائمة على اليمين.
+3. إذهب إلى القسم و تأكد من تفعيله.
 
 :::
 
-## Detection Options
+## خيارات الرقابة التلقائية
 
-The following options are available for detecting potential spam or malicious messages on your server:
+الغرض من الخيارات الأتية منع رسائل التخريب و حجب الكلمات المسيئة في سيرفرك:
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+:::note
 
-> **BAD WORDS**: This option detects messages containing bad words.
+بعض الرقابات يتم ادارتها بواسطة ديسكورد اوتومود سيتم ذكر ذلك بجانبها، الرقابات التي لم يتم ذكر ذلك بجانبها سيتم ادارتها بواسطة بروبوت. 
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+:::
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **إزعاج بالرسائل (5 رسائل \ 5 ثواني)**: تعمل هذه الرقابة عندما يرسل العضو اكثر من خمس رسائل خلال خمس ثواني.
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **الكلمات المسيئة**: تعمل هذه الرقابة عند إرسال رسائل تحتوي على كلمات مسيئة. **(يتم ادارتها بواسطة ديسكورد اوتومود)**
 
-> **LINKS**: This option detects messages that contain links.
+> **تكرار النص**: تعمل هذه الرقابة عند تكرار النص عدة مرات بنفس الرسالة.
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **الرسائل المكررة**: سوف تعمل هذه الرقابة عند تكرار نفس الرسالة. **(بريميوم باقة 2)**
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **روابط السيرفرات**: سوف تعمل هذه الرقابة عند إرسال رسائل تحتوي على رابط دعوة سيرفر ديسكورد. **(يتم ادارتها بواسطة ديسكورد اوتومود)**
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **الروابط**: سوف تعمل هذه الرقابة عند إرسال رسائل تحتوي على روابط. **(يتم ادارتها بواسطة ديسكورد اوتومود)**
 
-## Action Options
+> **سبام الأحرف الكبيرة (70% > احرف مكبرة)**: سوف تعمل هذه الرقابة عند إرسال رسائل تحتوي على حروف كبيرة، مثال "HELLO WORLD". **(يتم ادارتها بواسطة ديسكورد اوتومود)**
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+> **إزعاج EMOJI**: سوف تعمل هذه الرقابة عند إرسال رسائل تحتوي على 8 إيموجيات او أكثر.
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+> **إزعاج منشن**: سوف تعمل هذه الرقابة عند منشن عدد كبير من الأعضاء بنفس الرسالة. **(يتم ادارتها بواسطة ديسكورد اوتومود)**
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+## خيارات الإجراء
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
+توفر كل رقابة خيارات مختلفة للإجراء، الإجراءات المتوفرة هي:
 
-## Settings
+1. **منع الرسالة**: سيتم منع الرسالة فور إكتشافها.
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+2. **إسكات العضو**: سيتم إسكات العضو عند المخالفة.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+4. **إعطاء تايم اوت للعضو**: سيتم إعطاء تايم اوت للعضو عند المخالفة (هذا الخيار متوفر فقط مع الرقابات التي يتم تشغيلها بواسطة الديسكورد). 
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+## الإعدادات
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
+كل رقابة توفر خيار **الإعدادات** ويظهر بشكل إيموجي الترس `⚙️` عند الضغط عليه ستظهر لك إعدادات الرقابة التي يمكنك تخصيصها على حسب حاجتك.
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+> **الرومات المعطلة**: سيتم حجب الرقابة من الرومات المحددة.
 
-> **Bad Words**
+> **الرولات المعطلة**: أصحاب الرولات المعطلة سيتم تجنبهم من الرقابة التلقائية.
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+> **مدة اسكات العضو**: مدة إسكات العضو عند المخالفة.
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+> **مدة تايم اوت العضو**: مدة تايم اوت العضو عند المخالفة. 
 
-> **Links**
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+يتوفر خيارات إضافية لرقابة **الكلمات المسيئة** و رقابة **الروابط** غير متوفرة في الرقابات الإخرى و هي:
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+> **الكلمات المسيئة**
 
-## Additional Features
+- الكلمات المسيئة: قائمة بالكلمات المسيئة التي سيتم منع الرسائل التي تحتوي عليها.
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+> **الروابط**
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+- الروابط المسموحة: قائمة روابط سيتم تجنبها من رقابة الروابط.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+- الروابط الممنوعة: قائمة روابط سيتم منعها فقط والسماح للروابط الاخرى الغير محددة في هذا الخيار.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+## مميزات إضافية
+
+بالإضافة إلى الخيارات التي تم توضيحها يتوفر ايضا الخيارات الأتية:
+
+> **تخطي الرومات**: سيتم تخطي الرومات المحددة من الرقابة التلقائية.
+
+> **تخطي الرولات**: سيسمح لمالكين الرولات المحددة تخطي الرقابة التلقائية.
+
+> **رومات صور فقط**: سيتم السماح للأعضاء بإرسال الصور فقط في الرومات المحددة.
+
+> **رومات يوتيوب فقط**: سيتم السماح للأعضاء بإرسال روابط يوتيوب فقط في الرومات المحددة.

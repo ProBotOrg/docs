@@ -3,67 +3,68 @@ sidebar_position: 15
 keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take] 
 ---
 
-# Anti-Raid
+# مكافحة الغزو
 
 :::caution
 
-This feature is only available for `Tier 2` subscribers.
+هذه الميزة متوفرة فقط لإشتراكات البريميوم.
 
 :::
 
-The anti-raid feature of ProBot allows you to protect your server from unwanted raiders. With this feature, you can set up a system that automatically detects and takes action against raiders based on your desired configuration.
+توفر لك ميزة مكافحة الغزو الحماية لسيرفرك ضد المهاجمين و المخربين، يمكنك إعداد نظام يكتشف المخربين بشكل تلقائي و يتخذ اجراءات ضدهم على حسب إعدادك.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+يمكنك تطبيق الخطوات الأتية في لوحة التحكم لإعداد النظام.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
-
-:::
-
-## Account Age
-
-The minimum Discord account age for detection and action against raiders. Four options are available:
-
-> **1 Week**: ProBot will detect accounts less or equal to one week and take action against them.
-
-> **1 Month**: ProBot will detect accounts less or equal to one month and take action against them.
-
-> **3 Months**: ProBot will detect accounts less or equal to three months and take action against them.
-
-> **None**: This option will detect all account ages, regardless of how long the account has existed.
-
-
-## List Length
-
-The number of people that must join for ProBot to start an anti-raid. This can be set between 5 and 100.
-
-## Time To Fill The List (Seconds)
-
-The time frame within which ProBot will detect users joining. With this option, you can set how much time raiders have to join before ProBot starts taking action.
-
-:::info How It Works
-
-As an example, if you set the account age to `1 Week`, the list length to `5`, and the time in seconds to `5`, the anti-raid system will start as soon as `5` users with an account age of `1 week` join within `5` seconds. This means that if `5` users join your server within `5` seconds and they all have accounts that are less than or equal to one week old, ProBot will start taking action against them.
+1. إنتقل إلى لوحة التحكم و سجل دخولك. 
+2. إختر سيرفرك من القائمة على اليمين.
+3. إذهب إلى القسم و تأكد من تفعيله.
 
 :::
 
-## Action To Take
+## عمر الحساب
 
-The action ProBot will take against raiders. Three options are available:
+الحد الأدنى لعمر حساب الديسكورد لإكتشاف المخربين و إتخاذ اجراء ضدهم يوفر لك اربعة خيارات:
 
-1. **None**: ProBot will take no action.
-2. **Mute**: ProBot will mute the raider.
-3. **Ban**: ProBot will ban the raider.
+> **إسبوع واحد**: سيكتشف بروبوت الحسابات التي عمرها يقل او يساوي إسبوع ويتخذ الإجراء المحدد ضدهم.
 
-If ban or mute is selected, you will have the option to specify the duration of the action in hours, days, and months.
+> **شهر واحد**: سيكتشف بروبوت الحسابات التي عمرها يقل او يساوي شهر ويتخذ الاجراء المحدد ضدهم.
 
-## Disable Welcome During Raid
+> **ثلاثة اشهر**: سيكتشف بروبوت الحسابات التي عمرها يقل او يساوي ثلاثة أشهر ويتخذ الاجراء المحدد ضدهم.
 
-You can enable this option to prevent the welcome message from being spammed by raiders.
+> **لا شيئ**: هذا الخيار سيكتشف جميع الحسابات بغض النظر عن عمرهم.
 
-## Send A Message To A Channel
 
-ProBot can keep you updated on the start and end of a raid by sending a message to a channel. You can customize the message for the start and end of a raid as desired. This allows you to keep track of when raids are happening on your server.
+## طول القائمة
+
+عدد الأعضاء المطلوب لبدء مكافحة الغزو، يمكنك إختيار من 5 إلى 100.
+
+## الوقت اللازم لملء القائمة (ثواني)
+
+
+الوقت اللازم لدخول عدد الأعضاء المحدد قبل أن يبدأ بروبوت بمكافحة الغزو.
+
+:::info كيفية العمل؟
+
+على سبيل المثال إذا قمت بتحديد عمر الحساب `إسبوع واحد` وطول القائمة `5` و الوقت `5` ثواني سوف يبدأ نظام مكافحة الغزو بمجرد دخول 5 مستخدمين عمر حسابهم لا يزيد عن `إسبوع واحد` في `5` ثواني .
+
+:::
+
+## الإجراء
+
+الاجراء الذي سوف يتخذه بروبوت ضد المخربين، الخيارات المتوفرة:
+
+1. **لا شيئ**: لن يتخذ بروبوت أي إجراء ضد المخربين.
+2. **إسكات**: سوف يقوم بروبوت بإسكات جميع المخربين.
+3. **حظر**: سوف يقوم بروبوت بحظر جميع المخربين.
+
+إذا تم إختيار الحظر او الإسكات فسيكون لديك خيار لتحديد مدة الإجراء بالساعات والأيام والشهور.
+
+## تعطيل الترحيب أثناء الغزو
+
+يمكنك تفعيل هذا الخيار لتعطيل الترحيب أثناء الغزو لمنع السبام.
+
+## إرسال رسالة إلى روم
+
+يمكن لبروبوت إطلاعك على بداية و نهاية الغزو عن طريق إرسال رسالة إلى روم محدد، يمكنك تخصيص الرسالة لبداية و نهاية الغزو حسب رغبتك، يتيح لك ذلك معرفة وقت حدوث الغزو على سيرفرك.

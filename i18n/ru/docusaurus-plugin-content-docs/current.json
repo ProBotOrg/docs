@@ -1,22 +1,22 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Следующий",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Getting Started",
+    "message": "Приступая",
     "description": "The label for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "Get Started",
+    "message": "Давайте приступим",
     "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules": {
-    "message": "Modules",
+    "message": "Модули",
     "description": "The label for category Modules in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules.link.generated-index.description": {
-    "message": "Modules",
+    "message": "Модули",
     "description": "The generated-index page description for category Modules in sidebar tutorialSidebar"
   }
 }

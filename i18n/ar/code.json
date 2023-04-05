@@ -4,58 +4,58 @@
     "description": "The label used to navigate to the next doc"
   },
   "homepage.introduction": {
-    "message": "Introduction"
+    "message": "المقدمة"
   },
   "homepage.feature_one_category_first": {
-    "message": "Dashboard Setup"
+    "message": "إعداد لوحة التحكم"
   },
   "homepage.feature_one_description_first": {
-    "message": "Dashboard Your One-Stop-Shop for Server Management"
+    "message": "لوحة التحكم هي قاعدتك الشاملة لإدارة سيرفرك"
   },
   "homepage.feature_one_category_second": {
-    "message": "Setup ProBot"
+    "message": "إعداد بروبوت"
   },
   "homepage.feature_one_description_second": {
-    "message": "Step by Step to invite ProBot"
+    "message": "إعداد بروبوت خطوة بـ خطوة"
   },
   "homepage.feature_one_category_third": {
-    "message": "FAQ"
+    "message": "اسئلة شائعة"
   },
   "homepage.feature_one_description_third": {
-    "message": "Frequently Asked Questions"
+    "message": "أسئلة مكررة"
   },
   "homepage.feature_two_category_one": {
-    "message": "Modules"
+    "message": "الأقسام"
   },
   "homepage.feature_two_description_first": {
-    "message": "Custom Welcome and Goodbye Messages for Engaging Discord Server Management"
+    "message": "تخصيص رسالة الترحيب والمغادرة"
   },
   "homepage.feature_two_description_second": {
-    "message": "Self-Assignable Roles"
+    "message": "الرولات القابلة للأخذ"
   },
   "homepage.feature_two_description_third": {
-    "message": "Easily create embeds for your server!"
+    "message": "إنشاء إيمبد بسهولة في سيرفرك!"
   },
   "homepage.feature_two_description_four": {
-    "message": "Level System"
+    "message": "نظام اللفلات"
   },
   "homepage.learn_more": {
-    "message": "Learn More"
+    "message": "لمعرفة المزيد"
   },
   "homepage.category_first_section": {
-    "message": "Server management"
+    "message": "إدارة سيرفرك"
   },
   "homepage.category_second_section": {
-    "message": "Modules"
+    "message": "الأقسام"
   },
   "homepage.header_welcome": {
-    "message": "Welcome to the ProBot Docs!"
+    "message": "مرحبًا بك في مستندات بروبوت!"
   },
   "homepage.header_welcome_description": {
-    "message": "ProBot is a highly configurable, multipurpose bot that offers features like image greeting, detailed logs, social commands, moderation, self-assignable roles, social media notifications, and protection for your server."
+    "message": "بروبوت هو بوت متعدد المميزات وقابل للتخصيص بشكل مثالي يوفر ميزات مثل الترحيب ، اللوق ، الأوامر العامة والإدارية ، الرتب القابلة للأخذ ، إشعارات وسائل التواصل الإجتماعي وحماية الخادم الخاص بك."
   },
   "homepage.header_go_to_docs": {
-    "message": "Go to Docs"
+    "message": "إذهب إلى المستندات"
   },
   "theme.ErrorPageContent.title": {
     "message": "هذه الصفحة لا تستجيب.",
@@ -66,7 +66,7 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "الصفحة غير موجودة",
+    "message": "الصفحة غير متوفرة",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
@@ -82,7 +82,7 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "تمليح",
+    "message": "نصيحة",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
@@ -94,11 +94,11 @@
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.caution": {
-    "message": "حذر",
+    "message": "إنتبه",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "أنتقل للأعلى",
+    "message": "إنتقل للأعلى",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -166,7 +166,7 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "التنقل بين صفحات الددات",
+    "message": "التنقل بين صفحات المستندات",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -182,22 +182,22 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "الأصدار: {versionLabel}"
+    "message": "الإصدار: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "هذه وثائق لم يتم طرحها للإصدار {siteTitle} {versionLabel}.",
+    "message": "هذه مستندات لم يتم طرحها للإصدار {siteTitle} {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "هذه هي وثائق {siteTitle} {versionLabel}، التي لم تعد تتم صيانتها بشكل نشط.",
+    "message": "هذه هي مستندات {siteTitle} {versionLabel}، لم تعد تتم صيانتها بشكل نشط.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "للحصول على أحدث الوثائق، راجع {latestVersionLink} ({versionLabel}).",
+    "message": "للحصول على أحدث المستندات، راجع {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "احدث اصدار",
+    "message": "أحدث إصدار",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
@@ -205,7 +205,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "ارتباط مباشر بالعنوان {heading}",
+    "message": "إرتباط مباشر بالعنوان {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -249,15 +249,15 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "تبديل التفاف النص",
+    "message": "تبديل إلتفاف النص",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "تبديل فئة الشريط الجاني القابل للاغلاق '{label}'",
+    "message": "تبديل فئة الشريط القابل للإغلاق '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "رئيسي",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -273,7 +273,7 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "اقراء المزيد {title}",
+    "message": "اقرأ المزيد {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
@@ -285,19 +285,19 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "طي الشريط الجانبي",
+    "message": "إغلاق الشريط الجانبي",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "طي الشريط الجانبي",
+    "message": "إغلاق الشريط الجانبي",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "الشريط الجانبي للمستندات",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "إغلاق شريط التنقل",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -305,7 +305,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "تبديل شريط التنقل",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -328,11 +328,11 @@
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "ابحث في الوثائق",
+    "message": "إبحث في المستندات",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "اكتب ما تبحث عنه هنا",
+    "message": "إكتب ما تبحث عنه هنا",
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
@@ -340,7 +340,7 @@
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "البحث بواسطه Algolia",
+    "message": "البحث بواسطة Algolia",
     "description": "The ARIA label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
@@ -348,7 +348,7 @@
     "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "جلب نتائج جديدة ...",
+    "message": "جاري الحصول على نتائج جديدة ...",
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
@@ -356,95 +356,95 @@
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "message": "Clear the query",
+    "message": "إمسح الإستعلام",
     "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Cancel",
+    "message": "إلغاء",
     "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Recent",
+    "message": "مؤخرًا",
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "No recent searches",
+    "message": "لا توجد عمليات بحث حديثة",
     "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Save this search",
+    "message": "حفظ البحث",
     "description": "The label for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Remove this search from history",
+    "message": "إزالة البحث من السجل",
     "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Favorite",
+    "message": "مفضل",
     "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Remove this search from favorites",
+    "message": "إزالة هذا البحث من المفضلات",
     "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Unable to fetch results",
+    "message": "تعذر الحصول على النتائج",
     "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "You might want to check your network connection.",
+    "message": "يرجى التحقق من إتصالك بالإنترنت..",
     "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "to select",
+    "message": "لتحديد",
     "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter key",
+    "message": "أدخل مفتاح",
     "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "to navigate",
+    "message": "للتنقل",
     "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Arrow up",
+    "message": "السهم للأعلى",
     "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Arrow down",
+    "message": "السهم للأسفل",
     "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "to close",
+    "message": "لإغلاق",
     "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Escape key",
+    "message": "مفتاح الإغلاق",
     "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Search by",
+    "message": "البحث بواسطة",
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "No results for",
+    "message": "لا توجد نتائج لـ",
     "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Try searching for",
+    "message": "حاول البحث عن",
     "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Believe this query should return results?",
+    "message": "هل تعتقد أن هذا البحث يجب أن يعود بنتائج؟",
     "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Let us know.",
+    "message": "دعنا نعلم.",
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Search docs",
+    "message": "بحث المستندات",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.common.skipToMainContent": {
