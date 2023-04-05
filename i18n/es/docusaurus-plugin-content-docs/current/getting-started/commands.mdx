@@ -1,0 +1,112 @@
+---
+sidebar_position: 5
+slug: /getting-started/commands
+description: Lista de todos los comandos, incluyendo su uso y descripción.
+---
+
+# Comandos
+
+En esta sección, obtendrá una comprensión más profunda de los comandos ProBot, su uso y un ejemplo de cómo poner dichos comandos en acción.
+
+:::important
+
+- Como los comandos de barra son el prefijo bot por defecto, todos los usos y ejemplos se ejemplificarán con el comando de barra `/`.
+
+- Los signos `[` `]` son obligatorios para cada orden referenciada con ese signo, pero `(` `)` son opcionales.
+
+:::
+
+## General
+
+| Comando  |                                      Explicación                                      |              Uso              |
+| -------- | :-----------------------------------------------------------------------------------: | :---------------------------: |
+| /credits |                        Muestre su crédito o el de otra persona                        | /credits [usuario] (cantidad) |
+| /rep     | Concede a alguien un punto de reputación. Sólo puede utilizarse una vez cada 24 horas |        /rep [usuario]         |
+| /moveme  |                            Te desplaza a otro canal de voz                            |   /moveme [canal o usuario]   |
+| /color   |                            Cambia tu color en el servidor                             |   /color [número de color]    |
+| /colors  |                          Lista todos los colores disponibles                          |            /colors            |
+| /short   |                                    Acorta una URL                                     |         /short [URL]          |
+| /roll    |                                     lanzar dados                                      |        /roll (número)         |
+
+## Niveles
+
+| Comando   |                          Explicación                           |                   Uso                    |
+| --------- | :------------------------------------------------------------: | :--------------------------------------: |
+| /profile  | Vea su tarjeta personal de perfil global o la de otra persona. |            /profile (usuario)            |
+| /rank     |  Ver tu tarjeta de rango o la de otra persona en el servidor   |             /rank (usuario)              |
+| /top      |        Mostrar los principales miembros por texto o voz        |          /top (día/semana/mes)           |
+| /title    |                 Cambia el título de tu perfil                  |          /title [nuevo título]           |
+| /setxp    |                  Establece el xp del usuario                   |    /setxp [usuario] [tipo] [nueva_xp]    |
+| /setlevel |                 Establece el nivel del usuario                 | /setlevel [usuario] [tipo] [nuevo_nivel] |
+
+## Info
+
+| Comando |                                      Explicación                                       |        Uso        |
+| ------- | :------------------------------------------------------------------------------------: | :---------------: |
+| /user   | Muestra información, como el ID y la fecha de alta, sobre ti mismo o sobre un usuario. |  /user (usuario)  |
+| /avatar |                            Obtener el avatar de un usuario                             | /avatar (usuario) |
+| /server |                         Muestra información sobre el servidor                          |      /server      |
+| /roles  |             Obtener una lista de roles de servidor y recuento de miembros              |      /roles       |
+
+## Moderation
+
+| Comando          |                                            Explicación                                            |                                  Uso                                   |
+| ---------------- | :-----------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+| /setnick         |                                   Cambia el apodo de un miembro                                   |                       /setnick [usuario] (apodo)                       |
+| /ban             |                                  Banear la entrada a un miembro                                   |                    /ban [usuario] (tiempo) (razón)                     |
+| /unban           |                                       Debanear a un miembro                                       |                   /unban [usuario o ID del usuario]                    |
+| /kick            |                                       Expulsa a un miembro                                        |                        /kick [usuario] (razón)                         |
+| /vkick           |                             Expulsar a un miembro de un canal de voz                              |                            /vkick [usuario]                            |
+| /mute text       |             Silenciar a un miembro para que no pueda escribir en los canales de texto             |                 /mute text [usuario] (tiempo) (razón)                  |
+| /unmute text     |                                 Anular el silencio de un miembro                                  |                           /unmute [usuario]                            |
+| /mute voice      |               Silenciar a un miembro para que no pueda hablar en los canales de voz               |                 /mute voice [usuario] (tiempo) (razón)                 |
+| /unmute voice    |                      Anular el silencio de un miembro en los canales de voz                       |                        /unmute voice [usuario]                         |
+| /timeout         |                                        Aisla a un usuario                                         |                  /timeout [usuario] (tiempo) (razón)                   |
+| /untimeout       |                               Elimina el aislamiento de un usuario                                |                          /untiemout [usuario]                          |
+| /clear           |                                   Limpia los mensajes del canal                                   |               /clear (usuario/bots) (número de mensajes)               |
+| /move            |                             Desplaza a un miembro a otro canal de voz                             |                   /move [usuario] (usuario o canal)                    |
+| /role give       |                              Añadir/eliminar rol(es) para un miembro                              |                   /role give [usuario] [role] (bulk)                   |
+| /role remove     |                               eliminar el/los rol(es) de un miembro                               |                  /role remove [usuario] [role] (bulk)                  |
+| /role multiple   |                                Añadir/eliminar rol(es) de miembros                                | /role multiple [dar_o_quitar] [papel] [tipo_selección] (rol requerido) |
+| /points set      |                                Establecer los puntos de un usuario                                |                     /points set [usuario] [puntos]                     |
+| /points list     |                                       Ver todos los puntos                                        |                      /points list (role) (página)                      |
+| /points decrease |                                Disminuir los puntos de un usuario                                 |                  /points decrease [usuario] [puntos]                   |
+| /points increase |                                 Aumentar los puntos de un usuario                                 |                  /points increase [usuario] [puntos]                   |
+| /points reset    |                                      Restablecer los puntos                                       |                        /points reset (usuario)                         |
+| /warn            |                                       Advierte a un miembro                                       |                        /warn [usuario] [razón]                         |
+| /warn_remove     |                      Eliminar las advertencias para el servidor o el usuario                      |                  /warn_remove [usuario/todos/warnID]                   |
+| /warnings        |                   Obtener la lista de advertencias del servidor o de un usuario                   |                          /warnings (usuario)                           |
+| /lock            |          Desactiva el envío de mensajes por parte de `@everyone` en un canal específico           |                         /lock (canal) (razón)                          |
+| /unlock          |                   Permite a `@everyone` enviar mensajes en un canal específico                    |                            /unlock (canal)                             |
+| /setcolor        |                         Cambia el color del rol por códigos hexadecimales                         |              /setcolor [nombre del rol] [código de color]              |
+| /slowmode        |                          Activar o desactivar el modo lento en un canal                           |                           /slowmode (tiempo)                           |
+| /reset           | Restablecer puntos xp de texto/voz/invitación para todos los miembros o para miembros específicos |    /reset [texto / voz / invitaciones / límites] [todos / usuario]     |
+
+<details>
+
+<summary>Notas importantes sobre la moderación</summary>
+
+- Sólo los usuarios con permiso de `Administrador`, `Mod Roles` en el dashboard, o el permiso para ese comando pueden usar comandos de moderación. **Por ejemplo**, los usuarios con permiso de baneo pueden usar el comando `/ban`.
+
+- Si no se ha especificado ningún tiempo, la duración por defecto para todos los comandos de entrada de tiempo es de **3 meses**; esto puede modificarse en cualquier momento.
+
+</details>
+
+## VIP
+
+:::caution
+
+Los siguientes comandos sólo están disponibles para los Premium.
+
+:::
+
+| Comando        |                              Explicación                               |           Uso            |
+| -------------- | :--------------------------------------------------------------------: | :----------------------: |
+| /vip info      |                Muestra información sobre tu bot premium                |           /vip           |
+| /vip move      |          Traslada tu bot premium a un nuevo servidor `Tier 2`          |    /vip move [número]    |
+| /vip restart   |                    Reinicia tu bot premium `Tier 2`                    |       /vip restart       |
+| /vip whitelist | Lista blanca de un usuario para permitir el acceso al dashboard ProBot | /vip whitelist [usuario] |
+| /vip avatar    |                  Cambia el avatar de tu bot `Tier 2`                   |       /vip avatar        |
+| /vip username  |             Cambia el nombre de usuario de tu bot `Tier 2`             |  /vip username [nombre]  |
+| /vip status    |                 Cambia el estatus de tu bot a `Tier 2`                 |  /vip status [estatus]   |
+| /vip transfer  |       Transfiere la propiedad de tu bot a otro usuario `Tier 2`        | /vip transfer [usuario]  |

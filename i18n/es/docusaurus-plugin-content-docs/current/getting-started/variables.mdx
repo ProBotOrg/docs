@@ -1,0 +1,86 @@
+---
+sidebar_position: 8
+title: Variables
+description: Una guía para utilizar todas las variables de ProBot
+keywords: [mention, variable, id, user, variables]
+---
+
+# Variables del Dashboard de ProBot
+
+Para que tus mensajes tengan un aspecto más profesional y estético, puedes utilizar diversas variables para conseguirlo. Esta guía te proporcionará todas las variables que puedes utilizar en diferentes secciones del dashboard.
+
+## Requisitos previos
+
+Antes de utilizar las variables, debes habilitar el Modo Desarrollador de Discord en tu dispositivo. Este modo te proporcionará los ID que necesitas para mencionar cosas específicas.
+
+## Activar el modo de desarrollador de Discord
+
+> En PC
+
+1. Inicie Discord
+2. Haga clic en `Configuración de usuario`
+3. Desplácese hasta `Configuración de la Aplicación` - haga clic en `Avanzado`.
+4. Active el modo desarrollador
+
+> En Teléfono
+
+1. Inicie Discord
+2. Haga clic en `Configuración de usuario`
+3. Desplácese hasta `Configuración de la Aplicación` - pulse `Avanzado`.
+4. Active el modo desarrollador
+
+Una vez que hayas activado el Modo Desarrollador, ya estás listo para utilizar las variables.
+
+## Variables de Bienvenida
+
+Las siguientes variables se pueden utilizar en la sección de Bienvenida:
+
+| Variable            |                   Descripción                    |
+| ------------------- | :----------------------------------------------: |
+| `[user]`            | Esta variable menciona al miembro recién llegado |
+| `[inviter]`         |            Menciona a quien lo invito            |
+| `[server]`          |               Nombre del servidor                |
+| `[userName]`        |        Nombre del miembro sin mencionarlo        |
+| `[inviterName]`     |    Nombre de quien lo invito sin mencionarlo     |
+| `[memberCount]`     |         Cantidad de miembros alcanzados          |
+| `<@id_del_usuario>` |  Menciona a un usuario específico usando su id   |
+| `<#id_del_canal>`   |    Menciona un canal específico usando su id     |
+| `<@&id_del_rol>`    |     Menciona un rol específico usando su id      |
+
+## Variables de respuesta automática
+
+Las siguientes variables se pueden utilizar en la sección de Respuesta Automática:
+
+| Variable            |                                 Descripción                                  |
+| ------------------- | :--------------------------------------------------------------------------: |
+| `[user]`            |      Esta variable menciona al miembro que ha escrito el desencadenante      |
+| `[userName]`        | Esta variable muestra el nombre del usuario que ha escrito el desencadenante |
+| `[invites]`         |      Esta variable muestra el número de invitaciones que has alcanzado       |
+| `<@id_del_usuario>` |                Menciona a un usuario específico usando su id                 |
+| `<#id_del_canal>`   |                  Menciona un canal específico usando su id                   |
+| `<@&id_del_rol>`    |                   Menciona un rol específico usando su id                    |
+
+## Embeds Variables
+
+Las siguientes variables se pueden utilizar en la sección Embeds:
+
+| Variable            |                  Description                  |
+| ------------------- | :-------------------------------------------: |
+| `[texto](enlace)`   |       Esta variable crea un hiperenlace       |
+| `<@id_del_usuario>` | Menciona a un usuario específico usando su id |
+| `<#id_del_canal>`   |   Menciona un canal específico usando su id   |
+| `<@&id_del_rol>`    |    Menciona un rol específico usando su id    |
+
+## Sistema de Niveles
+
+Las siguientes variables se pueden utilizar en la sección Sistema de Niveles:
+
+| Variable          |            Descripción            |
+| ----------------- | :-------------------------------: |
+| `[level]`         |        para el nivel dado         |
+| `[user] `         |    para hacer ping al usuario     |
+| `[user.username]` |     para el nombre de usuario     |
+| `[user.tag]`      |      para el tag de usuario       |
+| `[oldLevel] `     | para el antiguo nivel del usuario |
+
+Utilizando las variables enumeradas anteriormente, puede hacer que sus mensajes sean más profesionales y llamativos.

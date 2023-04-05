@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "ProBot Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ProBot Docs",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Introduction": {
+    "message": "Introducción",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.Dashboard": {
+    "message": "Dashboard",
+    "description": "Navbar item with label Dashboard"
+  },
+  "item.label.Contact support": {
+    "message": "Contacto Soporte",
+    "description": "Navbar item with label Contact support"
+  }
+}
