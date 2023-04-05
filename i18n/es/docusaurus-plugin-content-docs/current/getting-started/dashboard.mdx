@@ -1,0 +1,41 @@
+---
+sidebar_position: 2
+slug: /getting-started/dashboard
+title: Configuración del Dashboard
+description: Una guía completa sobre el uso del dashboard para gestionar su servidor y configurar apartados y comandos.
+keywords: [dashboard, configuration, manage, server, modules]
+---
+
+# Dashboard: El Apartado Único Para Editar Su Servidor
+
+El Dashboard es el corazón de la configuración de su servidor. Proporciona una interfaz fácil de usar para gestionar todos los apartados y comandos. Despídete de las complejas y lentas configuraciones de línea de comandos.
+
+## Acceso al Dashboard
+
+Acceder al dashboard es sencillo y directo. Estos son los pasos:
+
+- Navegue hasta el [sitio web](https://probot.io/) e inicie sesión en su cuenta.
+- El botón del dashboard aparecerá en la misma página, haga clic en él para acceder al Dashboard.
+
+:::caution
+Necesita permiso de `Administrador` para ver su servidor en la lista.
+:::
+
+## Configuración de Apartados y Comandos
+
+Todos los apartados del Dashboard tienen un botón en la esquina superior derecha que permite desactivar todos los comandos de ese apartado. Además, cada comando tiene su propio botón para activarlo o desactivarlo, así como un botón de edición para personalizarlo.
+
+Estas son algunas de las opciones de personalización disponibles para cada comando:
+
+- **Alias**: Un alias personalizado para el comando, haciéndolo fácil de recordar y usar.
+- **Roles Habilitados**: Limita quién puede usar el comando a roles específicos.
+- **Roles Deshabilitados**: Impedir que determinados roles utilicen el comando.
+- **Canales Habilitados**: El bot sólo responderá al comando en los canales especificados.
+- **Canales Deshabilitados**: El bot no responderá al comando en estos canales.
+- **Borrado automático con eliminación de mensajes**: La respuesta del bot se borrará si el remitente borra su mensaje.
+- **Mensaje de invocación de comando de borrado automático**: El mensaje de comando enviado por el remitente se borrará inmediatamente después del envío.
+- **Auto-borrar el mensaje de respuesta del bot después de 5 segundos**: La respuesta del bot se borrará 5 segundos después de ser enviada.
+
+:::caution
+¿No ves tu servidor en la lista? Esto significa que no tiene el permiso "Administrador" necesario para acceder al Dashboard. Asegúrese de que su rol tiene el permiso "Administrador" explícitamente concedido en la configuración de su rol.
+:::
