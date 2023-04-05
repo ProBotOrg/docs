@@ -1,12 +1,12 @@
 ---
 sidebar_position: 9
-title: Renkler
+title: Colors
 keywords: [color feature, appearance, title, icon shape, image] 
 ---
 
 # Renk Özelliği: Discord Sunucunuz İçin Özel Roller Nasıl Oluşturulur
 
-ProBot'taki renk özelliği, sunucu sahiplerinin üyelerin aralarından seçim yapabileceği benzersiz, numaralandırılmış renk rolleri oluşturmasına olanak tanır, bu da bir sunucunun görünümünü ve katılımını iyileştirmeye yardımcı olabilir. Bu rehber, renk özelliğini ayarlamak için adım adım bir yaklaşımın yanı sıra başlığın, simge şeklinin ve arka plan görüntüsünün nasıl özelleştirileceğine ilişkin bilgiler sağlar.
+Discord'daki renk özelliği, sunucu sahiplerinin üyelerin aralarından seçim yapabileceği benzersiz, numaralandırılmış renk rolleri oluşturmasına olanak tanır, bu da bir sunucunun görünümünü ve katılımını iyileştirmeye yardımcı olabilir. Bu kılavuz, renk özelliğini ayarlamak için adım adım bir yaklaşımın yanı sıra başlığın, simge şeklinin ve arka plan görüntüsünün nasıl özelleştirileceğine ilişkin bilgiler sağlar.
 
 :::info
 
@@ -20,28 +20,26 @@ ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği ye
 
 ## Renk Özelliğini Ayarlama
 
-Renk özelliğini ayarlamak kolay ve basittir. Tek yapmanız gereken herhangi bir ek metin olmadan `1, 2, 3, 4` gibi isimlere sahip roller oluşturmaktır. Bunu yaptıktan sonra, bot bu rolleri otomatik olarak renk seçenekleri olarak algılayacaktır. Üyeler daha sonra renklerini özelleştirmek ve sunucuda kendilerini ayırt etmek için bir renk rolü seçebilirler.
+Renk özelliğini ayarlamak kolay ve kolaydır. Tek yapmanız gereken herhangi bir ek metin olmadan "1, 2, 3, 4" gibi numaralandırılmış adlandırılmış roller oluşturmaktır. Bunu yaptıktan sonra, bot bu rolleri otomatik olarak renk seçenekleri olarak algılayacaktır. Üyeler daha sonra ad renklerini özelleştirmek ve sunucuda kendilerini ayırt etmek için bir renk rolü seçebilirler.
 
 ## Renk Listesi Başlığı
 
-Renk listesinin başlığını özelleştirmek, sunucunuzun görünümünü kişiselleştirmenin etkili bir yoludur. Başlığı değiştirmek için yönetim paneline erişmeniz ve istediğiniz metni `Renk Listesi Başlığı` alanına eklemeniz gerekir. Bunu yaparak, başlığın sunucunuzun temasıyla eşleşmesini sağlayabilirsiniz.
+Renk listesinin başlığını özelleştirmek, sunucunuzun görünümünü kişiselleştirmenin etkili bir yoludur. Başlığı değiştirmek için yapılandırma paneline erişmeniz ve istediğiniz metni "Renk Listesi Başlığı" alanına eklemeniz gerekir. Bunu yaparak, başlığın sunucunuzun markası veya temasıyla eşleşmesini sağlayabilirsiniz.
 
 ## Renk Simge Şekli
 
-Sunucunuzun görünümünü kişiselleştirmenin başka bir yolu da renk simgelerinin şeklini özelleştirmektir. Renk simgeleri için kare veya daire şekli arasından seçim yapabilirsiniz. Şekli değiştirmek için yönetim paneline gidin ve istediğiniz seçeneği belirleyin.
+Sunucunuzun görünümünü kişiselleştirmenin başka bir yolu da renk simgelerinin şeklini özelleştirmektir. Renkli simgeler için kare veya daire şekli arasından seçim yapabilirsiniz. Şekli değiştirmek için yapılandırma paneline gidin ve istediğiniz seçeneği belirleyin.
 
-## Görüntü Arkaplanı
+## Resim Arka Planı
 
-Renk özelliğinin arkaplan görüntüsünü değiştirebilirsiniz. Saydam bir arkaplana sahip olmayı seçebilir veya sunucunuzun temasına uyan özel bir görüntü yükleyebilirsiniz. Özel bir görüntü yüklemek için yönetim panelinde `Belirli arkaplan` seçeneğini seçin ve ardından istediğiniz görüntüyü ekleyin veya yükleyin.
+Renk özelliğinin arka plan görüntüsünü özelleştirmek, sunucunuzu öne çıkarmanın başka bir yoludur. Saydam bir arka plana sahip olmayı seçebilir veya sunucunuzun markasına veya temasına uyan özel bir resim yükleyebilirsiniz. Özel bir görüntü yüklemek için yapılandırma panelinde "Özel Görüntü" seçeneğini seçin ve ardından istediğiniz görüntüyü ekleyin veya yükleyin.
 
 Renk özelliğinin sorunsuz çalışmasını sağlamak için aşağıdaki noktaları akılda tutmak önemlidir:
 
 :::caution
 
-- Herhangi bir üye aynı anda yalnızca bir renk rolüne sahip olabilir. Farklı bir renk seçtiğinde bir önceki rol kaldırılacaktır. Rengi sıfırlamak için `0` seçeneğini kullanabilirsiniz.
-
-- ProBot'un rolü, sunucu rol sıralamasında ki renk rollerinin üzerinde olmalıdır. Botun üye rollerini gerektiği gibi değiştirebilmesi için bu gereklidir.
-
-- Gerekli kısıtlamalar nedeniyle arka plan görüntüsünün 3 MB'tan küçük olması gerektiğini unutmayın.
+- Kullanıcılar aynı anda yalnızca bir renk rolüne sahip olabilir. Farklı bir renk seçmek bir öncekini kaldıracaktır. Rengi sıfırlamak için seçeneğe "0" sayısını girin.
+- Botun rolü, sunucu hiyerarşisinde renk rollerinin üzerinde olmalıdır. Bu, botun üye rollerini gerektiği gibi değiştirebilmesini sağlar.
+- Kısıtlamalar nedeniyle arka plan resminin 3 MB'tan küçük olması gerektiğini unutmayın.
 
 :::
