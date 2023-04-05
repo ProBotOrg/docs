@@ -3,15 +3,15 @@ sidebar_position: 15
 keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take] 
 ---
 
-# Saldırı Koruması
+# VIP Koruma
 
 :::caution
 
-Bu özellik yalnızca `Tier 1 ve Tier 2` aboneleri tarafından kullanılabilir.
+Bu özellik yalnızca "Tier 1 ve Tier 2" aboneleri tarafından kullanılabilir.
 
 :::
 
-ProBot'un Saldırı Koruma özelliği, sunucunuzu istenmeyen saldırılardan korumanıza olanak tanır. Bu özellik sayesinde, istediğiniz yapılandırmaya göre saldırıları otomatik olarak tespit eden ve harekete geçen bir sistem kurabilirsiniz.
+ProBot'un baskın önleme özelliği, sunucunuzu istenmeyen akıncılardan korumanıza olanak tanır. Bu özellik sayesinde, istediğiniz konfigürasyona göre akıncıları otomatik olarak tespit eden ve harekete geçen bir sistem kurabilirsiniz.
 
 :::info
 
@@ -25,45 +25,45 @@ ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği ye
 
 ## Hesap Yaşı
 
-Saldıranları tespit etmek ve bunlara karşı önlem almak için sunucudaki minimum Discord hesabı yaşını ayarlayabilirsiniz. Bunun için 4 seçenek mevcuttur:
+Akıncıları tespit etmek ve bunlara karşı önlem almak için minimum Discord hesabı yaşı. Dört seçenek mevcuttur:
 
-> **1 Hafta**: ProBot, 1 haftadan az veya eşit olan hesapları tespit edecek ve bunlara karşı işlem yapacaktır.
+> **1 Hafta**: ProBot, bir hafta veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **1 Ay**: ProBot, 1 aydan az veya eşit olan hesapları tespit edecek ve bunlara karşı işlem yapacaktır.
+> **1 Ay**: ProBot, bir aya eşit veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **3 Ay**: ProBot, 3 aydan az veya eşit olan hesapları tespit edecek ve bunlara karşı işlem yapacaktır.
+> **3 Ay**: ProBot, üç aya eşit veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **None**: This option will detect all account ages, regardless of how long the account has existed.
+> **Yok**: Bu seçenek, hesabın ne kadar süredir var olduğuna bakılmaksızın tüm hesap yaşlarını algılar.
 
 
 ## Liste Uzunluğu
 
-Saldırı korumasını başlatmak için sunucuya katılması gereken kişi sayısıdır. Bu, 5 ile 100 arasında ayarlanabilir.
+Baskın önleme başlatmak için ProBot'a katılması gereken kişi sayısı. Bu, 5 ile 100 arasında ayarlanabilir.
 
-## Liste Dolma Zamanı (Saniye)
+## Listeyi Doldurma Süresi (Saniye)
 
-ProBot'un katılan kullanıcıları tespit edeceği zaman çerçevesidir. Bu seçenek ile, saldıranların ProBot harekete geçmeden önce ne kadar süre sunucuda bulunmaları gerektiğini belirleyebilirsiniz.
+ProBot'un katılan kullanıcıları tespit edeceği zaman çerçevesi. Bu seçenekle, akıncıların ProBot harekete geçmeden önce ne kadar süre katılmaları gerektiğini belirleyebilirsiniz.
 
-:::info Nasıl çalışıyor?
+:::info How It Works
 
-Örneğin, hesap yaşını `1 Hafta`, liste uzunluğunu `5` ve saniye cinsinden süreyi `5` olarak ayarlarsanız, hesap yaşı `1 hafta` olan `5` kullanıcı `5` saniye içinde sunucuya katılırsa ProBot onlara karşı işlem yapmaya başlayacaktır.
+Örnek olarak, hesap yaşını "1 Hafta", liste uzunluğunu "5" ve saniye cinsinden süreyi "5" olarak ayarlarsanız, "5" kullanıcı "1 haftalık" hesap yaşı "5" saniye içinde katılın. Bu, "5" kullanıcı sunucunuza "5" saniye içinde katılırsa ve hepsinin bir haftalık veya daha eski hesapları varsa, ProBot'un onlara karşı işlem yapmaya başlayacağı anlamına gelir.
 
 :::
 
-## Yapılacak İşlemler
+## Yapılacak İşlem
 
-ProBot'un saldıranlara karşı yapacağı eylemdir. 3 seçenek mevcuttur:
+ProBot'un akıncılara karşı yapacağı eylem. Üç seçenek mevcuttur:
 
-1. **Hiçbiri**: ProBot herhangi bir işlem yapmayacaktır.
-2. **Susturmak**: ProBot saldıran kişiyi sunucuda susturacaktır.
-3. **Yasaklamak**: ProBot saldıran kişiyi sunucuda yasaklayacaktır.
+1. **Yok**: ProBot herhangi bir işlem yapmaz.
+2. **Sessiz**: ProBot, akıncının sesini kapatır.
+3. **Ban**: ProBot, akıncıyı yasaklar.
 
-Yasaklama veya sessize alma seçilirse, eylemin süresini saat, gün ve ay olarak belirleyebilirsiniz.
+Yasaklama veya sessize alma seçilirse, eylemin süresini saat, gün ve ay olarak belirleme seçeneğiniz olacaktır.
 
-## Saldırı Sırasında Karşılayıcı Devre Dışı Bırak
+## Baskın Sırasında Karşılayıcıyı Devre Dışı Bırak
 
-Karşılama mesajının saldıranlar tarafından spam olarak gönderilmesini önlemek için bu seçeneği etkinleştirebilirsiniz.
+Karşılama mesajının akıncılar tarafından spam olarak gönderilmesini önlemek için bu seçeneği etkinleştirebilirsiniz.
 
-## Bir Kanala Mesaj Gönder
+## Bir Kanala Mesaj Gönderin
 
-ProBot, bir kanala mesaj göndererek saldırının başlangıcında ve sonunda sizi bilgilendirebilir. Bir saldırının başlangıcı ve bitişi için mesajı istediğiniz gibi özelleştirebilirsiniz. Bu, sunucunuzda baskınların ne zaman gerçekleştiğini takip etmenizi sağlar.
+ProBot, bir kanala mesaj göndererek baskının başlangıcında ve sonunda sizi güncel tutabilir. Bir baskının başlangıcı ve bitişi için mesajı istediğiniz gibi özelleştirebilirsiniz. Bu, sunucunuzda baskınların ne zaman gerçekleştiğini takip etmenizi sağlar.

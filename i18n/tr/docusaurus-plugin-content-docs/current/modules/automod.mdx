@@ -1,14 +1,14 @@
 ---
 sidebar_position: 17
 title: Otomatik Moderasyon
-description: A guide to properly configure the ProBot Automod for your server
+description: Sunucunuz için ProBot Automod'u düzgün bir şekilde yapılandırmak için bir kılavuz
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
 # Otomatik Moderasyon
 
-ProBot'un Otomatik Moderasyon özelliği ile sorunsuz ve stressiz bir sunucu ortamı sağlayın. Spam gönderenlere ve reklam bağlantıları gönderenlere elveda deyin ve ProBot'un topluluğunuz için güvenli ve emniyetli bir ortam sağlamak için yorulmadan çalıştığını bilmenin rahatlığını yaşayın.
+ProBot Automod ile sorunsuz ve stressiz bir sunucu ortamı sağlayın. Spam gönderenlere ve reklam verenlere elveda deyin ve ProBot'un topluluğunuz için güvenli ve emniyetli bir ortam sağlamak için yorulmadan çalıştığını bilmenin rahatlığını yaşayın.
 
 :::info
 
@@ -22,70 +22,76 @@ ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği ye
 
 ## Tespit Seçenekleri
 
-Sunucunuzdaki potansiyel kötü niyetli mesajları tespit etmek için aşağıdaki seçenekler mevcuttur:
+Sunucunuzdaki potansiyel spam veya kötü niyetli mesajları tespit etmek için aşağıdaki seçenekler mevcuttur:
 
-> **SPAM (5 MESAJ/5 SANIYE)**: Bu seçenek, bir kullanıcı beş saniye içerisinde beşten fazla mesaj gönderirse tetiklenir.
+:::note
 
-> **UYGUNSUZ KELİMELER**: Bu seçenek, uygunsuz kelimeler içeren mesajlarda tetiklenir.
+Discord'da AutoMod kuralı tarafından yönetilen ve AutoMod seçeneğinin yanında belirtilecek bazı algılama seçeneklerimiz var. ProBot, belirtilen discord otomatik mod taramasına sahip olmayanları yönetecektir.
 
-> **ÇOĞALTILMIŞ METİN**: Bu seçenek, yinelenen metin içeren mesajlarda tetiklenir.
+:::
 
-> **TEKRARLANAN MESAJLAR**: Bu seçenek, "SPAM SPAM SPAM SPAM..." gibi tekrar eden mesajlarda tetiklenir.
+> **SPAM (5 MESSAGES/5 SEC)**: Bu seçenek, bir kullanıcının beş saniyelik bir sürede beşten fazla mesaj gönderdiğini algılar.
 
-> **DİSCORD DAVETLERİ**: Bu seçenek, Discord davet bağlantıları içeren mesajlarda tetiklenir.
+> **UYGUNSUZ KELİMELER**: Bu seçenek, kötü kelimeler içeren mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj algılama)**
 
-> **BAĞLANTILAR**: Bu seçenek, link içeren mesajlarda tetiklenir.
+> **ÇOĞALTILMIŞ METİN**: Bu seçenek, yinelenen metin içeren iletileri algılar.
 
-> **SPAMLANMIŞ CAPSLER (%70>CAPSLER)**: Bu seçenek, "Merhaba BEN PROBOT" gibi tamamı büyük harflerle yazılan mesajlarda tetiklenir.
+> **TEKRARLANAN MESAJLAR**: Bu seçenek, "SPAM SPAM SPAM SPAM" gibi metin veya satırları tekrar eden mesajları algılar. **(Tier 2)**
 
-> **EMOJİ SPAMLAMA**: Bu seçenek, 8 veya daha fazla emoji içeren mesajlarda tetiklenir.
+> **DISCORD DAVETLERİ**: Bu seçenek, discord davet bağlantıları içeren mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
 
-> **TOPLU BAHSETME**: Bu seçenek, çok sayıda kullanıcıyı etiketleyen mesajlarda tetiklenir.
+> **BAĞLANTILAR**: Bu seçenek, bağlantı içeren mesajları algılar. (Discord AutoMod tarafından desteklenen mesaj tarama)
+
+> **SPAMLANMIŞ CAPSLER (70% > CAPS)**: Bu seçenek, "MERHABA BEN PROBOT" gibi tamamı büyük harflerle yazılan mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
+
+> **EMOJI SPAMLAMA**: Bu seçenek, sekiz veya daha fazla emoji içeren mesajları algılar.
+
+> **TOPLU BAHSETME**: Bu seçenek, çok sayıda kullanıcıdan bahseden mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
 
 ## Eylem Seçenekleri
 
-Her seçenek, topluluğunuzun özel ihtiyaçlarını karşılamak için 3 farklı eylem seçeneği sunar. Bu eylemler:
+Her algılama seçeneği, topluluğunuzun özel ihtiyaçlarını karşılamak için üç farklı eylem seçeneği sunar. Bu eylemler:
 
-1. **Mesajı sil**: Algılanan mesajı siler.
+1. **Mesajı Engelle**: Tespiti tetikleyen mesajı siler.
 
 2. **Üyeyi Sustur**: Tetikleme mesajını gönderen üyeyi susturur.
 
-3. **Üyeyi Uyar**: Tetikleme mesajını gönderen üyeye uyarı verir.
+3. **Zaman Aşımı Uygula**: Tetikleme mesajını gönderen üye zaman aşımına uğrar. **(Yalnızca Discord AutoMod Rule tarafından yönetilen algılama seçeneklerinde mevcuttur)**
 
 ## Ayarlar
 
-Her algılama seçeneği, `⚙️` ile gösterilen bir **Ayarlar** seçeneğine sahiptir. Bu seçeneğe tıklamak, sunucunuz için ProBot Otomatik Moderasyon özelliğini ayarlayabileceğiniz bir dizi ayarı ortaya çıkaracaktır.
+Her algılama seçeneği, dişli çark simgesi "⚙️" ile gösterilen bir **Ayarlar** seçeneğine sahiptir. Bu seçeneğe tıklamak, sunucunuz için ProBot Automod kullanımını optimize etmek üzere ayarlayabileceğiniz bir dizi ayarı ortaya çıkaracaktır.
 
-> **Devre Dışı Kanallar**: Tespit seçeneklerinden muaf tutulacak kanallardır.
+> **Devre Dışı Kanallar**: Algılama seçeneklerinden muaf tutulacak kanallar.
 
-> **Devre Dışı Roller**: Algılama seçeneklerinden muaf tutulacak rollerdir.
+> **Devre Dışı Roller**: Algılama seçeneklerinden muaf tutulacak roller.
 
-> **Susturma Süresi**: Algılama seçeneklerini ihlal etmesi durumunda bir üyenin sesinin kapatılacağı sürenin uzunluğudur.
+> **Susturma Süresi**: Bir üyenin algılama seçeneklerini ihlal etmesi durumunda sessize alınacağı sürenin uzunluğu.
 
-> **Susturma İhlal Sayısı**: Bir üye susturulmadan önce gereken ihlal sayısıdır.
+> **İhlal Sayısı**: Bir üyenin sesi kapatılmadan önce gereken ihlal sayısı.
 
 **Uygunsuz Kelimeler** ve **Bağlantılar** otomasyon seçeneklerinde, varsayılan seçeneklerde bulunmayan ek ayarlar vardır:
 
 > **Uygunsuz Kelimeler**
 
-- Uygunsuz Kelimeler: Algılama seçeneğini tetikleyecek uygunsuz kelimelerin listesidir.
+- Uygunsuz Kelimeler: Algılama seçeneğini tetikleyecek tek tek kötü sözcüklerin listesi.
 
-- BİR KELİMENİN PARÇASI İSE EŞLEŞMEYİN: Bu seçenek etkinleştirilirse, uygunsuz sözcükleri içeren ancak onlarla aynı olmayan sözcüklerin algılanmasını engeller.
+- BİR KELİMENİN PARÇASI İSE EŞLEŞTİRME: Bu seçenek etkinleştirilirse, bu seçenek kötü sözcükleri içeren ancak onlarla aynı olmayan sözcüklerin algılanmasını engeller.
 
 > **Bağlantılar**
 
-- Beyaz listedeki URL: Bağlantı içerseler bile algılama seçeneğini tetiklemeyen URL'lerin listesidir.
+- Beyaz Liste URL'leri: Bağlantı içerseler bile algılama seçeneğini tetiklemeyen URL'lerin listesi.
 
-- Kara listeye alınmış URL: Bağlantı içermeseler bile algılama seçeneğini tetikleyecek URL'lerin listesidir.
+- Kara Liste URL'leri: Bağlantı içermeseler bile algılama seçeneğini tetikleyecek URL'lerin listesi.
 
-## Ek Özellikler
+## Ek özellikler
 
-Yukarıda açıklanan algılama ve eylem seçeneklerine ek olarak, ProBot Otomatik Moderasyon modülü aşağıdaki özellikleri de içerir:
+Yukarıda açıklanan algılama ve eylem seçeneklerine ek olarak, ProBot Automod aşağıdaki özellikleri de içerir:
 
-> **Yoksayılan Kanallar**: Tüm algılama seçeneklerinden muaf olacak kanallardır.
+> **DEVRE DIŞI KANALLAR**: Tüm algılama seçeneklerinden muaf olacak kanallar.
 
-> **Yoksayılan Roller**: Tüm algılama seçeneklerinden muaf olacak rollerdir.
+> **DEVRE DIŞI ROLLER**: Tüm algılama seçeneklerinden muaf tutulacak roller.
 
-> **Sadece Görüntü Kanalı**: Belirli kanallarda yalnızca görüntülerin gönderilmesini zorunlu kılmanıza olanak tanır.
+> **SADECE RESİM KANALLARI**: Belirli kanallarda yalnızca görüntülerin gönderilmesini zorunlu kılmanıza olanak tanır.
 
-> **Sadece YouTube Kanalı**: Belirli kanallarda yalnızca YouTube bağlantılarının gönderilmesini zorunlu kılmanıza olanak tanır.
+> **SADECE YOUTUBE BAĞLANTISI KANALLARI**: Belirli kanallarda yalnızca YouTube bağlantılarının gönderilmesini zorunlu kılmanıza olanak tanır.
