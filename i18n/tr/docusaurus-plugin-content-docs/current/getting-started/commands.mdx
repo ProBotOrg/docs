@@ -1,94 +1,94 @@
 ---
 sidebar_position: 5
 slug: /getting-started/commands
-description: Tüm komutların listesine buradan ulaşabilirsiniz.
+description: List of all commands, including their usage and descriptions.
 ---
 
-# Komutlar
+# Commands
 
-Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkında bilgi edinebilirsiniz.
+In this section, you will gain a deeper understanding of the ProBot commands, their usage, and an example of how to put such commands into action.
 
 :::important
 
-- Varsayılan bot öneki olarak Slash komutları kullanılmaktadır. Tüm örneklerde `/` slash komutu kullanılmaktadır.
+- As slash commands are the default bot prefix, all usages and examples will be exemplified with the slash command `/`.
 
-- `[` `]` bulunan yerler her komut için zorunludur, ancak `(` `)` bulunan yerler isteğe bağlıdır.
+- `[` `]` signs are required for every command referenced with that sign, but `(` `)` are optional.
 
 :::
 
-## Genel
+## General 
 
-| Komut | Açıklama | Kullanım |
+| Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /credits | Kendinizin veya başka birinin kredisini görüntüleyin | /credits [kullanıcı] (tutar) |
-| /rep | Herhangi birine itibar puanı vermek için kullanabilirsiniz Her 24 saatte bir kullanılabilir | /rep [kullanıcı] |
-| /moveme | Sizi başka bir ses kanalına taşır | /moveme [kanal veya kullanıcı] |
-| /color | Sunucudaki renginizi değiştirmek için kullanabilirsiniz | /color [renk numarası] |
-| /colors | Kullanılabilir renkleri listeler | /colors |
-| /short | Bir URL'yi kısaltmak için kullanabilirsiniz | /short [URL] |
-| /roll | Zar atmak için kullanabilirsiniz | /roll (sayı) |
+| /credits | Show yours or somebody else's credit | /credits [user] (amount) |
+| /rep | Award someone a reputation point. Can only be used once every 24 hours | /rep [user] |
+| /moveme | Moves you to another voice channel | /moveme [channel or user] |
+| /color | Change your color on the server | /color [color's number] |
+| /colors | Lists you all the available colors | /colors |
+| /short | Shortens a URL | /short [URL] |
+| /roll | rolling dice | /roll (number) |
 
-## Seviye
+## Leveling
 
-| Komut | Açıklama | Kullanım |
+| Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /profile | Profil kartını/kartınızı görüntüleyin | /profile (kullanıcı) |
-| /rank | Seviye kartını/kartınızı görüntüleyin | /rank (kullanıcı) |
-| /top | Metin veya ses seviyesi en yüksek kişileri görüntüleyin | /top (gün/hafta/ay) |
-| /title | Profil başlığınızı değiştirebilirsiniz | /title [yeni başlık] |
-| /setxp | Kullanıcının XP'sini ayarlamak için kullanabilirsiniz | /setxp [kullanıcı] [tür] [yeni_xp] |
-| /setlevel | Kullanıcının seviyesini değiştirmek için kullanabilirsiniz | /setlevel [kullanıcı] [tür] [yeni_level] |
+| /profile | View your or someone else's customizable personal global profile card | /profile (user) |
+| /rank | View your rank card or someone else's in the server | /rank (user) |
+| /top | Display the top members by text or voice | /top (day/week/month) |
+| /title | Changes your profile title | /title [new title] |
+| /setxp | Sets the user's xp | /setxp [user] [type] [new_xp] |
+| /setlevel | Sets the user's level | /setlevel [user] [type] [new_level] |
 
-## Bilgi Komutları
+## Info
 
-| Komut | Açıklama | Kullanım |
+| Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /user | Kullanıcı bilgilerini/bilgilerinizi görüntüleyebilirsiniz | /user (kullanıcı) |
-| /avatar | Profil fotoğrafını/fotoğrafınızı getirir | /avatar (kullanıcı) |
-| /server | Sunucu hakkında bilgileri gösterir | /server |
-| /roles | Sunucudaki roller ve üyeler hakkında bilgi almak için kullanabilirsiniz | /roles |
+| /user | Shows information, such as ID and join date, about yourself or a user | /user (user) |
+| /avatar | Get a user's avatar | /avatar (user) |
+| /server | Shows information about the server | /server |
+| /roles | Get a list of server roles and member counts | /roles |
 
-## Moderasyon
+## Moderation
 
-| Komut | Açıklama | Kullanım |
+| Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /setnick | Üyenin sunucudaki ismini değiştirebilirsiniz | /setnick [kullanıcı] (kullanıcı_adı) |
-| /ban | Üyeyi yasaklayabilirsiniz | /ban [kullanıcı] (süre) (sebep) |
-| /unban | Üyenin yasaklanmasını kaldırırsınız | /unban [kullanıcı veya kullanıcı ID] |
-| /kick | Üyeyi sunucudan atabilirsiniz | /kick [kullanıcı] (sebep) |
-| /vkick | Üyeyi sesli kanaldan atarsınız | /vkick [kullanıcı] |
-| /mute text | Üyenin metin kanallarına yazmalarını engelleyebilirsiniz | /mute text [kullanıcı] (süre) (sebep) |
-| /unmute text | Üyenin metin kanallarında ki susturmasını kaldırabilirsiniz | /unmute [kullanıcı] |
-| /mute voice | Üyenin sesli kanallarda konuşmalarını engelleyebilirsiniz | /mute voice [kullanıcı] (süre) (sebep) |
-| /unmute voice | Üyenin sesli kanallarda ki susturmasını kaldırabilirsiniz | /unmute voice [kullanıcı] |
-| /timeout | Üyenin mesaj göndermesini/tepki eklemesini veya sesli kanallara katılmasını engelleyin | /timeout [kullanıcı] (süre) (sebep) |
-| /untimeout | Üyenin zaman aşımı cezasını kaldırın | /untimeout [kullanıcı] |
-| /clear | Kanalda bulunan mesajları temizleyin | /clear (user/bots) (mesaj sayısı) | 
-| /move | Üyeyi başka bir ses kanalına taşıyın | /move [kullanıcı] (kullanıcı veya kanal) |
-| /role give | Üyeye rol ekleyin/kaldırın | /role give [kullanıcı] [rol] (toplu rol) |
-| /role remove | Üyeden rolleri kaldırın | /role remove [kullanıcı] [rol] (toplu rol) |
-| /role multiple | Üyelerden rol(ler) ekleyin/çıkarın | /role multiple [give or_remove] [rol] [pick_type] (rol) |
-| /points set | Kullanıcının puanını ayarlayın | /points set [kullanıcı] [puan] |
-| /points list | Tüm puanları görüntüleyin | /points list (rol) (sayfa) |
-| /points decrease | Kullanıcının puanlarını azaltın | /points decrease [kullanıcı] [puan] |
-| /points increase | Kullanıcının puanlarını arttırın | /points increase [kullanıcı] [puan] |
-| /points reset | Puanları sıfırlayın | /points reset (kullanıcı) |
-| /warn | Üyeyi uyarın | /warn [kullanıcı] [sebep] |
-| /warn_remove | Kullanıcının/bütün herkesin uyarılarını kaldırın | /warn_remove [kullanıcı/all/warnID] |
-| /warnings | Kullanıcının/herkesin uyarılarının listesini görüntüleyin | /warnings (kullanıcı) |
-| /lock | `@everyone` rolünün kanala mesaj göndermesini engelleyin | /lock (kanal) (sebep) |
-| /unlock | `@everyone` rolünün kanala mesaj göndermesini tekrar etkinleştirin | /unlock (kanal) |
-| /setcolor | Rolün rengini girdiğiniz HEX kodlarıyla değiştirir | /setcolor [rol ismi] [renk kodu]
-| /slowmode | Kanalda yavaş modu etkinleştirin/devre dışı bırakın | /slowmode (süre) |
-| /reset | Tüm üyelerin/belirli üyelerin Metin/ses/davetiye XP puanlarını sıfırlayın | /reset [text / voice / invites / limits) [all / kullanıcı] |
+| /setnick | Changes the nickname of a member | /setnick [user] (nickname) |
+| /ban | Bans a member | /ban [user] (time) (reason) |
+| /unban | Unbans a member | /unban [user or user ID] |
+| /kick | Kicks a member | /kick [user] (reason) |
+| /vkick | Kicks a member from a voice channel | /vkick [user] |
+| /mute text | Mute a member so they can't type in text channels | /mute text [user] (time) (reason) |
+| /unmute text | Unmutes a member | /unmute [user] |
+| /mute voice | Mute a member so they can't speak in voice channels | /mute voice [user] (time) (reason) |
+| /unmute voice | Unmutes a member from voice channels | /unmute voice [user] |
+| /timeout | Timeouts a member | /timeout [user] (time) (reason) |
+| /untimeout | Removes a timeout from a member | /untiemout [user] |
+| /clear | Cleans up channel messages | /clear (user/bots) (number of messages) | 
+| /move | Moves a member to another voice channel | /move [user] (user or channel) |
+| /role give | Add/remove role(s) for a member | /role give [user] [role] (bulk) |
+| /role remove | remove role(s) from a member | /role remove [user] [role] (bulk) |
+| /role multiple | Add/remove role(s) from members | /role multiple [give_or_remove] [role] [pick_type] (required role) |
+| /points set | Set the points of a user | /points set [user] [points] |
+| /points list | See all points | /points list (role) (page) |
+| /points decrease | Decrease the points of a user | /points decrease [user] [points] |
+| /points increase | Increase the points of a user | /points increase [user] [points] |
+| /points reset | Reset the points | /points reset (user) |
+| /warn | Warns a member | /warn [user] [reason] |
+| /warn_remove | Remove warnings for the server or user | /warn_remove [user/all/warnID] |
+| /warnings | Get the list of warnings for the server or a user | /warnings (user) |
+| /lock | Disables `@everyone` from sending messages in specific channel | /lock (channel) (reason) |
+| /unlock | Allows `@everyone` to send messages in specific channel | /unlock (channel) |
+| /setcolor | Changes role's color by hex codes | /setcolor [role name] [color code]
+| /slowmode | Enable or disable slowmode on a channel | /slowmode (time) |
+| /reset | Reset text/voice/invites xp points for all or specific members | /reset [text / voice / invites / limits) [all / user] |
 
 <details>
 
-<summary>Önemli Moderasyon Notları</summary>
+<summary>Important Moderation Notes</summary>
 
-- Sadece `Yönetici` iznine, kontrol panelinde `Mod Rolleri`ne veya o komutun iznine sahip kullanıcılar moderasyon komutlarını kullanabilir. __Örneğin__, yasaklama iznine sahip kullanıcılar `/ban` komutunu kullanabilir.
+- Only users with `Administrator` permission, `Mod Roles` on the dashboard, or the permission for that command can use moderation commands. __For example__, users with ban permission can use the `/ban` command.
 
-- Komut kullanılırken zaman belirtilmez ise, tüm komutları için varsayılan süre **3 aydır**; Bu zaman değiştirilebilir.
+- If no time was specified, the default time duration for all time-input commands is **3 months**; this can be modified at any time. 
 
 </details>
 
@@ -96,17 +96,17 @@ Bu bölümde, ProBot'da bulunan komutlar ve bu komutların kullanımları hakkı
 
 :::caution 
 
-Aşağıdaki komutlar yalnızca premium aboneler tarafından kullanılabilir.
+The following commands are only available to premium subscribers.
 
 :::
 
-| Komut | Açıklama | Kullanım |
+| Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /vip info | Premium botunuzla ilgili bilgileri gösterir | /vip |
-| /vip move | Premium botunuzu yeni bir sunucuya taşıyın `Tier 2` | /vip move [bot numarası] |
-| /vip restart | Premium botunuzu yeniden başlatın `Tier 2` | /vip restart |
-| /vip whitelist | ProBot yönetim paneline erişime izin vermek için bir kullanıcıyı beyaz listeye ekleyin | /vip whitelist [kullanıcı] |
-| /vip avatar | Premium botunuzun profil resmini değiştirin `Tier 2` | /vip avatar |
-| /vip username | Premium botunuzun ismini değiştirin `Tier 2` | /vip username [isim] |
-| /vip status | Premium botunuzun durumunu değiştirin `Tier 2` | /vip status [durum] |
-| /vip transfer | Bot sahipliğini başka bir kullanıcıya aktarın `Tier 2` | /vip transfer [kullanıcı]
+| /vip info | Shows information about your premium bot | /vip |
+| /vip move | Move your premium bot to a new server `Tier 2` | /vip move [number] |
+| /vip restart | Restart your premium bot `Tier 2` | /vip restart |
+| /vip whitelist | Whitelist a user to allow access to the ProBot dashboard | /vip whitelist [user] |
+| /vip avatar | Change your bot's avatar `Tier 2` | /vip avatar |
+| /vip username | Change your bot's username `Tier 2` | /vip username [name] |
+| /vip status | Change your bot's status `Tier 2` | /vip status [status] |
+| /vip transfer | Transfer your bot ownership to another user `Tier 2` | /vip transfer [user]

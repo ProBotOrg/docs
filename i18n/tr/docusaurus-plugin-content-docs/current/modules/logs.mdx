@@ -2,144 +2,113 @@
 sidebar_position: 8
 ---
 
-# Kayıtlar
+# Logs
 
-ProBot'un tüm sunucu eylemlerini günlüğe kaydetmesini sağlayın.
+Have ProBot immediately and cleanly log all server actions.
 
 :::info
 
-ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
+The dashboard is where the configurations described here are managed.
 
-1. Kontrol paneline gidin ve oturum açın.
-2. Soldaki menüden sunucunuzu seçin.
-3. Modülü seçin ve etkinleştirildiğinden emin olun.
+1. Go to the dashboard and log in. 
+2. Select your server from the menu on the left.
+3. Choose the module and make sure that it is enabled. 
 
 :::
 
-## Ayarlar 
+## Settings 
 
-Her günlüğe kaydedilecek olay için bir buton, bir günlük kanalı ve bir gömülü mesaj rengi bulunmaktadır.
+Each log will contain a toggle switch, a log channel, and an embed color.
 
 :::important 
 
-Bazı olaylar, performans nedenleriyle Tier 2 Premium abonelik gerektirebilir.
+Some logs may necessitate tier 2 premium storage for performance reasons.
 
 :::
 
-- Üye Yasaklandı
+- Member Banned
 
 
+- Timeout
 
-- Zaman aşımı uygulandı
 
+- Channel Created
 
 
-- Kanal Oluşturuldu
+- Role Created
 
 
+- Channel Deleted
 
-- Rol Oluşturuldu
 
+- Message Deleted
 
 
-- Kanal silindi
+- Role Deleted
 
 
+- Message Edited
 
-- Mesaj silindi
 
+- Member kicked
 
 
-- Rol silindi
+- Member moved to another voice channel
 
 
+- Member disconnected from voice channel 
 
-- Mesaj düzenlendi
 
+- Member Joined
 
 
-- Üye sunucudan atıldı
+- Member Left
 
 
+- Nickname Changed
 
-- Üye başka bir ses kanalına taşındı
 
+- Moderation Command Used
 
 
-- Üye ses kanalından ayrıldı 
+- Role Given
 
 
+- Role Removed
 
-- Üye katıldı
 
+- Servers Invites
 
 
-- Üye ayrıldı
+- Member Unbanned
 
 
+- Channel Updated
 
-- Takma Ad Değiştirildi
 
+- Channel Permissions Updated
 
 
-- Moderasyon komutu kullanıldı
+- Role Updated
 
 
+- Update Server
 
-- Rol verildi
 
+- Member Joined Voice Channel
 
 
-- Rol kaldırıldı
+- Member Left Voice Channel
 
 
+- Voice State
 
-- Sunucu Daveti oluşturuldu
 
-
-
-- Kullanıcının yasağı kaldırıldı
-
-
-
-- Kanal güncellendi
-
-
-
-- Kanal izinleri güncellendi
-
-
-
-- Rol güncellendi
-
-
-
-- Sunucu güncellendi
-
-
-
-- Üye sesli kanala katıldı
-
-
-
-- Üye sesli kanaldan ayrıldı
-
-
-
-- Ses Durumu (Sessiz / Sağır)
-
-
-
-- Üye Ses Kanalları Arasında Yer Değiştirdi
-
- 
-
-- Üye Ses Kanalları Arasında Yer Değiştirdi
-
+- Member Switched between Voice Channels
 
 
 :::caution
 
-Bazen ProBot, bir izin sorunu nedeniyle eylemleri günlüklere kaydetmeyebilir; Böyle bir durumda, botu sunucudan atın ve yeniden davet edin Ayrıca `Webhookları yönet` izinlerine sahip olduğundan emin olun.
+Occasionally the bot may not record actions in logs due to a permissions issue; if this occurs, kick and re-invite the bot and ensure it has `Manage webhooks` permissions.
 
 :::

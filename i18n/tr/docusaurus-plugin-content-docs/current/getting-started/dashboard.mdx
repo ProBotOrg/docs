@@ -1,39 +1,39 @@
 ---
 sidebar_position: 2
 slug: /getting-started/dashboard
-title: Yönetim Paneli Ayarları
-description: Sunucunuzu yönetmek ve modülleri ve komutları ayarlamak için kontrol panelini kullanma hakkında kapsamlı bir dökümana ulaşın.
+title: Dashboard Setup
+description: A comprehensive guide on using the dashboard to manage your server and configure modules and commands.
 keywords: [dashboard, configuration, manage, server, modules]
 ---
 
-# Yönetim Paneli: Yönetim Paneline Genel Bakış
+# Dashboard: Your One-Stop-Shop for Server Management
 
-Sunucunuzun yapılandırmak için Yönetim Panelini kullanabilirsiniz. Tüm modülleri ve komutları yönetmek için kullanımı kolay bir arayüz mevcuttur. Karmaşık ve zaman alan komut satırı yapılandırmalarına elveda deyin!
+The Dashboard is the heart of your server's configuration. It provides an easy-to-use interface for managing all modules and commands. Say goodbye to complex and time-consuming command line configurations!
 
-## Yönetim Paneline Erişim
+## Accessing the Dashboard
 
-Probot Yönetici Paneline erişim çok basit. İşte Yönetici Paneline erişmek için adımlar:
-- [Website](https://probot.io/)'sini ziyaret edin ve hesabınıza giriş yapın.
-- Yönetici Paneline erişim butonu ana sayfada görünmektedir, panele erişmek için tıklayabilirsiniz.
+Accessing the Dashboard is simple and straightforward. Here are the steps:
+- Navigate to the [website](https://probot.io/) and log in to your account.
+- The dashboard button will appear on the same page, click it to access the dashboard.
 
 :::caution
-Sunucunuzu listede görebilmeniz için `Yönetici` yetkinizin bulunması gerekmektedir.
+You need `Administrator` permission to see your server on the list.
 :::
 
-## Modülleri ve Komutları Yapılandırma
+## Configuring Modules and Commands
 
-Yönetim Panelindeki her modül, sağ üst köşede, o modülü tamamen devre dışı bırakmanızı sağlayan bir buton bulunur. Ek olarak, her komutu etkinleştirmek veya devre dışı bırakmak için kendi butonu ve ayrıca özelleştirmeler yapmak için bir düzenleme butonu vardır.
+Every module in the Dashboard comes with a switch button in the top-right corner, which allows you to disable all commands within that module. In addition, each command has its own switch button to enable or disable it, as well as an edit button to make customizations.
 
-Her komut için kullanılabilen özelleştirme seçeneklerinden bazıları şunlardır:
-- **Alternatif Kullanımlar**: Komutu kullanmayı kolaylaştıran Alternatif Kullanım yolları ekleyebilirsiniz.
-- **Etkin Roller**: Komutu kullanabilecek kişileri belirli rollerle sınırlayın.
-- **Devre Dışı Roller**: Belirli rollerin komutu kullanmasını engelleyin.
-- **Etkin Kanallar**: Komutun kullanılabileceği kanalları belirleyin.
-- **Devre Dışı Kanallar**: Komutun kullanılamayacağı kanalları belirleyin.
-- **Komut mesajı silinince botun mesajını da sil**: Gönderen mesajını silerse botun yanıtı da silinir.
-- **Komut çağırma mesajını otomatik sil**: Komut kullanım mesajını siler.
-- **Bot yanıt mesajlarını 5 saniye sonra otomatik sil**: Botun yanıtı gönderildikten 5 saniye sonra silinecektir.
+Here are some of the customization options available for each command:
+- **Alias**: A custom alias for the command, making it easy to remember and use.
+- **Enabled Roles**: Limit who can use the command to specific roles.
+- **Disabled Roles**: Prevent certain roles from using the command.
+- **Enabled Channels**: The bot will only respond to the command in specified channels.
+- **Disabled Channels**: The bot won't respond to the command in these channels.
+- **Auto-delete with message deletion**: The bot's response will be deleted if the sender deletes their message.
+- **Auto-delete command invocation message**: The command message sent by the sender will be deleted immediately after sending.
+- **Auto-delete bot's reply message after 5 seconds**: The bot's reply will be deleted 5 seconds after it was sent.
 
 :::caution
-Sunucunuzu listede göremiyor musunuz? Yönetici Paneline tam erişim için gereken `Yönetici` iznine sahip olup olmadığınızı kontrol edin. Rolünüzün `Yönetici` iznine sahip olduğundan emin olun.
+Don't see your server on the list? This means you don't have the `Administrator` permission required for full access to the Dashboard. Ensure your role has the `Administrator` permission explicitly granted in your role setting.
 :::
