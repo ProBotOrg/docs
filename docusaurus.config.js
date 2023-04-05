@@ -53,7 +53,7 @@ const config = {
       },
       algolia: {
         appId: 'BWE1MS63HY',
-        apiKey: process.env.ALGOLIA_API_KEY,
+        apiKey: '815249683b18febc9f81ffb305465b9f',
         indexName: 'probot',
         contextualSearch: true,
         aggregateContent: true,
