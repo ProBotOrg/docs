@@ -1,0 +1,93 @@
+---
+sidebar_position: 17
+title: Automod
+description: A guide to properly configure the ProBot Automod for your server
+keywords: [Spam, automation, invite links, caps, mention] 
+---
+
+
+# Auto Moderation
+
+Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+
+:::info
+
+The dashboard is where the configurations described here are managed.
+
+1. Go to the dashboard and log in. 
+2. Select your server from the menu on the left.
+3. Choose the module and make sure that it is enabled. 
+
+:::
+
+## Detection Options
+
+The following options are available for detecting potential spam or malicious messages on your server:
+
+:::note
+
+We have some detection options that are managed by the AutoMod rule in Discord, which will be indicated next to the AutoMod option. ProBot will manage the ones that do not have the discord automod scanning mentioned. 
+
+:::
+
+> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+
+> **BAD WORDS**: This option detects messages containing bad words. **(Message scanning powered by Discord AutoMod)**
+
+> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+
+> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM." **(Tier 2)**
+
+> **DISCORD INVITES**: This option detects messages containing discord invitation links. **(Message scanning powered by Discord AutoMod)**
+
+> **LINKS**: This option detects messages that contain links. **(Message scanning powered by Discord AutoMod)**
+
+> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT." **(Message scanning powered by Discord AutoMod)**
+
+> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+
+> **MASS MENTION**: This option detects messages that mention a large number of users. **(Message scanning powered by Discord AutoMod)**
+
+## Action Options
+
+Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+
+1. **Block Message**: Deletes the message that triggered the detection.
+
+2. **Mute Member**: Mutes the member who sent the triggering message.
+
+3. **Timeout Member**: Timeouts the member who sent the triggering message. **(Only available in detection options that are managed by Discord AutoMod Rule)**
+
+## Settings
+
+Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+
+> **Disabled Channels**: Channels that will be exempt from the detection options.
+
+> **Disabled Roles**: Roles that will be exempt from the detection options.
+
+In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+
+> **Bad Words**
+
+- Bad Words: A list of individual bad words that will trigger the detection option.
+
+- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+
+> **Links**
+
+- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+
+- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+
+## Additional Features
+
+In addition to the detection and action options described above, ProBot Automod also includes the following features:
+
+> **Ignored Channels**: Channels that will be exempt from all detection options.
+
+> **Ignored Roles**: Roles that will be exempt from all detection options.
+
+> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+
+> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
