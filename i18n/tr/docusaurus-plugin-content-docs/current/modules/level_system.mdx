@@ -3,97 +3,97 @@ sidebar_position: 6
 keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message] 
 ---
 
-# Level System
+# Seviye Sistemi
 
-With ProBot levelling system, active server members will be automatically rewarded with extraordinary level roles, privileged permissions, and access to mystery channels once they reach a specific level!
+ProBot seviye sistemi ile aktif sunucu üyeleri, belirli bir seviyeye ulaştıklarında otomatik olarak seviye rolleri, ayrıcalıklı izinler ve gizemli kanallara erişim ile ödüllendirilebilir!
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in.
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled.
+1. Kontrol paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 
 :::
 
-You will initially have three distinct options, each of which may be adjusted to produce a more individualized levelling experience.
+Özelleştirilmiş bir seviye atlama deneyimi oluşturmak için ayarlanabilecek üç farklı seçeneğe sahip olacaksınız.
 
-## No XP Roles
+## XP Kazandırmayan Roller
 
-Using this, you can prevent certain users with the selected roles from accumulating experience points anywhere on your server.
+Bu seçeneği kullanarak, seçilen rollere sahip belirli kullanıcıların sunucunuzda seviye kazanmasını engelleyebilirsiniz.
 
-## No XP Channels
+## XP Kazandırmayan Kanallar
 
-You can prevent specific channels from accumulating experience points.
+Belirli kanallarda seviye toplanmasını engelleyebilirsiniz.
 
-## Level-Up Message
+## Seviye Atlama Mesajı
 
-Send congratulatory messages to members who have levelled up from one level to a higher one. You can also use unique variables in these messages!
+Bir üst seviyeye ulaşan üyelere tebrik mesajları gönderin. Bu mesajlarda benzersiz değişkenler de kullanabilirsiniz!
 
 :::caution
 
-The **Level-up message** will only be sent to those who have levelled up in a text level. At this time, we do not have a voice-level message.
+**Seviye atlama mesajı** yalnızca yazı seviyesi atlamış olanlara gönderilecektir. Şu anlık ses düzeyinde bir mesaj gönderilmeyecektir.
 
 :::
 
-## Setup
+## Kurulum
 
-The procedure for establishing the role reward system is as described in the following:
+Rol ödüllendirme sistemini kurmak için yapılması gerekenler aşağıda açıklandığı gibidir:
 
 
-There will be a button named `Add Role Rewards` where you can add the role reward, a custom level that users must reach, and other options detailed below.
+Rol ödülünü, kullanıcıların ulaşması gereken özel bir seviyeyi ve aşağıda ayrıntıları verilen diğer seçenekleri ekleyebileceğiniz `Rol Ödülü Ekle` adlı bir buton bulunuyor.
 
-### Text Level
+### Yazı Seviyesi
 
-- This is the text level a member must reach to obtain the level role if it was set independently.
+- Bu, bağımsız olarak ayarlanmışsa, seviye rolünü elde etmek için bir üyenin ulaşması gereken yazı seviyesidir.
 
-- The text level range is 0 to 100; provide additional rewards to users as they reach the required level.
+- Yazı seviyesi aralığı 0 ila 100'dür; kullanıcılara gerekli seviyeye ulaştıkça ek ödüller sağlanır.
 
-### Voice Level
+### Ses Seviyesi
 
-- This is the voice level a member must reach to obtain the level role if it was set independently.
+- Bu, bağımsız olarak ayarlanmışsa, seviye rolünü elde etmek için bir üyenin ulaşması gereken ses seviyesidir.
 
-- The voice level range is 0 to 100; provide additional rewards to users as they reach the required level.
+- Ses seviyesi aralığı 0 ila 100'dür; kullanıcılara gerekli seviyeye ulaştıkça ek ödüller sağlanır.
 
-### Role Rewards
+### Rol Ödülleri
 
-Reward the members with exceptional level positions as they progress through the levels and meet your requirements.
+Üyeleri, seviyelerde ilerledikçe olağanüstü seviye pozisyonlarıyla ödüllendirin.
 
 :::caution
 
-If the roles do not display, the bot's role is nested underneath all server roles. To resolve this issue, move the bot role to the top of the roles hierarchy to ensure that roles are displayed.
+Roller listede görüntülenmiyorsa, botun rolü tüm sunucu rollerinin altındadır. Bu sorunu çözmek için, rollerin görüntülendiğinden emin olmak için bot rolünü rol sıralamasında en üst konuma taşıyın.
 
 :::
 
-## Remove with a higher level
+## Daha yüksek bir ödül alındığında kaldır
 
-It is entirely up to you to decide whether the levels should stack or be removed when users climb to higher levels.
+Kullanıcılar daha yüksek seviyelere ulaştığında seviye rollerinin kaldırılıp kaldırılmayacağına karar vermek tamamen size kalmış.
 
-- If you disable the option, roles will stack.
+- Seçeneği devre dışı bırakırsanız roller üst üste yığılır.
 
-- If you enable the option, roles get removed as a higher level is reached.
+- Seçeneği etkinleştirirseniz, daha yüksek bir seviyeye ulaşıldığında eski roller kaldırılır.
 
-## DM Member
+## DM üzerinden mesaj at
 
-Notifies a member when they receive a text-level role via direct message.
+Yazı düzeyinde bir rol aldıklarında özel mesaj yoluyla üyeyi bilgilendirir.
 
-## Important Notes
+## Önemli Notlar
 
-:::important Three potential situations that may arise when setting up a level requirement
+:::important Seviye gereksinimi ayarlarken ortaya çıkabilecek üç potansiyel durum
 
-1. **Both Voice & Text**: If you set the need for both the text and voice level without leaving `0` in any option, both Text and Voice will be required. This will require the user to reach both levels to obtain the role reward.
+1. **Hem Ses hem Yazı**: Herhangi bir seçenekte `0` yazmadan hem metin hem de ses düzeyi şartı ayarlarsanız, hem Metin hem de Ses gerekli olacaktır. Bu, kullanıcının rol ödülünü almak için her iki seviyeye de ulaşmasını gerektirecektir.
 
-2. **Text only**: If you set the need for the text level and leave the Voice at `0`, only Text will be required. This will require the user to reach the level needed for the Text to obtain the role reward.
+2. **Sadece yazı**: Yazı seviyesi ihtiyacı ayarlarsanız ve Sesi `0` olarak bırakırsanız, yalnızca Yazı gerekli olacaktır. Bu, kullanıcının Metnin rol ödülünü alması için gereken seviyeye ulaşmasını gerektirecektir.
 
-3. **Voice only**: If you set the need for the voice level and leave the Text at `0`, only Voice will be required. This will require the user to reach the level needed for the Voice to obtain the role reward.
+3. **Sadece ses**: Ses seviyesi ihtiyacı ayarlarsanız ve Yazıyı `0` olarak bırakırsanız, yalnızca Ses gerekli olacaktır. Bu, kullanıcının Sesin rol ödülünü alması için gereken seviyeye ulaşmasını gerektirecektir.
 
-4. **Role Position**: If you have selected the same role rewards for many levels, don't worry—it will still provide users with the role you specified as they reach the requirements of any level you set for the same role.
+4. **Rol Pozisyonu**: Birçok seviye için aynı rol ödüllerini seçtiyseniz, endişelenmeyin; aynı rol için belirlediğiniz herhangi bir seviyenin gereksinimlerine ulaştıkça, kullanıcılara belirttiğiniz rolü sağlamaya devam edecektir.
 
 :::
 
 :::caution
 
-Users need to type in chats for the bot to update their XP data and award them voice-level prizes, and only then will the bot be able to reward them.
+Kullanıcıların, botun XP verilerini güncellemesi ve onlara ses düzeyinde ödüller vermesi için mesaj yazması gerekir, ancak o zaman bot onları ödüllendirebilir.
 
 :::

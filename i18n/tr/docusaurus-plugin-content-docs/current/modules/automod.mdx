@@ -1,97 +1,97 @@
 ---
 sidebar_position: 17
-title: Automod
-description: A guide to properly configure the ProBot Automod for your server
+title: Otomatik Moderasyon
+description: Sunucunuz için ProBot Automod'u düzgün bir şekilde yapılandırmak için bir kılavuz
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# Otomatik Moderasyon
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+ProBot Automod ile sorunsuz ve stressiz bir sunucu ortamı sağlayın. Spam gönderenlere ve reklam verenlere elveda deyin ve ProBot'un topluluğunuz için güvenli ve emniyetli bir ortam sağlamak için yorulmadan çalıştığını bilmenin rahatlığını yaşayın.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Kontrol paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 
 :::
 
-## Detection Options
+## Tespit Seçenekleri
 
-The following options are available for detecting potential spam or malicious messages on your server:
+Sunucunuzdaki potansiyel spam veya kötü niyetli mesajları tespit etmek için aşağıdaki seçenekler mevcuttur:
 
 :::note
 
-We have some detection options that are managed by the AutoMod rule in Discord, which will be indicated next to the AutoMod option. ProBot will manage the ones that do not have the discord automod scanning mentioned. 
+Discord'da AutoMod kuralı tarafından yönetilen ve AutoMod seçeneğinin yanında belirtilecek bazı algılama seçeneklerimiz var. ProBot, belirtilen discord otomatik mod taramasına sahip olmayanları yönetecektir.
 
 :::
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+> **SPAM (5 MESSAGES/5 SEC)**: Bu seçenek, bir kullanıcının beş saniyelik bir sürede beşten fazla mesaj gönderdiğini algılar.
 
-> **BAD WORDS**: This option detects messages containing bad words. **(Message scanning powered by Discord AutoMod)**
+> **UYGUNSUZ KELİMELER**: Bu seçenek, kötü kelimeler içeren mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj algılama)**
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+> **ÇOĞALTILMIŞ METİN**: Bu seçenek, yinelenen metin içeren iletileri algılar.
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM." **(Tier 2)**
+> **TEKRARLANAN MESAJLAR**: Bu seçenek, "SPAM SPAM SPAM SPAM" gibi metin veya satırları tekrar eden mesajları algılar. **(Tier 2)**
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links. **(Message scanning powered by Discord AutoMod)**
+> **DISCORD DAVETLERİ**: Bu seçenek, discord davet bağlantıları içeren mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
 
-> **LINKS**: This option detects messages that contain links. (Message scanning powered by Discord AutoMod)
+> **BAĞLANTILAR**: Bu seçenek, bağlantı içeren mesajları algılar. (Discord AutoMod tarafından desteklenen mesaj tarama)
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT." **(Message scanning powered by Discord AutoMod)**
+> **SPAMLANMIŞ CAPSLER (70% > CAPS)**: Bu seçenek, "MERHABA BEN PROBOT" gibi tamamı büyük harflerle yazılan mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **EMOJI SPAMLAMA**: Bu seçenek, sekiz veya daha fazla emoji içeren mesajları algılar.
 
-> **MASS MENTION**: This option detects messages that mention a large number of users. **(Message scanning powered by Discord AutoMod)**
+> **TOPLU BAHSETME**: Bu seçenek, çok sayıda kullanıcıdan bahseden mesajları algılar. **(Discord AutoMod tarafından desteklenen mesaj tarama)**
 
-## Action Options
+## Eylem Seçenekleri
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+Her algılama seçeneği, topluluğunuzun özel ihtiyaçlarını karşılamak için üç farklı eylem seçeneği sunar. Bu eylemler:
 
-1. **Block Message**: Deletes the message that triggered the detection.
+1. **Mesajı Engelle**: Tespiti tetikleyen mesajı siler.
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+2. **Üyeyi Sustur**: Tetikleme mesajını gönderen üyeyi susturur.
 
-3. **Timeout Member**: Timeouts the member who sent the triggering message. **(Only available in detection options that are managed by Discord AutoMod Rule)**
+3. **Zaman Aşımı Uygula**: Tetikleme mesajını gönderen üye zaman aşımına uğrar. **(Yalnızca Discord AutoMod Rule tarafından yönetilen algılama seçeneklerinde mevcuttur)**
 
-## Settings
+## Ayarlar
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+Her algılama seçeneği, dişli çark simgesi "⚙️" ile gösterilen bir **Ayarlar** seçeneğine sahiptir. Bu seçeneğe tıklamak, sunucunuz için ProBot Automod kullanımını optimize etmek üzere ayarlayabileceğiniz bir dizi ayarı ortaya çıkaracaktır.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+> **Devre Dışı Kanallar**: Algılama seçeneklerinden muaf tutulacak kanallar.
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
+> **Devre Dışı Roller**: Algılama seçeneklerinden muaf tutulacak roller.
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+> **Susturma Süresi**: Bir üyenin algılama seçeneklerini ihlal etmesi durumunda sessize alınacağı sürenin uzunluğu.
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
+> **İhlal Sayısı**: Bir üyenin sesi kapatılmadan önce gereken ihlal sayısı.
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+**Uygunsuz Kelimeler** ve **Bağlantılar** otomasyon seçeneklerinde, varsayılan seçeneklerde bulunmayan ek ayarlar vardır:
 
-> **Bad Words**
+> **Uygunsuz Kelimeler**
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+- Uygunsuz Kelimeler: Algılama seçeneğini tetikleyecek tek tek kötü sözcüklerin listesi.
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+- BİR KELİMENİN PARÇASI İSE EŞLEŞTİRME: Bu seçenek etkinleştirilirse, bu seçenek kötü sözcükleri içeren ancak onlarla aynı olmayan sözcüklerin algılanmasını engeller.
 
-> **Links**
+> **Bağlantılar**
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+- Beyaz Liste URL'leri: Bağlantı içerseler bile algılama seçeneğini tetiklemeyen URL'lerin listesi.
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+- Kara Liste URL'leri: Bağlantı içermeseler bile algılama seçeneğini tetikleyecek URL'lerin listesi.
 
-## Additional Features
+## Ek özellikler
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
+Yukarıda açıklanan algılama ve eylem seçeneklerine ek olarak, ProBot Automod aşağıdaki özellikleri de içerir:
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+> **DEVRE DIŞI KANALLAR**: Tüm algılama seçeneklerinden muaf olacak kanallar.
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+> **DEVRE DIŞI ROLLER**: Tüm algılama seçeneklerinden muaf tutulacak roller.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+> **SADECE RESİM KANALLARI**: Belirli kanallarda yalnızca görüntülerin gönderilmesini zorunlu kılmanıza olanak tanır.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+> **SADECE YOUTUBE BAĞLANTISI KANALLARI**: Belirli kanallarda yalnızca YouTube bağlantılarının gönderilmesini zorunlu kılmanıza olanak tanır.

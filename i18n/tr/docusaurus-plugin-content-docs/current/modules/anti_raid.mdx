@@ -3,67 +3,67 @@ sidebar_position: 15
 keywords: [Anti-Raid, Setup, Account Age, List Length, Action To Take] 
 ---
 
-# Anti-Raid
+# VIP Koruma
 
 :::caution
 
-This feature is only available for `Tier 1 and Tier 2` subscribers.
+Bu özellik yalnızca "Tier 1 ve Tier 2" aboneleri tarafından kullanılabilir.
 
 :::
 
-The anti-raid feature of ProBot allows you to protect your server from unwanted raiders. With this feature, you can set up a system that automatically detects and takes action against raiders based on your desired configuration.
+ProBot'un baskın önleme özelliği, sunucunuzu istenmeyen akıncılardan korumanıza olanak tanır. Bu özellik sayesinde, istediğiniz konfigürasyona göre akıncıları otomatik olarak tespit eden ve harekete geçen bir sistem kurabilirsiniz.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+ProBot Yönetim Paneli, burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Kontrol paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 
 :::
 
-## Account Age
+## Hesap Yaşı
 
-The minimum Discord account age for detection and action against raiders. Four options are available:
+Akıncıları tespit etmek ve bunlara karşı önlem almak için minimum Discord hesabı yaşı. Dört seçenek mevcuttur:
 
-> **1 Week**: ProBot will detect accounts less or equal to one week and take action against them.
+> **1 Hafta**: ProBot, bir hafta veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **1 Month**: ProBot will detect accounts less or equal to one month and take action against them.
+> **1 Ay**: ProBot, bir aya eşit veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **3 Months**: ProBot will detect accounts less or equal to three months and take action against them.
+> **3 Ay**: ProBot, üç aya eşit veya daha az hesapları algılar ve bunlara karşı işlem yapar.
 
-> **None**: This option will detect all account ages, regardless of how long the account has existed.
+> **Yok**: Bu seçenek, hesabın ne kadar süredir var olduğuna bakılmaksızın tüm hesap yaşlarını algılar.
 
 
-## List Length
+## Liste Uzunluğu
 
-The number of people that must join for ProBot to start an anti-raid. This can be set between 5 and 100.
+Baskın önleme başlatmak için ProBot'a katılması gereken kişi sayısı. Bu, 5 ile 100 arasında ayarlanabilir.
 
-## Time To Fill The List (Seconds)
+## Listeyi Doldurma Süresi (Saniye)
 
-The time frame within which ProBot will detect users joining. With this option, you can set how much time raiders have to join before ProBot starts taking action.
+ProBot'un katılan kullanıcıları tespit edeceği zaman çerçevesi. Bu seçenekle, akıncıların ProBot harekete geçmeden önce ne kadar süre katılmaları gerektiğini belirleyebilirsiniz.
 
 :::info How It Works
 
-As an example, if you set the account age to `1 Week`, the list length to `5`, and the time in seconds to `5`, the anti-raid system will start as soon as `5` users with an account age of `1 week` join within `5` seconds. This means that if `5` users join your server within `5` seconds and they all have accounts that are less than or equal to one week old, ProBot will start taking action against them.
+Örnek olarak, hesap yaşını "1 Hafta", liste uzunluğunu "5" ve saniye cinsinden süreyi "5" olarak ayarlarsanız, "5" kullanıcı "1 haftalık" hesap yaşı "5" saniye içinde katılın. Bu, "5" kullanıcı sunucunuza "5" saniye içinde katılırsa ve hepsinin bir haftalık veya daha eski hesapları varsa, ProBot'un onlara karşı işlem yapmaya başlayacağı anlamına gelir.
 
 :::
 
-## Action To Take
+## Yapılacak İşlem
 
-The action ProBot will take against raiders. Three options are available:
+ProBot'un akıncılara karşı yapacağı eylem. Üç seçenek mevcuttur:
 
-1. **None**: ProBot will take no action.
-2. **Mute**: ProBot will mute the raider.
-3. **Ban**: ProBot will ban the raider.
+1. **Yok**: ProBot herhangi bir işlem yapmaz.
+2. **Sessiz**: ProBot, akıncının sesini kapatır.
+3. **Ban**: ProBot, akıncıyı yasaklar.
 
-If ban or mute is selected, you will have the option to specify the duration of the action in hours, days, and months.
+Yasaklama veya sessize alma seçilirse, eylemin süresini saat, gün ve ay olarak belirleme seçeneğiniz olacaktır.
 
-## Disable Welcome During Raid
+## Baskın Sırasında Karşılayıcıyı Devre Dışı Bırak
 
-You can enable this option to prevent the welcome message from being spammed by raiders.
+Karşılama mesajının akıncılar tarafından spam olarak gönderilmesini önlemek için bu seçeneği etkinleştirebilirsiniz.
 
-## Send A Message To A Channel
+## Bir Kanala Mesaj Gönderin
 
-ProBot can keep you updated on the start and end of a raid by sending a message to a channel. You can customize the message for the start and end of a raid as desired. This allows you to keep track of when raids are happening on your server.
+ProBot, bir kanala mesaj göndererek baskının başlangıcında ve sonunda sizi güncel tutabilir. Bir baskının başlangıcı ve bitişi için mesajı istediğiniz gibi özelleştirebilirsiniz. Bu, sunucunuzda baskınların ne zaman gerçekleştiğini takip etmenizi sağlar.
