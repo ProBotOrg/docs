@@ -1,0 +1,84 @@
+---
+sidebar_position: 17
+title: AutoMod
+description: Una guía para configurar correctamente el ProBot Automod para su servidor.
+keywords: [Spam, automation, invite links, caps, mention]
+---
+
+# Auto Moderation
+
+Asegura un entorno de servidor suave y sin estrés con ProBot Automod. Di adiós a los spammers y anunciantes, y disfruta de la tranquilidad sabiendo que ProBot está trabajando incansablemente para mantener un entorno seguro y protegido para tu comunidad.
+
+:::info
+
+El dashboard es donde se gestionan las configuraciones descritas aquí.
+
+1. Ve al dashboard e inicia sesión.
+2. Selecciona tu servidor del menú de la izquierda.
+3. Elige el módulo y asegúrate de que está habilitado.
+
+:::
+
+## Opciones de Detección
+
+Las siguientes opciones están disponibles para detectar mensajes potencialmente spam o maliciosos en tu servidor:
+
+> **SPAM (5 MENSAJES/5 SEG)**: Esta opción detecta cuando un usuario envía más de cinco mensajes dentro de una ventana de cinco segundos.
+
+> **PALABRAS PROHIBIDAS**: Esta opción detecta mensajes que contienen palabras prohibidas.
+
+> **TEXTO DUPLICADO**: Esta opción detecta mensajes que contienen texto duplicado.
+
+> **MENSAJES REPETIDOS**: Esta opción detecta mensajes que repiten texto o líneas como "SPAM SPAM SPAM SPAM".
+
+> **INVITACIONES DE DISCORD**: Esta opción detecta mensajes que contienen enlaces de invitación a Discord.
+
+> **ENLACES**: Esta opción detecta mensajes que contienen enlaces.
+
+> **MAYÚSCULAS SPAM (70% > MAYÚSCULAS)**: Esta opción detecta mensajes escritos en todas mayúsculas, como "HOLA ESTO ES PROBOT".
+
+> **EMOJI SPAM**: Esta opción detecta mensajes que contienen ocho o más emojis.
+
+> **MENCIÓN EN MASA**: Esta opción detecta mensajes que mencionan a un gran número de usuarios.
+
+## Opciones de Acciones a Realizar
+
+Cada opción de detección ofrece tres opciones de acción diferentes para satisfacer las necesidades específicas de tu comunidad. Estas acciones son:
+
+1. **Eliminar mensaje**: Elimina el mensaje que desencadenó la detección.
+
+2. **Silenciar miembro**: Silencia al miembro que envió el mensaje desencadenante.
+
+3. **Advertir miembro**: Advierte al miembro que envió el mensaje desencadenante.
+
+## Configuraciones
+
+Cada opción de detección presenta una opción de **Configuraciones**, indicada por un icono de engranaje `⚙️`. Al hacer clic en esta opción, se mostrará una serie de configuraciones que puedes ajustar para optimizar el uso de ProBot Automod para tu servidor.
+
+> **Canales deshabilitados**: Canales que estarán exentos de las opciones de detección.
+
+> **Roles deshabilitados**: Roles que estarán exentos de las opciones de detección.
+
+En las opciones de automatización de **Palabras prohibidas** y **Enlaces**, hay configuraciones adicionales que no se encuentran en las opciones predeterminadas:
+
+> **Palabras prohibidas**
+
+- NO COINCIDIR SI ES PARTE DE OTRA PALABRA: Si está habilitada, esta opción evitará la detección de palabras que contengan las palabras ofensivas pero que no sean idénticas a ellas.
+
+> **Enlaces**
+
+- URL permitidas: Una lista de URLs que no activarán la opción de detección, incluso si contienen enlaces.
+
+- URL no permitidas: Una lista de URLs que activarán la opción de detección, incluso si no contienen enlaces.
+
+## Funciones Adicionales
+
+Además de las opciones de detección y acción descritas anteriormente, ProBot Automod también incluye las siguientes funciones:
+
+> **Canales ignorados**: Canales que estarán exentos de todas las opciones de detección.
+
+> **Roles ignorados**: Roles que estarán exentos de todas las opciones de detección.
+
+> **Solo canal de imágenes**: Te permite obligar a que solo se envíen imágenes en canales específicos.
+
+> **Solo canal de YT**: Te permite obligar a que solo se envíen enlaces de YouTube en canales específicos.

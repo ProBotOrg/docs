@@ -14,7 +14,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'fr', 'tr', 'vi', 'ru'],
+    locales: ['en', 'ar', 'es', 'fr', 'tr', 'vi', 'ru', 'de'],
     localeConfigs: {
       ar: {
         direction: 'rtl',
@@ -29,8 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/ProBotOrg/docs/blob/master',
+          editUrl: 'https://github.com/ProBotOrg/docs/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

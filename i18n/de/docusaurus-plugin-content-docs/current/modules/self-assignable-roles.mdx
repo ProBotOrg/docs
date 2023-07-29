@@ -1,0 +1,183 @@
+---
+sidebar_position: 10
+keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management] 
+---
+
+# Self-Assignable Roles 
+
+Set up exclusive roles with various options that can be used to improve workflow and message style.
+
+:::info
+
+The dashboard is where the configurations described here are managed.
+
+1. Go to the dashboard and log in.
+2. Choose your server from the menu on the left.
+3. Select the module and ensure that it is enabled.
+
+:::
+
+# Setup
+
+To have the bot apply the self-assignable options to the message, you must first create an 'Embed Message' and send it to a channel.
+
+[Embed Messages](https://docs.probot.io/docs/modules/embed) describes how to create and send a message.
+
+1. Select `Add Message` from the menu.
+2. Select `Edit` from the menu.
+3. From the `Embed` menu, choose the embed message you created.
+4. Select the embed message you sent to a channel from the `Choose a message` option.
+
+You're ready to move on to one of the module's options. 🙋
+
+## Role limitation per user
+
+The role limit for how many roles the user can play for that specific reaction and interaction.
+
+# Button
+
+A one-of-a-kind Discord button interaction that allows users to interact easily with a single click.
+
+1. Select your preferred button color by clicking on the `Button`.
+2. Select `Add Button` to add a button.
+3. Then, you'll see a `Settings` button and a `Delete` button.
+4. By selecting `Settings` you will be presented with the following options:
+
+> Button Emoji and text
+
+- The emoji and text you want to appear on the button.
+
+:::caution
+
+The text field is required; you must fill it out.
+
+:::
+
+> Colors
+
+- You will have four color options if you want to change them at any time.
+
+## Add Roles
+
+To add a role to the button and have the user revive it when they click on it, look for a plus sign '+' where you can click and add a role.
+
+:::info
+
+You can include up to 25 buttons in a single embed message.
+
+:::
+
+# Select Menu
+
+A distinct discord that is simple to use, select the menu to have the member interact with and the option to have the role (s).
+
+1. Select `Select Menu` from the drop-down menu.
+2. Then, select `Add Option`.
+3. You will be presented with several options, each of which is explained in detail below:
+
+## Select Menu Placeholder
+
+The text you want users to see from the outside on the select menu option before selecting any roles.
+
+## Emoji
+
+The emoji you want to see before each option.
+
+## Option Title 
+
+The option title you want see on each option. 
+
+## Option Description 
+
+The option description you want to see below each option title; can be used to describe the contents of the option.
+
+## Roles
+
+The option where you get to set a role for users to have as they interact with a select menu option, click on the plus `+` sign will display the server roles list.
+
+:::caution
+
+A single embed message can contain up to 20 select menu options.
+
+:::
+
+# Reaction
+
+Members receive a role when they click on a reaction in traditional reaction roles.
+
+1. Select `Reaction` from the drop-down menu.
+2. Select `Add Emoji` from the drop-down menu.
+3. Select whether you want to add a normal or a gif emoji.
+4. Create a role for that reaction using the plus `+` sign.
+
+:::caution
+
+If your server roles do not appear in the dashboard, move the ProBot's role higher in the server roles hierarchy.
+
+:::
+
+# Role Mode
+
+You will have several mode options for the reaction role.
+
+:::caution
+
+The mode will apply to all of the options in that message.
+
+:::
+
+## Toggle Mode
+
+This mode adds or removes roles based on whether the user has the roles or not. `Recommended`
+
+## Give Mode
+
+This mode adds roles whenever a reaction/interaction is added or removed. 'Excellent for accepting rules!'
+
+
+## Take Mode
+
+This mode will remove roles whenever a reaction/interaction is added or removed.
+
+# Type of Notification
+
+You will have two options for managing the notification type, whether you want it to respond to user interaction or keep it quiet: no bell:
+
+## Notify Type
+
+This option will send a reply message that can only be seen by the user who interacted with the interaction as they add, remove, or make no changes to the roles to keep them tuned.
+
+1. The first option is the reply message when the role is added.
+2. The second option is the reply message when the role is removed.
+3. The third option is when no changes have been made to the user roles.
+
+:::info
+
+To have the bot mention the role, include `{0}` in the reply message, as it refers to the role.
+
+:::
+
+## Silent Type
+
+If you want to keep things quiet without drawing the user's attention to any reply messages from the bot, this option is for you because it will not display any reply messages.
+
+
+# Important Notes
+
+:::warning
+
+The reaction may break if you have select menus or buttons in the background but aren't using them; to resolve this issue, you need to delete any select menu and button options that you may have added on the same message but aren't using.
+
+:::
+
+:::warning
+
+You are not allowed to link multiple messages with self-assignable roles to the same embedded message because doing so may cause problems.
+
+:::
+
+:::info
+
+You need to subscribe to the `Premium Tier 1/2` tier to set multiple roles for the same option.
+
+:::

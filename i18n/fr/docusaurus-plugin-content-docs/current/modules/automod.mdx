@@ -22,35 +22,41 @@ Le tableau de bord est l'endroit où les configurations décrites ici sont gér�
 
 ## Options de Détection
 
-Les options suivantes sont disponibles pour détecter les spams potentiels ou les messages malveillants sur votre serveur :
+Les options suivantes sont disponibles pour détecter les spams potentiels ou les messages malveillants sur votre serveur:
+
+:::note
+
+Nous avons quelques options de détection qui sont gérées par la règle AutoMod dans Discord, qui sera indiquée à côté de l'option AutoMod. ProBot gérera ceux qui n'ont pas le scan discord automod mentionné.
+
+:::
 
 > **SPAM (5 MESSAGES/5 SEC)**: cette option détecte lorsqu'un utilisateur envoie plus de cinq messages dans une fenêtre de cinq secondes.
 
-> **MAUVAIS MOTS**: cette option détecte les messages contenant des mots grossiers.
+> **MAUVAIS MOTS**: cette option détecte les messages contenant des mots grossiers. **(Scan des messages alimenté par Discord AutoMod)**
 
 > **TEXTE DUPLIQUÉ**: cette option détecte les messages contenant du texte en double.
 
-> **MESSAGES RÉPÉTÉS**: cette option détecte les messages qui répètent du texte ou des lignes comme "SPAM SPAM SPAM SPAM".
+> **MESSAGES RÉPÉTÉS**: cette option détecte les messages qui répètent du texte ou des lignes comme "SPAM SPAM SPAM SPAM". **(Niveau 2)**
 
-> **INVITATIONS DISCORD**: cette option détecte les messages contenant des liens d'invitation discord.
+> **INVITATIONS DISCORD**: cette option détecte les messages contenant des liens d'invitation discord. **(Scan des messages alimenté par Discord AutoMod)**
 
-> **LIENS**: cette option détecte les messages contenant des liens.
+> **LIENS**: cette option détecte les messages contenant des liens. **(Scan des messages alimenté par Discord AutoMod)**
 
-> **SPAM DE MAJUSCULES (70% > MAJUSCULES)** : cette option détecte les messages écrits en majuscules, comme "HELLO THIS IS PROBOT".
+> **SPAM DE MAJUSCULES (70% > MAJUSCULES)** : cette option détecte les messages écrits en majuscules, comme "HELLO THIS IS PROBOT". **(Scan des messages alimenté par Discord AutoMod)**
 
 > **SPAM D'EMOJI**: cette option détecte les messages contenant huit émoticônes ou plus.
 
-> **MENTION MASSIVE**: cette option détecte les messages qui mentionnent un grand nombre d'utilisateurs.
+> **MENTION MASSIVE**: cette option détecte les messages qui mentionnent un grand nombre d'utilisateurs. **(Scan des messages alimenté par Discord AutoMod)**
 
 ## Options d'Action
 
 Chaque option de détection offre trois options d'action différentes pour répondre aux besoins spécifiques de votre communauté. Ces actions sont:
 
-1. **Supprimer le message**: supprime le message qui a déclenché la détection.
+1. **Bloquer le message**: supprime le message qui a déclenché la détection.
 
 2. **Mettre le membre en muet**: coupe le son du membre qui a envoyé le message déclencheur.
 
-3. **Avertir le membre**: envoie un avertissement au membre qui a envoyé le message déclencheur.
+3. **Timeout Member**: Timeout le membre qui a envoyé le message déclencheur. **(Uniquement disponible dans les options de détection gérées par la règle Discord AutoMod)**
 
 ## Paramètres
 
@@ -59,10 +65,6 @@ Chaque option de détection comporte une option **Paramètres**, indiquée par u
 > **SALONS DÉSACTIVÉS** : chaînes qui seront exemptées des options de détection.
 
 > **RÔLES DÉSACTIVÉS** : rôles qui seront exemptés des options de détection.
-
-> **TEMPS MUET** : la durée pendant laquelle un membre sera mis en sourdine s'il enfreint les options de détection.
-
-> **NOMBRE DE VIOLATIONS DE LA MUET** : le nombre de violations requises avant qu'un membre ne soit mis en muet.
 
 Dans les options d'automatisation **Mauvais Mots** et **Liens**, il existe des paramètres supplémentaires introuvables dans les options par défaut:
 
