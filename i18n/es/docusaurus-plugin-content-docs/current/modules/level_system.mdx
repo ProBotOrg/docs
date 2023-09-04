@@ -1,0 +1,98 @@
+---
+sidebar_position: 6
+keywords: [Level System, Text, XP Roles, Role Rewards, Level-Up Message]
+---
+
+# Sistema de niveles
+
+Con el sistema de niveles de ProBot, los miembros activos del servidor serán recompensados automáticamente con roles de nivel extraordinarios, permisos privilegiados y acceso a canales misteriosos una vez que alcancen un nivel específico.
+
+:::info
+
+El dashboard es donde se gestionan las configuraciones descritas aquí.
+
+1. Ve al dashboard e inicia sesión.
+2. Selecciona tu servidor en el menú de la izquierda.
+3. Elije el módulo y asegúrate de que está habilitado.
+
+:::
+
+Inicialmente tendrás tres opciones distintas, cada una de las cuales se puede ajustar para producir una experiencia de nivelación más individualizada.
+
+## Roles sin XP
+
+Usando esto, puedes evitar que ciertos usuarios con los roles seleccionados acumulen puntos de experiencia en cualquier lugar de tu servidor.
+
+## Canales sin XP
+
+Puedes evitar que canales específicos acumulen puntos de experiencia.
+
+## Mensaje de Nivel Ascendente
+
+Envía mensajes de felicitación a los miembros que han ascendido de nivel. ¡También puedes usar variables únicas en estos mensajes!
+
+:::caution
+
+El **mensaje de nivel ascendente** solo se enviará a aquellos que hayan ascendido de nivel en un nivel de texto. En este momento, no tenemos un mensaje de nivel de voz.
+
+:::
+
+## Configuración
+
+El procedimiento para establecer el sistema de recompensa de roles se describe a continuación:
+
+Habrá un botón llamado `Añadir recompensas de roles` donde puedes añadir la recompensa del rol, un nivel personalizado que los usuarios deben alcanzar y otras opciones detalladas a continuación.
+
+### Nivel de Texto
+
+- Este es el nivel de texto que un miembro debe alcanzar para obtener el rol de nivel si se estableció de forma independiente.
+
+- El rango de nivel de texto es de 0 a 100; proporciona recompensas adicionales a los usuarios a medida que alcanzan el nivel requerido.
+
+### Nivel de Voz
+
+- Este es el nivel de voz que un miembro debe alcanzar para obtener el rol de nivel si se estableció de forma independiente.
+
+- El rango de nivel de voz es de 0 a 100; proporciona recompensas adicionales a los usuarios a medida que alcanzan el nivel requerido.
+
+### Recompensas de Roles
+
+Recompensa a los miembros con posiciones de nivel excepcionales a medida que progresan en los niveles y cumplen tus requisitos.
+
+:::caution
+
+Si los roles no se muestran, el rol del bot está anidado debajo de todos los roles del servidor. Para resolver este problema, mueve el rol del bot a la parte superior de la jerarquía de roles para asegurarte de que se muestren los roles.
+
+:::
+
+## Eliminar con un Nivel Superior
+
+Depende completamente de ti decidir si los niveles deben acumularse o eliminarse cuando los usuarios suben a niveles superiores.
+
+- Si deshabilitas la opción, los roles se acumularán.
+
+- Si habilitas la opción, los roles se eliminarán al alcanzar un nivel superior.
+
+## Mensaje al Usuario
+
+Notifica a un miembro cuando recibe un rol de nivel de texto mediante mensaje directo.
+
+## Notas Importantes
+
+:::important Tres situaciones potenciales que pueden surgir al establecer un requisito de nivel
+
+1. **Ambos Voz y Texto**: Si establece la necesidad tanto del nivel de texto como de voz sin dejar `0` en ninguna opción, se requerirán tanto el Texto como la Voz. Esto requerirá que el usuario alcance ambos niveles para obtener la recompensa del rol.
+
+2. **Solo Texto**: Si establece la necesidad del nivel de texto y deja la Voz en `0`, solo se requerirá el Texto. Esto requerirá que el usuario alcance el nivel necesario para el Texto para obtener la recompensa del rol.
+
+3. **Solo Voz**: Si establece la necesidad del nivel de voz y deja el Texto en `0`, solo se requerirá la Voz. Esto requerirá que el usuario alcance el nivel necesario para la Voz para obtener la recompensa del rol.
+
+4. **Posición del Rol**: Si ha seleccionado las mismas recompensas de rol para muchos niveles, no se preocupe: seguirá proporcionando a los usuarios el rol que especificó a medida que alcancen los requisitos de cualquier nivel que haya establecido para el mismo rol.
+
+:::
+
+:::caution
+
+Los usuarios deben escribir en los chats para que el bot actualice sus datos de XP y les otorgue los premios de nivel de voz, y solo entonces el bot podrá recompensarlos.
+
+:::

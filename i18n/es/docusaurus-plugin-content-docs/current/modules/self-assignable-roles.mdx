@@ -1,0 +1,181 @@
+---
+sidebar_position: 10
+keywords: [Self-Assignable Roles, Discord Buttons, Select Menus, Reaction Roles, Role Management]
+---
+
+# Roles AutoAsignables
+
+Configure roles exclusivos con varias opciones que se pueden utilizar para mejorar el flujo de trabajo y el estilo de los mensajes.
+
+:::info
+
+El dashboard es donde se administran las configuraciones descritas aquí.
+
+1. Vaya al dashboard e inicie sesión.
+2. Elija su servidor del menú de la izquierda.
+3. Seleccione el módulo y asegúrese de que esté habilitado.
+
+:::
+
+# Configuración
+
+Para que el bot aplique las opciones autoasignables al mensaje, primero debe crear un 'mensaje embed' y enviarlo a un canal.
+
+[Los mensajes embed](https://docs.probot.io/docs/modules/embed) describen cómo crear y enviar un mensaje.
+
+1. Seleccione `Agregar mensaje` del menú.
+2. Seleccione `Editar` del menú.
+3. Desde el menú `Embed`, elija el mensaje embed que creó.
+4. Seleccione el mensaje embed que envió a un canal desde la opción `Elegir un mensaje`.
+
+Ya está listo para pasar a una de las opciones del módulo. 🙋
+
+## Limitación de Roles por Usuario
+
+El límite de roles para cuántos roles puede jugar el usuario para esa reacción e interacción específicas.
+
+# Botón
+
+Una interacción de botón de Discord única que permite a los usuarios interactuar fácilmente con un solo clic.
+
+1. Seleccione su color de botón preferido haciendo clic en el `Botón`.
+2. Seleccione `Agregar botón` para agregar un botón.
+3. Luego, verá un botón `Configuración` y un botón `Eliminar`.
+4. Al seleccionar `Configuración`, se le presentarán las siguientes opciones:
+
+> Emoji y texto del botón
+
+- El emoji y el texto que desea que aparezcan en el botón.
+
+:::caution
+
+El campo de texto es obligatorio; debe completarlo.
+
+:::
+
+> Colores
+
+- Tendrá cuatro opciones de color si desea cambiarlos en cualquier momento.
+
+## Agregar Roles
+
+Para agregar un rol al botón y hacer que el usuario lo reciba cuando haga clic en él, busque un signo más '+' donde pueda hacer clic y agregar un rol.
+
+:::info
+
+Puede incluir hasta 25 botones en un solo mensaje embed.
+
+:::
+
+# Menú de selección
+
+Un discord distintivo que es fácil de usar, seleccione el menú para que el miembro interactúe con la opción de tener el (los) rol (es).
+
+1. Seleccione `Menú de selección` del menú desplegable.
+2. Luego, seleccione `Agregar opción`.
+3. Se le presentarán varias opciones, cada una de las cuales se explica en detalle a continuación:
+
+## Placeholder del Menú de Selección
+
+El texto que desea que los usuarios vean desde el exterior en la opción del menú de selección antes de seleccionar cualquier rol.
+
+## Emoji
+
+El emoji que desea ver antes de cada opción.
+
+## Título de la Opción
+
+El título de la opción que desea ver en cada opción.
+
+## Descripción de la Opción
+
+La descripción de la opción que desea ver debajo de cada título de opción; se puede utilizar para describir el contenido de la opción.
+
+## Roles
+
+La opción en la que puedes asignar un rol a los usuarios mientras interactúan con una opción de menú seleccionable. Al hacer clic en el signo más `+`, se mostrará la lista de roles del servidor.
+
+:::caution
+
+Un solo mensaje incrustado puede contener hasta 20 opciones de menú seleccionables.
+
+:::
+
+# Reacción
+
+Los miembros reciben un rol cuando hacen clic en una reacción en los roles de reacción tradicionales.
+
+1. Seleccione `Reacción` del menú desplegable.
+2. Seleccione `Agregar emoji` del menú desplegable.
+3. Seleccione si desea agregar un emoji normal o un emoji gif.
+4. Cree un rol para esa reacción utilizando el signo más `+`.
+
+:::caution
+
+Si los roles de su servidor no aparecen en el dashboard, mueva el rol de ProBot más arriba en la jerarquía de roles del servidor.
+
+:::
+
+# Modo de Rol
+
+Tendrá varias opciones de modo para el rol de reacción.
+
+:::caution
+
+El modo se aplicará a todas las opciones de ese mensaje.
+
+:::
+
+## Modo de Alternancia
+
+Este modo agrega o elimina roles según si el usuario tiene o no los roles. `Recomendado`
+
+## Modo de Otorgar
+
+Este modo agrega roles cada vez que se agrega o elimina una reacción/interacción. '¡Excelente para aceptar reglas!'
+
+## Modo de Quitar
+
+Este modo eliminará roles cada vez que se agregue o elimine una reacción/interacción.
+
+# Tipo de Notificación
+
+Tendrá dos opciones para gestionar el tipo de notificación, ya sea que desee responder a la interacción del usuario o mantenerlo en silencio: sin campana:
+
+## Tipo de Notificación
+
+Esta opción enviará un mensaje de respuesta que solo puede ser visto por el usuario que interactuó con la interacción a medida que agregan, eliminan o no hacen cambios en los roles para mantenerlos ajustados.
+
+1. La primera opción es el mensaje de respuesta cuando se agrega el rol.
+2. La segunda opción es el mensaje de respuesta cuando se elimina el rol.
+3. La tercera opción es cuando no se han realizado cambios en los roles de usuario.
+
+:::info
+
+Para que el bot mencione el rol, incluya `{0}` en el mensaje de respuesta, ya que se refiere al rol.
+
+:::
+
+## Tipo Silencioso
+
+Si desea mantener las cosas en silencio sin llamar la atención del usuario sobre los mensajes de respuesta del bot, esta opción es para usted porque no mostrará ningún mensaje de respuesta.
+
+# Notas Importantes
+
+:::warning
+
+La reacción puede fallar si tiene menús seleccionables o botones en el fondo pero no los está utilizando; para resolver este problema, debe eliminar cualquier opción de menú seleccionable y botón que haya agregado en el mismo mensaje pero no está utilizando.
+
+:::
+
+:::warning
+
+No se le permite vincular varios mensajes con roles autoasignables al mismo mensaje incrustado porque esto puede causar problemas.
+
+:::
+
+:::info
+
+Debe suscribirse al nivel `Premium Tier 1/2` para establecer varios roles para la misma opción.
+
+:::

@@ -1,0 +1,143 @@
+---
+sidebar_position: 15
+title: VIP Protection
+description: VIP Protection, provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands and actions.
+keywords: [Protection, Actions, Permissions, Restrictions, Limits]
+---
+
+# VIP Protection: Have ProBot Secure Your Server with Flawless Protection
+
+:::caution 
+
+VIP Protection is a premium feature and is only available to subscribers with a premium subscription. If you do not have a premium subscription, you will need to upgrade to access this feature.
+
+:::
+
+ProBot is a powerful bot for Discord that can help you manage your server and provide various features to improve your community experience. One such feature is VIP Protection, which provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands.
+
+:::info
+
+The dashboard is where the configurations described here are managed.
+
+1. Go to the dashboard and log in. 
+2. Select your server from the menu on the left.
+3. Choose the module and make sure that it is enabled. 
+
+:::
+
+## Adding Specific Roles
+
+By default, the `@everyone` role has no limits. However, ProBot allows you to add any desired role and set restrictions and limits.
+
+## Permissions Limits 
+
+With ProBot, you can further restrict the actions of users with permissions and prevent them from causing trouble in the future. VIP Protection allows you to set limitations on the following actions:
+
+- Ban 
+- Kick 
+- Channels (This limitation will apply to channel create/update/delete actions) 
+- Roles (This limitation will apply to role create/update/delete actions)
+
+:::note 
+
+Note that the roles limit does not include user role updates.
+
+:::
+
+## Actions 
+
+VIP Protection provides three different actions for each permission limit:
+
+1. Remove all administrative permission from all roles. 
+2. Remove administrative permission from user roles (**RECOMMENDED**). 
+3. Remove the administrative roles from the memeber. 
+
+You can select the action that fits your community best.
+
+:::caution
+
+When the first two options are selected, the server ownership will receive a backup code in DMs to revert the role permissions.
+
+:::
+
+## Commands Limits 
+
+VIP Protection also provides limits on specific commands, which you can set using ProBot commands. The following commands can have limits set:
+
+- Mute 
+- Vmute
+- Timeout 
+- Kick 
+- Ban 
+- Role 
+
+For the `/role` command, you have two additional options:
+
+- **Disabled Roles:** Prevent users with the `/role` permission from giving specific roles that they are able to.
+
+- **Enables Roles:** Allow users with the `/role` permission to give specific roles.
+
+:::caution
+
+Users with administrative permissions will bypass the role options
+
+:::
+
+:::tip
+
+If a user has multiple roles, the higher limits will apply. Everyone's default role is `@everyone`
+
+:::
+
+:::warning
+
+These limits might not apply to bots due to how they work, be careful from inviting unknown bots.
+
+:::
+
+## Limits 
+
+Please note that there is no limit to the number of options available, so feel free to select your desired number without any restrictions.
+
+
+## Protection Option 
+
+VIP Protection provides additional options to ensure that your server remains secure:
+
+### Roles Without Administrative 
+
+Probot will prevent roles without administrative permissions from being given such permissions by removing them when assigned.
+
+:::tip
+
+It is recommended to add the `@everyone` role and the `auto role` to this list 
+
+:::
+
+### Action When Another Bot Is Given An Administrative Role 
+
+Probot can detect when another bot is given administrative permissions and take the following actions:
+
+1. Remove all administrative roles from the bot (**RECOMMENDED**). 
+
+2. Remove all administrative permission from all roles (**Tier 2**).
+
+3. Kicks the bot.
+
+When you select an action, a new option named **Whitelist Bot** will appear. You can input specific bot IDs that you think are safe to use and are safe for your community. Adding a bot to the whitelist will have ProBot bypass them and avoid taking any action.
+
+### Who Can Access The Control Panel 
+
+By default, any user with "Administrator" permission can access the VIP Protection control panel. However, you can limit access to the control panel for specific users. There are two options available
+
+1. Any user with `Administrator` permission 
+
+2. Owner + Specific member with `Administrator ` permission
+
+When **2** is chosen, a box will appear where you are able to enter the user ID's, also bear in mind that those specific users must have `Administrator` permission as well. 
+
+Lastly, users with administrative permissions will have access by default to protection in which they will be able to edit the protection module as they desire without restrictions. However, you will have an option to restrict all users regardless of what permission they have to access the protection module. 
+
+- Restrict protection properties to the owner of the server
+
+

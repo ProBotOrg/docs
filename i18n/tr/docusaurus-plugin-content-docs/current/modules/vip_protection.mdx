@@ -1,143 +1,142 @@
 ---
 sidebar_position: 15
-title: VIP Protection
-description: VIP Protection, provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands and actions.
+title: VIP Koruma
+description: VIP Koruma, izinlere sahip kullanıcıların hareketlerini ve belirli komut ve eylemleri gerçekleştirme yeteneklerini sınırlayarak sunucunuz için güvenli bir ortam sağlar.
 keywords: [Protection, Actions, Permissions, Restrictions, Limits]
 ---
 
-# VIP Protection: Have ProBot Secure Your Server with Flawless Protection
+# VIP Koruma: ProBot'un Sunucunuzu Kusursuz Korumayla Güvenceye Almasını Sağlayın
 
 :::caution 
 
-VIP Protection is a premium feature and is only available to subscribers with a premium subscription. If you do not have a premium subscription, you will need to upgrade to access this feature.
+VIP Koruması premium bir özelliktir ve yalnızca premium aboneliği olan aboneler tarafından kullanılabilir. Premium aboneliğiniz yoksa, bu özelliğe erişmek için yükseltme yapmanız gerekecektir.
 
 :::
 
-ProBot is a powerful bot for Discord that can help you manage your server and provide various features to improve your community experience. One such feature is VIP Protection, which provides a secure environment for your server by restricting the actions of users with permissions and limiting their ability to perform certain commands.
+ProBot, sunucunuzu yönetmenize yardımcı olabilecek ve topluluk deneyiminizi geliştirmek için çeşitli özellikler sunabilecek, Discord için güçlü bir bottur. Bu özelliklerden biri, izinleri olan kullanıcıların eylemlerini kısıtlayarak ve belirli komutları gerçekleştirme yeteneklerini sınırlayarak sunucunuz için güvenli bir ortam sağlayan VIP Korumasıdır.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Yönetim Paneli burada açıklanan yapılandırmaların yönetildiği yerdir.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
-
+1. Yönetim Paneline gidin ve oturum açın.
+2. Soldaki menüden sunucunuzu seçin.
+3. Modülü seçin ve etkinleştirildiğinden emin olun.
 :::
 
-## Adding Specific Roles
+## Belirli Rolleri Ekleme
 
-By default, the `@everyone` role has no limits. However, ProBot allows you to add any desired role and set restrictions and limits.
+Varsayılan olarak, "@everyone" rolünün sınırı yoktur. Ancak ProBot, istediğiniz herhangi bir rolü eklemenize ve kısıtlamalar ve limitler belirlemenize olanak tanır.
 
-## Permissions Limits 
+## İzin Sınırları
 
-With ProBot, you can further restrict the actions of users with permissions and prevent them from causing trouble in the future. VIP Protection allows you to set limitations on the following actions:
+ProBot ile izinlere sahip kullanıcıların hareketlerini daha da kısıtlayabilir ve ileride sorun çıkarmalarını engelleyebilirsiniz. VIP Koruması, aşağıdaki eylemlerde sınırlamalar belirlemenize olanak tanır:
 
-- Ban 
-- Kick 
-- Channels (This limitation will apply to channel create/update/delete actions) 
-- Roles (This limitation will apply to role create/update/delete actions)
+- Ban
+- Kick
+- Kanallar (Bu sınırlama, kanal oluşturma/güncelleme/silme işlemleri için geçerli olacaktır)
+- Roller (Bu sınırlama, rol oluşturma/güncelleme/silme eylemleri için geçerli olacaktır)
 
 :::note 
 
-Note that the roles limit does not include user role updates.
+Roller sınırının kullanıcı rolü güncellemelerini içermediğini unutmayın.
 
 :::
 
-## Actions 
+## Eylemler
 
-VIP Protection provides three different actions for each permission limit:
+VIP Koruması, her izin sınırı için üç farklı eylem sağlar:
 
-1. Remove all administrative permission from all roles. 
-2. Remove administrative permission from user roles (**RECOMMENDED**). 
-3. Remove the administrative roles from the memeber. 
+1. Tüm rollerden tüm yönetici izinlerini kaldırın.
+2. Kullanıcı rollerinden yönetici iznini kaldırın (**ÖNERİLEN**).
+3. Üyeden yönetici rollerini kaldırın.
 
-You can select the action that fits your community best.
+Topluluğunuza en uygun eylemi seçebilirsiniz.
 
 :::caution
 
-When the first two options are selected, the server ownership will receive a backup code in DMs to revert the role permissions.
+İlk iki seçenek seçildiğinde, sunucu sahipliği, rol izinlerini geri almak için DM'lerde bir yedek kod alacaktır.
 
 :::
 
-## Commands Limits 
+## Komut Sınırları
 
-VIP Protection also provides limits on specific commands, which you can set using ProBot commands. The following commands can have limits set:
+VIP Koruması ayrıca, ProBot komutlarını kullanarak ayarlayabileceğiniz belirli komutlar için sınırlar sağlar. Aşağıdaki komutların sınırları belirlenmiş olabilir:
 
-- Mute 
-- Vmute
-- Timeout 
-- Kick 
-- Ban 
-- Role 
+- Susturmak
+- Ses Kanalında Susturmak
+- Zaman aşımı
+- Kick
+- Ban
+- Rol
 
-For the `/role` command, you have two additional options:
+"/role" komutu için iki ek seçeneğiniz vardır:
 
-- **Disabled Roles:** Prevent users with the `/role` permission from giving specific roles that they are able to.
+- **Devre Dışı Bırakılmış Roller:** "/role" iznine sahip kullanıcıların yapabilecekleri belirli roller vermesini engelleyin.
 
-- **Enables Roles:** Allow users with the `/role` permission to give specific roles.
+- **Rolleri Etkinleştirir:** "/role" iznine sahip kullanıcıların belirli roller vermesine izin verin.
 
 :::caution
 
-Users with administrative permissions will bypass the role options
+Yönetici izinlerine sahip kullanıcılar, rol seçeneklerini atlayacak
 
 :::
 
 :::tip
 
-If a user has multiple roles, the higher limits will apply. Everyone's default role is `@everyone`
+Bir kullanıcının birden çok rolü varsa, daha yüksek sınırlar geçerli olacaktır. Herkesin varsayılan rolü "@everyone" şeklindedir
 
 :::
 
 :::warning
 
-These limits might not apply to bots due to how they work, be careful from inviting unknown bots.
+Bu sınırlar, çalışma biçimleri nedeniyle botlar için geçerli olmayabilir, bilinmeyen botları davet etmemeye dikkat edin.
 
 :::
 
-## Limits 
+## Limitler
 
-Please note that there is no limit to the number of options available, so feel free to select your desired number without any restrictions.
+Lütfen mevcut seçeneklerin sayısında bir sınırlama olmadığını unutmayın, bu nedenle herhangi bir kısıtlama olmadan istediğiniz sayıyı seçmekten çekinmeyin.
 
 
-## Protection Option 
+## Koruma Seçeneği
 
-VIP Protection provides additional options to ensure that your server remains secure:
+VIP Koruması, sunucunuzun güvende kalmasını sağlamak için ek seçenekler sunar:
 
-### Roles Without Administrative 
+### Yönetici Olmayan Roller
 
-Probot will prevent roles without administrative permissions from being given such permissions by removing them when assigned.
+ProBot, yönetici izinleri olmayan rollere bu tür izinlerin verilmesini, atandığında onları kaldırarak engelleyecektir.
 
 :::tip
 
-It is recommended to add the `@everyone` role and the `auto role` to this list 
+Bu listeye "@everyone" rolünü ve "otomatik rolü" eklemeniz önerilir.
 
 :::
 
-### Action When Another Bot Is Given An Administrative Role 
+### Başka Bir Bot'a Yönetici Rolü Verildiğinde Yapılacak İşlem
 
-Probot can detect when another bot is given administrative permissions and take the following actions:
+ProBot, başka bir bota yönetici izinleri verildiğini algılayabilir ve aşağıdaki işlemleri yapabilir:
 
-1. Remove all administrative roles from the bot (**RECOMMENDED**). 
+1. Bottan tüm yönetici rollerini kaldırın (**ÖNERİLEN**).
 
-2. Remove all administrative permission from all roles (**Tier 2**).
+2. Tüm rollerden (**Tier 2**) tüm yönetici izinlerini kaldırın.
 
-3. Kicks the bot.
+3. Botu atar.
 
-When you select an action, a new option named **Whitelist Bot** will appear. You can input specific bot IDs that you think are safe to use and are safe for your community. Adding a bot to the whitelist will have ProBot bypass them and avoid taking any action.
+Bir eylem seçtiğinizde, **Beyaz Liste Botu** adlı yeni bir seçenek görünecektir. Kullanmanın güvenli olduğunu ve topluluğunuz için güvenli olduğunu düşündüğünüz belirli bot kimliklerini girebilirsiniz. Beyaz listeye bir bot eklemek, ProBot'un onları atlamasına ve herhangi bir işlem yapmaktan kaçınmasına neden olur.
 
-### Who Can Access The Control Panel 
+### Kontrol Paneline Kimler Erişebilir?
 
-By default, any user with "Administrator" permission can access the VIP Protection control panel. However, you can limit access to the control panel for specific users. There are two options available
+Varsayılan olarak, "Yönetici" iznine sahip herhangi bir kullanıcı VIP Koruması kontrol paneline erişebilir. Ancak, belirli kullanıcılar için kontrol paneline erişimi sınırlayabilirsiniz. Mevcut iki seçenek var
 
-1. Any user with `Administrator` permission 
+1. "Yönetici" iznine sahip herhangi bir kullanıcı
 
-2. Owner + Specific member with `Administrator ` permission
+2. Sahip + "Yönetici" iznine sahip belirli üye
 
-When **2** is chosen, a box will appear where you are able to enter the user ID's, also bear in mind that those specific users must have `Administrator` permission as well. 
+**2** seçildiğinde, kullanıcı kimliklerini girebileceğiniz bir kutu görünecektir, ayrıca bu belirli kullanıcıların da "Yönetici" iznine sahip olması gerektiğini unutmayın.
 
-Lastly, users with administrative permissions will have access by default to protection in which they will be able to edit the protection module as they desire without restrictions. However, you will have an option to restrict all users regardless of what permission they have to access the protection module. 
+Son olarak, yönetici izinlerine sahip kullanıcılar, koruma modülünü kısıtlama olmadan istedikleri gibi düzenleyebilecekleri korumaya varsayılan olarak erişebileceklerdir. Ancak, koruma modülüne erişmek için hangi izinlere sahip olduklarına bakılmaksızın tüm kullanıcıları kısıtlama seçeneğiniz olacaktır.
 
-- Restrict protection properties to the owner of the server
+- Koruma özelliklerini sunucunun sahibiyle sınırlayın
 
 

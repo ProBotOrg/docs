@@ -24,33 +24,39 @@ The dashboard is where the configurations described here are managed.
 
 The following options are available for detecting potential spam or malicious messages on your server:
 
+:::note
+
+We have some detection options that are managed by the AutoMod rule in Discord, which will be indicated next to the AutoMod option. ProBot will manage the ones that do not have the discord automod scanning mentioned. 
+
+:::
+
 > **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
 
-> **BAD WORDS**: This option detects messages containing bad words.
+> **BAD WORDS**: This option detects messages containing bad words. **(Message scanning powered by Discord AutoMod)**
 
 > **DUPLICATED TEXT**: This option detects messages containing duplicated text.
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM." **(Tier 2)**
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **DISCORD INVITES**: This option detects messages containing discord invitation links. **(Message scanning powered by Discord AutoMod)**
 
-> **LINKS**: This option detects messages that contain links.
+> **LINKS**: This option detects messages that contain links. (Message scanning powered by Discord AutoMod)
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT." **(Message scanning powered by Discord AutoMod)**
 
 > **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **MASS MENTION**: This option detects messages that mention a large number of users. **(Message scanning powered by Discord AutoMod)**
 
 ## Action Options
 
 Each detection option offers three different action options to meet the specific needs of your community. These actions are:
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+1. **Block Message**: Deletes the message that triggered the detection.
 
 2. **Mute Member**: Mutes the member who sent the triggering message.
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
+3. **Timeout Member**: Timeouts the member who sent the triggering message. **(Only available in detection options that are managed by Discord AutoMod Rule)**
 
 ## Settings
 
@@ -59,10 +65,6 @@ Each detection option features a **Settings** option, indicated by a gear icon `
 > **Disabled Channels**: Channels that will be exempt from the detection options.
 
 > **Disabled Roles**: Roles that will be exempt from the detection options.
-
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
-
-> **Mute Violations Count**: The number of violations required before a member is muted.
 
 In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
 

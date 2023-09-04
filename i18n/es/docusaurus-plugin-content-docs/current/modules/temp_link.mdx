@@ -1,0 +1,108 @@
+---
+sidebar_position: 13
+keyword: [link, temporary link command, premium subscribers, link uses, invite link]
+---
+
+# Enlaces Temporales
+
+La función de Comando de Enlace Temporal permite a los administradores de servidores configurar un comando para que los usuarios puedan invitar a sus amigos fácilmente. Las siguientes instrucciones proporcionan una guía paso a paso sobre cómo configurar el comando.
+
+:::info
+
+El dashboard es donde se administran las configuraciones descritas aquí.
+
+1. Vaya al dashboard e inicie sesión.
+2. Seleccione su servidor del menú de la izquierda.
+3. Elija el módulo y asegúrese de que esté habilitado.
+
+:::
+
+:::caution
+
+Esta función solo está disponible para suscriptores premium.
+
+:::
+
+## Nombre del Comando
+
+El primer paso es ingresar un nombre de comando que los usuarios puedan escribir para recibir un enlace personalizado. Este comando puede ser cualquier texto, prefijo, símbolo o carácter deseado.
+
+## Mensajes
+
+### Mensaje Cuando se Solicita un Enlace
+
+Cuando un usuario escribe el comando, aparecerá un mensaje como respuesta, indicando que el enlace se ha enviado correctamente a los DM del usuario. El texto de este mensaje se puede ajustar según se desee.
+
+### Mensaje Cuando no se Puede Enviar el Enlace
+
+Si el bot no puede enviar el enlace, se mostrará un mensaje separado como respuesta, indicando que el bot no pudo enviar el enlace porque los DM del usuario están cerrados. El texto de este mensaje también se puede ajustar según se desee.
+
+## Roles
+
+### Roles Deshabilitados
+
+El administrador puede impedir que roles específicos puedan usar el comando de enlace.
+
+### Roles Habilitados
+
+Los usuarios con los roles elegidos podrán usar el comando de enlace.
+
+## Canales
+
+### Canales Deshabilitados
+
+El bot no responderá al comando de enlace en los canales seleccionados.
+
+### Canales Habilitados
+
+El bot responderá al comando de enlace en los canales seleccionados.
+
+## Información del Enlace
+
+### Texto con el Mensaje del Enlace
+
+El texto enviado a los DM de un usuario cuando usa el comando incluirá un enlace de invitación junto con información sobre los usos del enlace y el tiempo de vencimiento. El texto de este mensaje se puede ajustar según se desee.
+
+### Usos del Enlace
+
+El administrador puede especificar cuántas veces se puede usar el enlace y limitar el número de usuarios que pueden unirse con ese enlace. Se proporciona una barra de desplazamiento ajustable para establecer el número de usos del enlace.
+
+### Canal Predeterminado de Invitación
+
+El administrador puede especificar en qué canal pertenecerán los enlaces de invitación. Por ejemplo, si el administrador establece el seguimiento en "Prueba", los usuarios que usen el enlace serán redirigidos al canal "Prueba" al unirse.
+
+### Edad del Enlace en Minutos
+
+El administrador puede especificar la edad del enlace en minutos. El enlace expirará a menos que se use dentro de este tiempo. Se proporciona una barra de desplazamiento ajustable para establecer el enlace.
+
+## Tiempo de Espera
+
+### Tiempo de Espera en Horas
+
+El administrador puede establecer un tiempo de espera para que los usuarios soliciten el enlace nuevamente.
+
+### Cantidad de enlaces que se pueden solicitar antes del tiempo de espera
+
+El administrador puede establecer la cantidad de enlaces que se pueden solicitar antes de que se imponga el tiempo de espera.
+
+### Mensaje de tiempo de espera
+
+Cuando un usuario intenta solicitar un nuevo enlace antes de que haya terminado el tiempo de espera, aparecerá un mensaje como respuesta que indicará que deben esperar la cantidad de tiempo especificada antes de solicitar un nuevo enlace. El texto de este mensaje se puede ajustar según se desee.
+
+## Deshabilitar el tiempo de espera
+
+El administrador puede permitir que los usuarios con permiso de "Invitar miembros" eviten el tiempo de espera y creen enlaces en cualquier momento.
+
+## Eliminar la invocación del comando del usuario y la respuesta del bot
+
+El administrador puede elegir que el bot elimine el comando del usuario y la respuesta del bot después de cinco segundos o mantenerlos persistentes. Habilitar la opción eliminará el mensaje y deshabilitarla lo mantendrá.
+
+::: importante
+
+Estos son los siguientes límites para nuestras opciones de enlace temporal:
+
+- Edad del enlace en minutos `1440`
+- Tiempo de espera en horas `9999999999999`
+- Cuántos enlaces se pueden solicitar antes del tiempo de espera `9999999999999`
+
+:::

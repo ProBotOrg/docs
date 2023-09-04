@@ -1,91 +1,93 @@
 ---
 sidebar_position: 17
-title: Automod
-description: A guide to properly configure the ProBot Automod for your server
+title: Автомодерация
+description: Руководство по правильной настройке Автомода ProBot для вашего сервера
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# Автомодерация
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+Обеспечьте бесперебойную работу сервера без стресса с помощью Автомода ProBot. Попрощайтесь со спамерами и рекламщиками, и наслаждайтесь спокойствием, зная, что ProBot неустанно работает над поддержанием безопасной и надежной среды для вашего сообщества.
 
 :::info
 
-The dashboard is where the configurations described here are managed.
+Панель управления — это место, где осуществляется управление описанными здесь конфигурациями.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Перейдите в панель управления и авторизуйтесь. 
+2. Выберите ваш сервер в левом меню.
+3. Выберите модуль и убедитесь, что он включён. 
 
 :::
 
-## Detection Options
+## Опции обнаружения
 
-The following options are available for detecting potential spam or malicious messages on your server:
+Для обнаружения потенциального спама или вредоносных сообщений на вашем сервере доступны следующие опции:
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+:::info
 
-> **BAD WORDS**: This option detects messages containing bad words.
+У нас есть некоторые опции обнаружения, которые управляются правилом Автомода в Discord, которые будут указаны рядом с опцией Автомод. ProBot будет управлять теми действиями, которые не имеют упомянутого сканирования автомода в Discord.
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+:::
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **СПАМ (5 СООБЩЕНИЙ/5 СЕК)**: Эта опция определяет, когда пользователь отправляет более 5 сообщений за 5-секундный промежуток.
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **ПЛОХИЕ СЛОВА**: Эта опция определяет, содержит ли сообщение плохие слова. **(Сканирование сообщений основано на Автомоде Discord)**
 
-> **LINKS**: This option detects messages that contain links.
+> **ДУБЛИРОВАННЫЙ ТЕКСТ**: Эта опция определяет сообщения, содержащие дублированный текст.
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **ПОВТОРЯЮЩИЕСЯ СООБЩЕНИЯ**: Эта опция определяет сообщения, которые повторяют текст или строки, например "СПАМ СПАМ СПАМ СПАМ". **(Уровень 2)**
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **DISCORD-ПРИГЛАШЕНИЯ**: Эта опция определяет сообщения, содержащие инвайт-ссылки Discord. **(Сканирование сообщений основано на Автомоде Discord)**
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **ССЫЛКИ**: Эта опция определяет сообщения, содержащие ссылки. **(Сканирование сообщений основано на Автомоде Discord)**
 
-## Action Options
+> **СПАМ КАПСОМ (70% > КАПС)**: Эта опция определяет сообщения, которые написаны капсом, например "ПРИВЕТ ЭТО PROBOT." **(Сканирование сообщений основано на Автомоде Discord)**
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+> **СПАМ EMOJI**: Эта опция определяет сообщения, содержащие 8 или более эмодзи.
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+> **МАССОВОЕ УПОМИНАНИЕ**: Эта опция определяет сообщения, упоминающие большое количество пользователей. **(Сканирование сообщений основано на Автомоде Discord)**
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+## Варианты действий
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
+Каждый вариант обнаружения предлагает три различных варианта действий для удовлетворения конкретных потребностей вашего сообщества. К этим действиям относятся:
 
-## Settings
+1. **Блокировать сообщение**: Удаляет сообщение, активировавшее обнаружение.
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+2. **Замутить участника**: Мутит участника, отправившего запретное сообщение.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+3. **Отправить участника в тайм-аут**: Выдать тайм-аут участнику, который отправил запретное сообщение. **(Доступны только опции обнаружения, которые управляются Правилом Автомода Discord)**
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
+## Настройки
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+Каждый вариант обнаружения имеет опцию **Настройки**, обозначенную значком шестеренки `⚙️`. Нажатие на эту опцию раскроет ряд параметров, которые вы можете настроить для оптимизации использования Автомода ProBot для вашего сервера.
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
+> **Отключённые каналы**: Каналы, которые будут исключены из опций обнаружения.
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+> **Отключённые роли**: Роли, которые будут исключены из опций обнаружения.
 
-> **Bad Words**
+В опциях автоматизации **Плохие слова** и **Ссылки** существуют дополнительные настройки, отсутствующие в опциях по умолчанию:
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+> **Плохие слова**
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+- Плохие слова: Список индивидуальных плохих слов, которые будут триггерить опции обнаружения.
 
-> **Links**
+- НЕ ИСКАТЬ СОВПАДЕНИЕ, ЕСЛИ ЭТО ЧАСТЬ СЛОВА: Если включено, эта опция будет предотвращать обнаружение слов, которые содержат плохие слова, но не идентичны им.
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+> **Ссылки**
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+- Разрешённые URL: Список ссылок, которые не будут триггерить опции обнаружения, даже если они содержат ссылки.
 
-## Additional Features
+- Запрещённые URL: Список ссылок, которые будут триггерить опции обнаружения, даже если они не содержат ссылок.
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
+## Дополнительные функции
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+Помимо описанных выше опций обнаружения и действий, Автомод ProBot также включает следующие функции:
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+> **Игнорируемые каналы**: Эти каналы будут исключены со всех опций обнаружения.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+> **Игнорируемые роли**: Эти роли будут исключены со всех опций обнаружения.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+> **Каналы только для изображений**: Позволяет вам отправлять только изображения в указанные каналы.
+
+> **Только YT-каналы**: Позволяет вам отправлять только YouTube-ссылки в указанные каналы.

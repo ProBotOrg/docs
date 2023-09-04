@@ -1,91 +1,93 @@
 ---
 sidebar_position: 17
-title: Automod
-description: A guide to properly configure the ProBot Automod for your server
+title: Modération Automatique
+description: Un guide pour bien configurer le ProBot Modération Automatique pour votre serveur
 keywords: [Spam, automation, invite links, caps, mention] 
 ---
 
 
-# Auto Moderation
+# Modération Automatique
 
-Ensure a smooth and stress-free server environment with ProBot Automod. Say goodbye to spammers and advertisers, and enjoy peace of mind knowing that ProBot is working tirelessly to maintain a safe and secure environment for your community.
+Assurez un environnement de serveur fluide et sans stress avec ProBot Modération Automatique. Dites adieu aux spammeurs et aux annonceurs, et profitez de la tranquillité d'esprit en sachant que ProBot travaille sans relâche pour maintenir un environnement sûr et sécurisé pour votre communauté.
 
-:::info
+:::Info
 
-The dashboard is where the configurations described here are managed.
+Le tableau de bord est l'endroit où les configurations décrites ici sont gérées.
 
-1. Go to the dashboard and log in. 
-2. Select your server from the menu on the left.
-3. Choose the module and make sure that it is enabled. 
+1. Accédez au tableau de bord et connectez-vous.
+2. Sélectionnez votre serveur dans le menu de gauche.
+3. Choisissez le module et assurez-vous qu'il est activé.
 
 :::
 
-## Detection Options
+## Options de Détection
 
-The following options are available for detecting potential spam or malicious messages on your server:
+Les options suivantes sont disponibles pour détecter les spams potentiels ou les messages malveillants sur votre serveur:
 
-> **SPAM (5 MESSAGES/5 SEC)**: This option detects when a user sends more than five messages within a five-second window.
+:::note
 
-> **BAD WORDS**: This option detects messages containing bad words.
+Nous avons quelques options de détection qui sont gérées par la règle AutoMod dans Discord, qui sera indiquée à côté de l'option AutoMod. ProBot gérera ceux qui n'ont pas le scan discord automod mentionné.
 
-> **DUPLICATED TEXT**: This option detects messages containing duplicated text.
+:::
 
-> **REPEATED MESSAGES**: This option detects messages that repeat text or lines like "SPAM SPAM SPAM SPAM."
+> **SPAM (5 MESSAGES/5 SEC)**: cette option détecte lorsqu'un utilisateur envoie plus de cinq messages dans une fenêtre de cinq secondes.
 
-> **DISCORD INVITES**: This option detects messages containing discord invitation links.
+> **MAUVAIS MOTS**: cette option détecte les messages contenant des mots grossiers. **(Scan des messages alimenté par Discord AutoMod)**
 
-> **LINKS**: This option detects messages that contain links.
+> **TEXTE DUPLIQUÉ**: cette option détecte les messages contenant du texte en double.
 
-> **SPAMMED CAPS (70% > CAPS)**: This option detects messages that are written in all caps, like "HELLO THIS IS PROBOT."
+> **MESSAGES RÉPÉTÉS**: cette option détecte les messages qui répètent du texte ou des lignes comme "SPAM SPAM SPAM SPAM". **(Niveau 2)**
 
-> **EMOJI SPAM**: This option detects messages that contain eight or more emojis.
+> **INVITATIONS DISCORD**: cette option détecte les messages contenant des liens d'invitation discord. **(Scan des messages alimenté par Discord AutoMod)**
 
-> **MASS MENTION**: This option detects messages that mention a large number of users.
+> **LIENS**: cette option détecte les messages contenant des liens. **(Scan des messages alimenté par Discord AutoMod)**
 
-## Action Options
+> **SPAM DE MAJUSCULES (70% > MAJUSCULES)** : cette option détecte les messages écrits en majuscules, comme "HELLO THIS IS PROBOT". **(Scan des messages alimenté par Discord AutoMod)**
 
-Each detection option offers three different action options to meet the specific needs of your community. These actions are:
+> **SPAM D'EMOJI**: cette option détecte les messages contenant huit émoticônes ou plus.
 
-1. **Delete Message**: Deletes the message that triggered the detection.
+> **MENTION MASSIVE**: cette option détecte les messages qui mentionnent un grand nombre d'utilisateurs. **(Scan des messages alimenté par Discord AutoMod)**
 
-2. **Mute Member**: Mutes the member who sent the triggering message.
+## Options d'Action
 
-3. **Warn Member**: Issues a warning to the member who sent the triggering message.
+Chaque option de détection offre trois options d'action différentes pour répondre aux besoins spécifiques de votre communauté. Ces actions sont:
 
-## Settings
+1. **Bloquer le message**: supprime le message qui a déclenché la détection.
 
-Each detection option features a **Settings** option, indicated by a gear icon `⚙️`. Clicking on this option will reveal a range of settings that you can adjust to optimize the use of ProBot Automod for your server.
+2. **Mettre le membre en muet**: coupe le son du membre qui a envoyé le message déclencheur.
 
-> **Disabled Channels**: Channels that will be exempt from the detection options.
+3. **Timeout Member**: Timeout le membre qui a envoyé le message déclencheur. **(Uniquement disponible dans les options de détection gérées par la règle Discord AutoMod)**
 
-> **Disabled Roles**: Roles that will be exempt from the detection options.
+## Paramètres
 
-> **Mute Duration**: The length of time that a member will be muted if they violate the detection options.
+Chaque option de détection comporte une option **Paramètres**, indiquée par une icône d'engrenage `⚙️`. En cliquant sur cette option, vous découvrirez une gamme de paramètres que vous pouvez ajuster pour optimiser l'utilisation de ProBot Automod pour votre serveur.
 
-> **Mute Violations Count**: The number of violations required before a member is muted.
+> **SALONS DÉSACTIVÉS** : chaînes qui seront exemptées des options de détection.
 
-In the **Bad Words** and **Links** automation options, there are additional settings not found in the default options:
+> **RÔLES DÉSACTIVÉS** : rôles qui seront exemptés des options de détection.
 
-> **Bad Words**
+Dans les options d'automatisation **Mauvais Mots** et **Liens**, il existe des paramètres supplémentaires introuvables dans les options par défaut:
 
-- Bad Words: A list of individual bad words that will trigger the detection option.
+> **Mauvais Mots**
 
-- DON'T MATCH IF IT IS PART OF A WORD: If enabled, this option will prevent the detection of words that contain the bad words but are not identical to them.
+- Mauvais Mots: une liste de mots grossiers individuels qui déclencheront l'option de détection.
 
-> **Links**
+- NE CORRESPOND PAS SI ELLE FAIT PARTIE D'UN MOT: Si elle est activée, cette option empêchera la détection des mots qui contiennent les mauvais mots mais qui ne leur sont pas identiques.
 
-- Whitelisted URL: A list of URLs that will not trigger the detection option, even if they contain links.
+> **Liens**
 
-- Blacklisted URL: A list of URLs that will trigger the detection option, even if they do not contain links.
+- LIENS DE LA LISTE BLANCHE: une liste d'URL qui ne déclencheront pas l'option de détection, même si elles contiennent des liens.
 
-## Additional Features
+- LIENS DE LA LISTE NOIRE: une liste d'URL qui déclencheront l'option de détection, même si elles ne contiennent pas de liens.
 
-In addition to the detection and action options described above, ProBot Automod also includes the following features:
+## Fonctionnalités Supplémentaires
 
-> **Ignored Channels**: Channels that will be exempt from all detection options.
+En plus des options de détection et d'action décrites ci-dessus, ProBot Automod inclut également les fonctionnalités suivantes:
 
-> **Ignored Roles**: Roles that will be exempt from all detection options.
+> **SALONS IGNORÉS**: chaînes qui seront exemptées de toutes les options de détection.
 
-> **Only Images Channel**: Allows you to enforce that only images are sent in specific channels.
+> **RÔLES IGNORÉS**: les rôles qui seront exemptés de toutes les options de détection.
 
-> **Only YT Channel**: Allows you to enforce that only YouTube links are sent in specific channels.
+> **SALONS D'IMAGES SEULEMENT**: vous permet d'imposer que seules les images soient envoyées dans des canaux spécifiques.
+
+> **SALONS DE LIENS YOUTUBE UNIQUEMENT**: vous permet d'imposer que seuls les liens YouTube soient envoyés dans des chaînes spécifiques.

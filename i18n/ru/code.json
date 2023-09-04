@@ -1,61 +1,61 @@
 {
   "homepage.feature_one_category_first": {
-    "message": "Dashboard Setup"
+    "message": "Настройка панели управления"
   },
   "homepage.feature_one_description_first": {
-    "message": "Dashboard Your One-Stop-Shop for Server Management"
+    "message": "Панель управления является вашим универсальным магазином для управления сервером"
   },
   "homepage.feature_one_category_second": {
-    "message": "Setup ProBot"
+    "message": "Настройка ProBot"
   },
   "homepage.feature_one_description_second": {
-    "message": "Step by Step to invite ProBot"
+    "message": "Шаг за шагом, чтобы пригласить ProBot"
   },
   "homepage.feature_one_category_third": {
     "message": "FAQ"
   },
   "homepage.feature_one_description_third": {
-    "message": "Frequently Asked Questions"
+    "message": "Часто задаваемые вопросы"
   },
   "homepage.feature_two_category_one": {
-    "message": "Modules"
+    "message": "Модули"
   },
   "homepage.feature_two_description_first": {
-    "message": "Custom Welcome and Goodbye Messages for Engaging Discord Server Management"
+    "message": "Кастомные Приветственные и Прощальные сообщения для вовлечённого управления Discord-сервером"
   },
   "homepage.feature_two_description_second": {
-    "message": "Self-Assignable Roles"
+    "message": "Роли самостоятельного назначения"
   },
   "homepage.feature_two_description_third": {
-    "message": "Easily create embeds for your server!"
+    "message": "С лёгкостью создавайте Embed-сообщения для вашего сервера!"
   },
   "homepage.feature_two_description_four": {
-    "message": "Level System"
+    "message": "Система уровней"
   },
   "homepage.learn_more": {
-    "message": "Learn More"
+    "message": "Узнать больше"
   },
   "homepage.category_first_section": {
-    "message": "Server management"
+    "message": "Управление сервером"
   },
   "homepage.category_second_section": {
-    "message": "Modules"
+    "message": "Модули"
   },
   "theme.docs.paginator.next": {
     "message": "Следующая страница",
     "description": "The label used to navigate to the next doc"
   },
   "homepage.introduction": {
-    "message": "Introduction"
+    "message": "Введение"
   },
   "homepage.header_welcome": {
-    "message": "Welcome to the ProBot Docs!"
+    "message": "Добро пожаловать в документацию ProBot!"
   },
   "homepage.header_welcome_description": {
-    "message": "ProBot is a highly configurable, multipurpose bot that offers features like image greeting, detailed logs, social commands, moderation, self-assignable roles, social media notifications, and protection for your server."
+    "message": "ProBot — это очень настраиваемый многоцелевой бот, который предлагает такие функции, как приветственные изображения, детализированные логи, социальные команды, модерацию, роли самостоятельного назначения, уведомления с социальных сетей и защиту для вашего сервера."
   },
   "homepage.header_go_to_docs": {
-    "message": "Go to Docs"
+    "message": "Перейти к докам"
   },
   "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",
@@ -257,7 +257,7 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Главная",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -285,15 +285,15 @@
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Свернуть сайдбар",
+    "message": "Свернуть боковую панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Свернуть сайдбар",
+    "message": "Свернуть боковую панель",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Боковая панель документации",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
@@ -309,11 +309,11 @@
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Развернуть сайдбар",
+    "message": "Развернуть боковое меню",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Развернуть сайдбар",
+    "message": "Развернуть боковое меню",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.seeAll": {
