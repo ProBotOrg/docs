@@ -20,11 +20,11 @@ In this section, you will gain a deeper understanding of the ProBot commands, th
 
 | Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /credits | Show yours or somebody else's credit | /credits [user] (amount) |
+| c | Show yours or somebody else's credit | c [user] (amount) |
 | /rep | Award someone a reputation point. Can only be used once every 24 hours | /rep [user] |
-| /moveme | Moves you to another voice channel | /moveme [channel or user] |
-| /color | Change your color on the server | /color [color's number] |
-| /colors | Lists you all the available colors | /colors |
+| moveme | Moves you to another voice channel | moveme [channel or user] |
+| color | Change your color on the server | color [color's number] |
+| rang | Lists you all the available colors | rang |
 | /short | Shortens a URL | /short [URL] |
 | /roll | rolling dice | /roll (number) |
 
@@ -32,9 +32,9 @@ In this section, you will gain a deeper understanding of the ProBot commands, th
 
 | Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /profile | View your or someone else's customizable personal global profile card | /profile (user) |
-| /rank | View your rank card or someone else's in the server | /rank (user) |
-| /top | Display the top members by text or voice | /top (day/week/month) |
+| p | View your or someone else's customizable personal global profile card | p (user) |
+| rank | View your rank card or someone else's in the server | rank (user) |
+| t | Display the top members by text or voice | t (day/week/month) |
 | /title | Changes your profile title | /title [new title] |
 | /setxp | Sets the user's xp | /setxp [user] [type] [new_xp] |
 | /setlevel | Sets the user's level | /setlevel [user] [type] [new_level] |
@@ -43,16 +43,16 @@ In this section, you will gain a deeper understanding of the ProBot commands, th
 
 | Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /user | Shows information, such as ID and join date, about yourself or a user | /user (user) |
-| /avatar | Get a user's avatar | /avatar (user) |
-| /server | Shows information about the server | /server |
+| user | Shows information, such as ID and join date, about yourself or a user | user (user) |
+| avatar | Get a user's avatar | avatar (user) |
+| server | Shows information about the server | server |
 | /roles | Get a list of server roles and member counts | /roles |
 
 ## Moderation
 
 | Command | Explanation | Usage |
 | ------------- |:-------------:|:-------------:|
-| /setnick | Changes the nickname of a member | /setnick [user] (nickname) |
+| setnick | Changes the nickname of a member | setnick [user] (nickname) |
 | /ban | Bans a member | /ban [user] (time) (reason) |
 | /unban | Unbans a member | /unban [user or user ID] |
 | /kick | Kicks a member | /kick [user] (reason) |
@@ -76,8 +76,9 @@ In this section, you will gain a deeper understanding of the ProBot commands, th
 | /warn | Warns a member | /warn [user] [reason] |
 | /warn_remove | Remove warnings for the server or user | /warn_remove [user/all/warnID] |
 | /warnings | Get the list of warnings for the server or a user | /warnings (user) |
-| /lock | Disables `@everyone` from sending messages in specific channel | /lock (channel) (reason) |
-| /unlock | Allows `@everyone` to send messages in specific channel | /unlock (channel) |
+| lock | Disables `@everyone` from sending messages in specific channel | 
+lock (channel) (reason) |
+| unlock | Allows `@everyone` to send messages in specific channel | unlock (channel) |
 | /setcolor | Changes role's color by hex codes | /setcolor [role name] [color code]
 | /slowmode | Enable or disable slowmode on a channel | /slowmode (time) |
 | /reset | Reset text/voice/invites xp points for all or specific members | /reset [text / voice / invites / limits) [all / user] |
