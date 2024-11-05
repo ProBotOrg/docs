@@ -12,11 +12,11 @@
     "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules": {
-    "message": "セクション",
+    "message": "モジュール",
     "description": "The label for category Modules in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Modules.link.generated-index.description": {
-    "message": "セクション",
+    "message": "ProBotに搭載されているモジュールの一覧",
     "description": "The generated-index page description for category Modules in sidebar tutorialSidebar"
   }
 }
