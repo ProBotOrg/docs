@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "ProBot ドキュメント",
+    "description": "The title in the navbar"
+  },
+  "item.label.Introduction": {
+    "message": "はじめに",
+    "description": "Navbar item with label Introduction"
+  },
+  "item.label.Dashboard": {
+    "message": "ダッシュボード",
+    "description": "Navbar item with label Dashboard"
+  },
+  "item.label.Contact support": {
+    "message": "サポートに連絡",
+    "description": "Navbar item with label Contact support"
+  }
+}
