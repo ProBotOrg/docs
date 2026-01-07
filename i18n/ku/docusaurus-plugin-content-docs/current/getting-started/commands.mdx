@@ -1,0 +1,107 @@
+---
+sidebar_position: 5
+slug: /getting-started/commands
+description: لیستی هەموو فەرمانەکان، بەکارهێنانیان و ڕوونکردنەوەکانیان.
+---
+
+# فەرمانەکان
+
+لەو بەشەدا، تێگەیشتنێکی تەواو دەست دەهێنیت لە فەرمانەکانی **ProBot**، چۆنیەتی بەکارهێنانیان و نموونەی جێبەجێکردنیان.
+
+:::important
+
+- چونکە فەرمانەکانی Slash بنەڕەتی فەرمانی بۆتەکەن، هەموو بەکارهێنان و نموونەکان بە `/` پیشاندەدرێن.
+- نیشانەکانی `[` `]` بۆ هەر فەرمانێک پێویستن، بەڵام `(` `)` هەڵبژاردەیین (اختیاری).
+
+:::
+
+## گشتی
+
+| فەرمان | ڕوونکردنەوە | بەکارهێنان |
+| ------------- |:-------------:|:-------------:|
+| /credits | پیشاندانی باڵانسی خۆت یان باڵانسی کەسێکی تر | /credits [user] (amount) |
+| /rep | دانانی خاڵی ڕەزامەندی بۆ کەسێک (پێویستی بە Premium هەیە) | /rep [user] |
+| /moveme | گواستنەوەی خۆت بۆ ژوورێکی دەنگی | /moveme [channel or user] |
+| /color | گۆڕینی ڕەنگی ڕۆڵەکەت لە سێرڤەر | /color [color number] |
+| /colors | پیشاندانی هەموو ڕەنگە بەردەستەکان | /colors |
+| /short | کورتکردنەوەی لینک | /short [URL] |
+| /roll | فڕێدانی تاس بۆ ژمارەیەکی هەڕەمه‌کی | /roll (number) |
+
+## لێڤڵ (XP)
+
+| فەرمان | ڕوونکردنەوە | بەکارهێنان |
+| ------------- |:-------------:|:-------------:|
+| /profile | پیشاندانی پڕۆفایلەکەت یان کەسێکی تر | /profile (user) |
+| /rank | پیشاندانی کارتی پلە (Rank) لە سێرڤەر | /rank (user) |
+| /top | پیشاندانی ئەندامانی زۆرترین XP | /top (day/week/month) |
+| /title | گۆڕینی ناونیشانی پڕۆفایل | /title [new title] |
+| /setxp | گۆڕینی XP ـی ئەندام | /setxp [user] [type] [new_xp] |
+| /setlevel | گۆڕینی ئاستی (Level) ئەندام | /setlevel [user] [type] [new_level] |
+
+## زانیاری
+
+| فەرمان | ڕوونکردنەوە | بەکارهێنان |
+| ------------- |:-------------:|:-------------:|
+| /user | پیشاندانی زانیاری وەک بەرواری چوونەژوور و تۆماربوون | /user (user) |
+| /avatar | وەرگرتنی وێنەی Avatar | /avatar (user) |
+| /server | زانیاری گشتی دەربارەی سێرڤەر | /server |
+| /roles | لیستی ڕۆڵەکان و ژمارەی ئەندامانیان | /roles |
+
+## چاودێری (Moderation)
+
+| فەرمان | ڕوونکردنەوە | بەکارهێنان |
+| ------------- |:-------------:|:-------------:|
+| /setnick | گۆڕینی نازناوی ئەندام | /setnick [user] (nickname) |
+| /ban | بلۆککردنی ئەندام | /ban [user] (time) (reason) |
+| /unban | لابردنی بلۆک | /unban [user or user ID] |
+| /kick | دەرکردنی ئەندام | /kick [user] (reason) |
+| /vkick | دەرکردنی ئەندام لە ژووری دەنگی | /vkick [user] |
+| /mute text | قەدەغەکردنی نووسین | /mute text [user] (time) (reason) |
+| /unmute text | لابردنی قەدەغەی نووسین | /unmute [user] |
+| /mute voice | قەدەغەکردنی قسەکردن | /mute voice [user] (time) (reason) |
+| /unmute voice | لابردنی کەمی دەنگ | /unmute voice [user] |
+| /timeout | دانانی کاتی وەستان | /timeout [user] (time) (reason) |
+| /untimeout | لابردنی کاتی وەستان | /untimeout [user] |
+| /clear | پاککردنەوەی پەیامەکان | /clear (user/bots) (number) |
+| /move | گواستنەوەی ئەندام بۆ ژووری دەنگی | /move [user] (channel) |
+| /role give | زیادکردنی ڕۆڵ | /role give [user] [role] (bulk) |
+| /role remove | لابردنی ڕۆڵ | /role remove [user] [role] (bulk) |
+| /role multiple | زیاد/لابردنی ڕۆڵ بۆ چەند ئەندام | /role multiple [give_or_remove] [role] |
+| /points set | دانانی خاڵ | /points set [user] [points] |
+| /points list | بینینی هەموو خاڵەکان | /points list (role) (page) |
+| /points increase | زیادکردنی خاڵ | /points increase [user] [points] |
+| /points decrease | کەمکردنەوەی خاڵ | /points decrease [user] [points] |
+| /points reset | ڕێستکردنی خاڵ | /points reset (user) |
+| /warn | ئاگادارکردنەوەی ئەندام | /warn [user] [reason] |
+| /warn_remove | سڕینەوەی ئاگادارکردنەوە | /warn_remove [user/all/warnID] |
+| /warnings | لیستی ئاگادارکردنەوەکان | /warnings (user) |
+| /lock | قوفڵکردنی ژووری نووسین | /lock (channel) (reason) |
+| /unlock | کردنەوەی ژوور | /unlock (channel) |
+| /setcolor | گۆڕینی ڕەنگی ڕۆڵ بە Hex | /setcolor [role] [hex] |
+| /slowmode | چالاک/ناچالاککردنی Slow Mode | /slowmode (time) |
+| /reset | ڕێستکردنی XP / Voice / Invites | /reset [type] [all/user] |
+
+<details>
+<summary>تێبینییە گرنگەکان بۆ بەڕێوەبەران</summary>
+
+- تەنها ئەو بەکارهێنەرانەی ڕێگەپێدانی **Administrator** یان **Mod Roles** ـیان هەیە دەتوانن ئەم فەرمانانە بەکاربهێنن.
+- ئەگەر کات دیاری نەکرابێت، کاتی بنەڕەتی بۆ فەرمانەکان **٣ مانگ** ـە.
+
+</details>
+
+## Premium
+
+:::caution
+ئەم فەرمانانە تەنها بۆ بەکارهێنەرانى پلانی پارەدان بەردەستن.
+:::
+
+| فەرمان | ڕوونکردنەوە | بەکارهێنان |
+| ------------- |:-------------:|:-------------:|
+| /vip info | زانیاری Premium | /vip info |
+| /vip move | گواستنەوەی Premium بۆ سێرڤەرێکی تر | /vip move [number] |
+| /vip restart | دووبارە پێکردنەوەی Premium | /vip restart |
+| /vip whitelist | زیادکردنی بەکارهێنەر بۆ Whitelist | /vip whitelist [user] |
+| /vip avatar | گۆڕینی وێنەی Premium | /vip avatar [url] |
+| /vip username | گۆڕینی ناوی Premium | /vip username [name] |
+| /vip status | گۆڕینی دۆخی Premium | /vip status [status] |
+| /vip transfer | گواستنەوەی خاوەنداری Premium | /vip transfer [user] |
