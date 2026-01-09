@@ -1,0 +1,458 @@
+{
+  "theme.docs.paginator.next": {
+    "message": "دواتر",
+    "description": "The label used to navigate to the next doc"
+  },
+  "homepage.introduction": {
+    "message": "پێشەکی"
+  },
+  "homepage.feature_one_category_first": {
+    "message": "ڕێکخستنی داشبۆرد"
+  },
+  "homepage.feature_one_description_first": {
+    "message": "داشبۆرد بنکەی سەرەکی تۆیە بۆ بەڕێوەبردنی سێرڤەرەکەت"
+  },
+  "homepage.feature_one_category_second": {
+    "message": "ڕێکخستنی پرۆبۆت"
+  },
+  "homepage.feature_one_description_second": {
+    "message": "ڕێکخستنی پرۆبۆت هەنگاو بە هەنگاو"
+  },
+  "homepage.feature_one_category_third": {
+    "message": "پرسیارە باوەکان"
+  },
+  "homepage.feature_one_description_third": {
+    "message": "پرسیارە دووبارەبووەوەکان"
+  },
+  "homepage.feature_two_category_one": {
+    "message": "بەشەکان"
+  },
+  "homepage.feature_two_description_first": {
+    "message": "دەستکاریکردنی نامەی بەخێرهاتن و چوونەدەرەوە"
+  },
+  "homepage.feature_two_description_second": {
+    "message": "ڕۆڵە وەرگیراوەکان"
+  },
+  "homepage.feature_two_description_third": {
+    "message": "دروستکردنی ئیمبێد بە ئاسانی لە سێرڤەرەکەتدا!"
+  },
+  "homepage.feature_two_description_four": {
+    "message": "سیستەمی لێڤڵ"
+  },
+  "homepage.learn_more": {
+    "message": "بۆ زانیاری زیاتر"
+  },
+  "homepage.category_first_section": {
+    "message": "بەڕێوەبردنی سێرڤەرەکەت"
+  },
+  "homepage.category_second_section": {
+    "message": "بەشەکان"
+  },
+  "homepage.header_welcome": {
+    "message": "بەخێربێیت بۆ دۆکیومێنتەکانی پرۆبۆت!"
+  },
+  "homepage.header_welcome_description": {
+    "message": "پرۆبۆت پۆتێکی فرە تایبەتمەندییە و بە تەواوی دەتوانرێت دەستکاری بکرێت، تایبەتمەندی وەک بەخێرهاتن، لۆگ، فەرمانە گشتی و کارگێڕییەکان، ڕۆڵە وەرگیراوەکان، ئاگادارکردنەوەکانی سۆشیاڵ میدیا و پاراستنی سێرڤەرەکەت دابین دەکات."
+  },
+  "homepage.header_go_to_docs": {
+    "message": "بڕۆ بۆ دۆکیومێنتەکان"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "ئەم لاپەڕەیە وەڵام ناداتەوە.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دووبارە هەوڵ بدەرەوە",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "لاپەڕەکە بەردەست نییە",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "نەمانتوانی ئەو شتە بدۆزینەوە کە بۆی دەگەڕایت.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "تکایە پەیوەندی بە خاوەنی ماڵپەڕەکەوە بکە کە ئەم لینکەی پێداویت و ئاگاداری بکەرەوە کە لینکەکە کار ناکات.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "تێبینی",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ئامۆژگاری",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "مەترسی",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "زانیاری",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "ئاگاداربە",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "بڕۆ سەرەوە",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "ئەرشیف",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "ئەرشیف",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "گەڕان لە لاپەڕەی لیستی بلۆگدا",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "بابەتە نوێیەکان",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "بابەتە کۆنەکان",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "گەڕان لە لاپەڕەی وتارەکانی بلۆگدا",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "وتاری نوێتر",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "وتاری کۆنتر",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "یەک وتار|{count} وتار",
+    "description": "Pluralized label for \"{count} posts\"."
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} نیشانەکراوە بە \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "بینینی هەموو تیکتەکان",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "گۆڕینی دۆخی ڕەنگ (ئێستا {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "دۆخی تاریک",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "دۆخی ڕووناک",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "شوێنپێی گەڕان",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} بابەت",
+    "description": "The default description for a category card"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "گەڕان لە نێوان لاپەڕەکانی دۆکیومێنت",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "پێشوو",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "یەک دۆکیومێنت|{count} دۆکیومێنت",
+    "description": "Pluralized label for \"{count} docs tagged\"."
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} دۆکیومێنت نیشانەکراوە بە \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "وەشان: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "ئەمە دۆکیومێنتێکە کە هێشتا بڵاونەکراوەتەوە بۆ {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "ئەمە دۆکیومێنتی {siteTitle} {versionLabel}ـە، و چیتر کار لەسەر نوێکردنەوەی ناکرێت.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "بۆ بەدەستهێنانی نوێترین دۆکیومێنت، سەیری {latestVersionLink} بکە ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "نوێترین وەشان",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "دەستکاریکردنی ئەم لاپەڕەیە",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "لینکی ڕاستەوخۆ بۆ {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " لە {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " لەلایەن {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "کۆتا نوێکردنەوە{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "وەشانەکان",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "تاگەکان:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "داخستن",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "نوێترین بابەتەکانی بلۆگ",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کۆپی کرا",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کۆپیکردنی کۆدەکە",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کۆپی",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "گۆڕینی پێچانەوەی دەق",
+    "description": "The title attribute for toggle word wrapping button"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "گۆڕینی پۆلی شریتی لاوەکی '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "سەرەکی",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زمانەکان",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "ناوەڕۆکی ئەم لاپەڕەیە",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "زیاتر بخوێنەرەوە",
+    "description": "The label used in blog post item excerpts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "زیاتر بخوێنەرەوە دەربارەی {title}",
+    "description": "The ARIA label for the link to full blog posts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} خولەک خوێندنەوە|{readingTime} خولەک خوێندنەوە",
+    "description": "Pluralized label for \"{readingTime} min read\"."
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "سەرەکی",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "داخستنی شریتی لا تەنیشت",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "داخستنی شریتی لا تەنیشت",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "شریتی لا تەنیشتی دۆکیومێنتەکان",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "داخستنی شریتی گەڕان",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "→ گەڕانەوە بۆ لیستی سەرەکی",
+    "description": "The label of the back button to return to main menu"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "گۆڕینی شریتی گەڕان",
+    "description": "The ARIA label for hamburger menu button"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "فراوانکردنی شریتی لا تەنیشت",
+    "description": "The ARIA label and title attribute for expand button"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "فراوانکردنی شریتی لا تەنیشت",
+    "description": "The ARIA label and title attribute for expand button"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "بینینی هەموو {count} ئەنجامەکان"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "یەک دۆکیومێنت دۆزرایەوە|{count} دۆکیومێنت دۆزرانەوە",
+    "description": "Pluralized label for \"{count} documents found\"."
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "ئەنجامەکانی گەڕان بۆ \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "گەڕان لە دۆکیومێنتەکاندا",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "ئەوەی بۆی دەگەڕێیت لێرە بینووسە",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "گەڕان",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "گەڕان لە ڕێگەی Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "هیچ ئەنجامێک نەدۆزرایەوە",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "هێنانی ئەنجامە نوێیەکان...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "گەڕان",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "پاککردنەوەی گەڕان",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "پاشگەزبوونەوە",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "ئەوانەی دوایی",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "هیچ گەڕانێکی دوایی نییە",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "پاراستنی گەڕان",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "سڕینەوەی گەڕان لە مێژوودا",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "دڵخواز",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "سڕینەوەی ئەم گەڕانە لە دڵخوازەکان",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "نەتوانرا ئەنجامەکان بەدەست بهێنرێت",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "تکایە پشکنین بۆ هێڵی ئینتەرنێتەکەت بکە..",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "بۆ هەڵبژاردن",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "داگرتنی کلیلی Enter",
+    "description": "The ARIA label for the Enter key button"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "بۆ گەڕان",
+    "description": "The explanatory text for navigation keys"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "تیری سەرەوە",
+    "description": "The ARIA label for the Arrow up key"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "تیری خوارەوە",
+    "description": "The ARIA label for the Arrow down key"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "بۆ داخستن",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "کلیلی داخستن",
+    "description": "The ARIA label for the Escape key button"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "گەڕان لە ڕێگەی",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "هیچ ئەنجامێک نییە بۆ",
+    "description": "The text explains that there are no results"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "هەوڵ بدە بۆ گەڕان لە",
+    "description": "The text for the suggested query"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "پێتوایە ئەم گەڕانە دەبێت ئەنجامی هەبێت؟",
+    "description": "The text for the question about missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "ئاگادارمان بکەرەوە.",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "گەڕان لە دۆکیومێنتەکان",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "بڕۆ بۆ ناوەڕۆکی سەرەکی",
+    "description": "The skip to content label used for accessibility"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "تاگەکان",
+    "description": "The title of the tag list page"
+  }
+}
