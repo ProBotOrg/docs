@@ -1,0 +1,10 @@
+{
+  "label": "دەستپێکردن",
+  "collapsible": true,
+  "collapsed": false,
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "سەرەتا"
+  }
+}
