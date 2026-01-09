@@ -14,9 +14,12 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'es', 'fr', 'tr', 'vi', 'ru', 'de', 'ja'],
+    locales: ['en', 'ar', 'es', 'fr', 'tr', 'vi', 'ru', 'de', 'ja', 'ku'],
     localeConfigs: {
       ar: {
+        direction: 'rtl',
+      },
+      ku: {
         direction: 'rtl',
       },
     },
