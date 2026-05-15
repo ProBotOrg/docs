@@ -30,9 +30,6 @@ const config = {
   markdown: {
     format: 'detect',
     mermaid: true,
-    preprocessor: ({filePath, fileContent}) => {
-      return fileContent;
-    },
     mdx1Compat: {
       admonitions: true,
       comments: true,
