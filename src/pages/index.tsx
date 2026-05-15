@@ -4,7 +4,7 @@ import HomepageFeatures from "@site/src/components/HomePage/HomepageFeatures";
 import HomepageHeader from "../components/HomePage/HomepageHeader";
 import GoIntroduction from "../components/HomePage/GoIntroduction";
 
-export default function Home(): JSX.Element {
+export default function Home(): React.ReactElement {
   return (
     <Layout
       description="Get started with ProBot and take your Discord server to new heights with our comprehensive ProBot Docs!
