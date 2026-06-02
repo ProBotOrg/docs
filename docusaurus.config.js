@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'ProBotOrg',
   projectName: 'docs',
-
+  trailingSlash: false,
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar', 'es', 'fr', 'tr', 'vi', 'ru', 'de', 'ja', 'ku'],
