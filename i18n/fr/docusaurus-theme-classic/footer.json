@@ -21,7 +21,7 @@
   },
   "link.item.label.Reddit": {
     "message": "Reddit",
-    "description": "The label of footer link with label=Reddit linking to https://reddit.com/r/probot"
+    "description": "The label of footer link with label=Reddit linking to https://www.reddit.com/r/ProbotDiscord/"
   },
   "link.item.label.Twitter": {
     "message": "Twitter",

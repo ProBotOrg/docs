@@ -122,7 +122,7 @@ const config = {
               },
               {
                 label: 'Reddit',
-                href: 'https://reddit.com/r/probot',
+                href: 'https://www.reddit.com/r/ProbotDiscord/',
               },
               {
                 label: 'Twitter',
